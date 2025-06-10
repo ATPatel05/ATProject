@@ -1,0 +1,204 @@
+.small_card {
+   display: flex;
+   flex-direction: row;
+   gap: 0.94rem;
+   height: 9.38rem;
+   margin-top: 2.19rem;
+}
+
+.card_image {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 0.63rem;
+}
+
+.image_wrapper {
+   width: 16.81rem;
+   height: 100%;
+   flex-shrink: 0;
+}
+
+.card_content {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.card_country_date {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.card_country {
+   font-size: 1.06rem;
+   font-weight: 700;
+   color: rgb(232, 0, 0);
+   text-transform: uppercase;
+}
+
+.card_category {
+   background-image: linear-gradient(to right, rgb(166, 16, 16), rgb(255, 0, 0));
+   color: white;
+   border-style: outset;
+   font-size: 0.88rem;
+   border-radius: 0.38rem;
+   padding: 0.31rem 0.75rem;
+   margin-right: 0.06rem;
+   font-weight: 500;
+   letter-spacing: 0.02rem;
+}
+
+.card_divider {
+   border: none;
+   height: 0.06rem;
+   background-color: rgb(182, 182, 182);
+   margin-top: 2.13rem;
+}
+
+.card_title {
+   font-size: 1.23rem;
+   font-weight: 600;
+}
+
+.card_title:hover {
+   color: #545454;
+}
+
+.card_date {
+   color: var(--Gray, #7f7f7f);
+   font-weight: 500;
+}
+
+.card_link {
+   cursor: pointer;
+   text-decoration: none;
+   color: inherit;
+   display: block;
+}
+
+.pib_logo {
+   width: 1.5rem;
+   height: 1.5rem;
+   border-radius: 50%;
+}
+
+.subheading {
+   background-image: linear-gradient(to right, rgb(166, 16, 16), rgb(255, 0, 0));
+   color: white;
+   font-size: 0.81rem;
+   border-radius: 0.44rem;
+   padding: 0.31rem 0.94rem;
+   margin-right: 0.06rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 0.03rem;
+}
+
+@media screen and (max-width: 768px) {
+   .small_card {
+      height: 8.13rem;
+   }
+
+   .image_wrapper {
+      width: 14.56rem;
+   }
+
+   .card_title {
+      font-size: 1rem;
+   }
+
+   .card_divider {
+      margin-top: 2.13rem;
+   }
+
+   .pib_logo {
+      width: 1.25rem;
+      height: 1.25rem;
+   }
+}
+
+@media screen and (max-width: 530px) {
+   .small_card {
+      height: 5.94rem;
+   }
+
+   .image_wrapper {
+      width: 10.81rem;
+   }
+
+   .card_title {
+      font-size: 0.88rem;
+   }
+
+   .card_country {
+      font-size: 0.81rem;
+   }
+
+   .card_date {
+      font-size: 0.81rem;
+   }
+
+   .card_divider {
+      margin-top: 2.13rem;
+   }
+
+   .pib_logo {
+      width: 1rem;
+      height: 1rem;
+   }
+
+   .card_category {
+      font-size: 0.81rem;
+      padding: 0.25rem 0.63rem;
+   }
+
+   .subheading {
+      font-size: 0.69rem;
+   }
+}
+
+@media screen and (max-width: 432px) {
+   .small_card {
+      margin-top: 2.4rem;
+      flex-direction: column;
+      height: auto;
+      gap: 0.6rem;
+   }
+
+   .image_wrapper {
+      width: 100%;
+      height: auto;
+   }
+
+   .card_image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+   }
+
+   .card_title {
+      font-size: 1rem;
+   }
+
+   .card_country_date {
+      margin-top: 0.6rem;
+   }
+
+   .card_country {
+      font-size: 0.88rem;
+   }
+
+   .card_divider {
+      margin-top: 1.4rem;
+   }
+
+   .card_category {
+      font-size: 0.75rem;
+   }
+
+   .subheading {
+      font-size: 0.69rem;
+   }
+}

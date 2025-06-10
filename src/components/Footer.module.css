@@ -1,0 +1,156 @@
+.footer {
+   width: 100%;
+   margin-top: auto;
+}
+
+.container {
+   background-color: #d7d7d7;
+   color: white;
+   padding: 70px;
+   margin-top: 1.5rem;
+   text-align: center;
+}
+
+.row {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 40px;
+}
+
+.footer_col {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 50%;
+}
+
+.img_detail {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 350px;
+}
+
+.footer_image {
+   max-width: 260px;
+   height: auto;
+   cursor: pointer;
+   mix-blend-mode: multiply;
+}
+
+.web_content {
+   margin-top: 20px;
+   font-size: 16px;
+   color: #000000;
+}
+
+.news_links {
+   text-align: center;
+   width: 50%;
+}
+
+.categories {
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   color: #000000;
+   width: auto;
+   align-items: center;
+}
+
+.footer_responsible_company {
+   background-color: #626262;
+   color: white;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   text-align: center;
+   font-size: 14px;
+}
+
+.categoryLink {
+   color: #000000;
+   text-decoration: none;
+   font-size: 16px;
+   transition: color 0.3s ease;
+   display: inline;
+   padding: 2px 0;
+}
+
+.footer_category {
+   font-weight: 700;
+}
+
+.categoryLink:hover {
+   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+   .footer_image {
+      max-width: 260px;
+   }
+
+   .container {
+      padding: 55px;
+   }
+
+   .web_content {
+      font-size: 14px;
+   }
+
+   .categoryLink {
+      font-size: 14px;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .footer_image {
+      max-width: 250px;
+   }
+
+   .row {
+      flex-direction: column;
+   }
+
+   .container {
+      padding: 30px;
+   }
+
+   .footer_col {
+      width: 100%;
+   }
+
+   .footer_responsible_company {
+      font-size: 13px;
+   }
+
+   .news_links {
+      width: 100%;
+   }
+
+   .web_content {
+      font-size: 13px;
+   }
+
+   .categoryLink {
+      font-size: 13px;
+   }
+}
+
+@media screen and (max-width: 530px) {
+   .footer_image {
+      max-width: 230px;
+   }
+
+   .footer_responsible_company {
+      font-size: 11px;
+   }
+
+   .news_links {
+      margin-top: 20px;
+   }
+}

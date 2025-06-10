@@ -1,0 +1,85 @@
+.container {
+   max-width: 100%;
+   margin: auto;
+   background-color: rgba(211, 211, 211, 0.523);
+}
+
+.carrrousel {
+   display: flex;
+   overflow-x: auto;
+   align-items: center;
+   scroll-snap-type: x mandatory;
+   scrollbar-width: none;
+   -webkit-overflow-scrolling: touch;
+}
+
+.carrrousel::-webkit-scrollbar {
+   display: none;
+}
+
+.linkWrapper {
+   display: flex;
+   align-items: center;
+   position: relative;
+   padding: 0.6rem 1rem;
+   flex: 0 0 auto;
+}
+
+.linkWrapper:not(:last-child)::after {
+   content: '';
+   position: absolute;
+   right: 0;
+   top: 25%;
+   height: 50%;
+   width: 1px;
+   background-color: #b9b8b8;
+}
+
+.businessBlogLink {
+   text-decoration: none;
+   color: black;
+   font-weight: 500;
+   font-size: 1rem;
+   white-space: nowrap;
+}
+
+.businessBlogLink:hover {
+   color: #4c4c4c;
+}
+
+.divider {
+   border: none;
+   border-top: 1px solid #c3c3c3;
+   margin: 0;
+}
+
+@media screen and (min-width: 769px) {
+   .container {
+      max-width: 700px;
+   }
+
+   .linkWrapper {
+      padding: 0.5rem 1rem;
+   }
+}
+
+@media screen and (max-width: 530px) {
+
+   .linkWrapper {
+      padding: 0.5rem 1rem;
+   }
+
+   .businessBlogLink {
+      font-size: 0.95rem;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .linkWrapper {
+      padding: 0.4rem 1rem;
+   }
+
+    .businessBlogLink {
+      font-size: 0.85rem;
+   }
+}

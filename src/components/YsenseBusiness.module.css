@@ -1,0 +1,123 @@
+.container {
+   width: 93%;
+   max-width: 700px;
+   padding: 10px;
+   margin: 0 auto;
+}
+
+.title {
+   font-size: 2rem;
+   font-weight: bold;
+   margin-top: 30px;
+}
+
+.date {
+   color: #6b7280;
+   font-size: 0.875rem;
+}
+
+.image {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   margin: 0 auto;
+   margin-top: 1rem;
+   max-width: 95%;
+   margin-bottom: 1rem;
+   border-radius: 10px;
+}
+
+.description {
+   font-size: 1.125rem;
+}
+
+.divider {
+   border: none;
+   height: 1px;
+   background-color: rgb(182, 182, 182);
+}
+
+.joinBtn {
+   background-image: linear-gradient(to right, rgb(216, 19, 19), rgb(255, 0, 0));
+   color: white;
+   border: none;
+   padding: 10px 24px;
+   font-size: 23px;
+   font-weight: 500;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   margin: 5px;
+   margin-top: 10px;
+}
+
+.joinBtn:hover {
+   background-image: linear-gradient(to right, rgb(177, 16, 16), rgb(222, 1, 1));
+}
+
+.stepText {
+   font-size: 22px;
+   color: #1d1d1d;
+   margin: 15px 0;
+   margin-top: 25px;
+}
+
+.signup_text {
+   color: #ff5101;
+   text-decoration: none;
+   font-weight: 800;
+}
+
+.stepText a:hover {
+   text-decoration: underline;
+}
+
+.strong_text {
+   font-weight: 800;
+}
+
+.last_paragraph {
+   margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+   .title {
+      font-size: 1.7rem;
+   }
+
+   .stepText {
+      font-size: 18px;
+   }
+
+   .joinBtn {
+      font-size: 20px;
+   }
+}
+
+@media screen and (max-width: 530px) {
+   .title {
+      font-size: 1.5rem;
+   }
+
+   .stepText {
+      font-size: 17px;
+   }
+
+   .joinBtn {
+      font-size: 18px;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .title {
+      font-size: 1.3rem;
+   }
+
+   .stepText {
+      font-size: 15px;
+   }
+
+   .joinBtn {
+      font-size: 15px;
+   }
+}
