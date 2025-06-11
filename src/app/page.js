@@ -17,7 +17,7 @@ export default function HomePage() {
         <p className={styles.headning_red_line}>
           {BestBusinessPage.topicintroline}
         </p>
-        <SectionHeader >Business Ideas</SectionHeader>
+        <SectionHeader >Best Business Ideas in 2025</SectionHeader>
         <YsenseBlogCard />
         {TopBusinessIdeasBlogsList.map((blog, index) => (
           <BusinessBlogCard key={index} businessBlog={blog} />
