@@ -21,6 +21,7 @@ export const TopBusinessIdeasBlogsList = [
       date: "Apr. 6, 2025",
       image: "/AT.png",
       folderPath: 'ideas',
+      desclaimerMessage: 'Experience is needed',
       keywords: ["best earning ideas for student", "low investment ideas for student"],
       blogContent: [
          {
