@@ -13,16 +13,16 @@ export default async function Page({ params }) {
       <p className={styles.date}>{blog.date}</p>
       <img src={blog.image} alt="Ysense_play" className={styles.images} />
 
-       
       <h2 className={styles.sub_heading}>Table of Content</h2>
       {blog.blogContent.map((section, index) => (
         <p key={index} className={styles.table_content_list}>{index + 1}{". "}{section.topicHeading}</p>
       ))}
 
-
+      <p className={styles.disclaimerMessage}>{blog.disclaimerMessage}</p>
       {blog.blogContent.map((section, index) => (
         <section key={index} style={{ marginBottom: '2rem' }}>
-          <h2  key={index} className={styles.sub_heading}>{index + 1}{". "}{section.topicHeading}</h2>
+          <h2 key={index} className={styles.sub_heading}>{index + 1}{". "}{section.topicHeading}</h2>
+
           {section.paragraphs.map((p, index) => (
             <p key={index} className={styles.stepText}>{p.line}</p>
           ))}
