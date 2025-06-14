@@ -15,7 +15,7 @@ export default async function Page({ params }) {
 
          <h2 className={styles.sub_heading}>Table of Content</h2>
          {blog.blogContent.map((section, index) => (
-            <p className={styles.table_content_list}>{index + 1}{". "}{section.topicHeading}</p>
+            <p key={index} className={styles.table_content_list}>{index + 1}{". "}{section.topicHeading}</p>
          ))}
          <p className={styles.disclaimerMessage}>{blog.disclaimerMessage}</p>
          {blog.blogContent.map((section, index) => (
