@@ -1,5 +1,6 @@
 export const BestBusinessPage = {
    title: 'Top Business Ideas you can start with low Investment',
+   description: 'Skilluplines provides the best small and successful business ideas to start with low investment blog and become a profitable businessman in 2025.',
    topicintroline: 'We provide in-depth knowledge for each business idea, including what the idea is, what it involves and how to start it in 2025.',
    introduction: [
       {
@@ -17,6 +18,7 @@ export const TopBusinessIdeasBlogsList = [
    {
       title: "Best Buiness Ideas for become succesfull businessman",
       slug: "student-business-youtube",
+      description: 'Skilluplines provides the best small and successful business ideas to start with low investment blog and become a profitable businessman in 2025.',
       chipName: 'YouTube',
       date: "Apr. 6, 2025",
       image: "/AT.png",
