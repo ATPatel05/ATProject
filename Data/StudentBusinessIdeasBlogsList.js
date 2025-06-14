@@ -22,7 +22,6 @@ export const StudentBusinessIdeasBlogsList = [
       image: "/AT.png",
       disclaimerMessage: 'Experience, financing, training, or licensing may be required depending on the business type and location.',
       folderPath: 'student-business-ideas',
-      keywords: ["best earning ideas for student", "low investment ideas for student"],
       blogContent: [
          {
             topicHeading: 'Why YouTube is best for Students.',
