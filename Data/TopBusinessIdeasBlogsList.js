@@ -21,7 +21,7 @@ export const TopBusinessIdeasBlogsList = [
       description: 'Skilluplines provides the best small and successful business ideas to start with low investment blog and become a profitable businessman in 2025.',
       chipName: 'YouTube',
       date: "Apr. 6, 2025",
-      image: "/AT.png",
+      image: "/BusinessIdeas/AT.png",
       folderPath: 'ideas',
       disclaimerMessage: 'Experience is needed',
       keywords: ["best earning ideas for student", "low investment ideas for student"],

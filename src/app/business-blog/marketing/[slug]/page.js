@@ -24,7 +24,7 @@ export async function generateMetadata({ params }) {
    } = blog;
 
    const siteUrl = "https://www.skilluplines.com";
-   const fullUrl = `${siteUrl}/business-blog/ideas/${slug}`;
+   const fullUrl = `${siteUrl}/business-blog/marketing/${slug}`;
    const imageUrl = `${siteUrl}${image}`;
 
    return {

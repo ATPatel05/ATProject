@@ -18,9 +18,7 @@ export async function generateMetadata({ params }) {
       description,
       image,
       date,
-      keywords,
-      disclaimerMessage,
-      chipName,
+      keywords
    } = blog;
 
    const siteUrl = "https://www.skilluplines.com";
@@ -38,7 +36,7 @@ export async function generateMetadata({ params }) {
       authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
       creator: "SkillUpLines Team",
       publisher: "SkillUpLines",
-      category: "Business, Entrepreneurship, Marketing",
+      category: "Business, Small Business, Business Blog",
       robots: {
          index: true,
          follow: true,
@@ -72,14 +70,9 @@ export async function generateMetadata({ params }) {
          description,
          images: [imageUrl],
          creator: "@SkillUpLines",
-      },
-      other: {
-         disclaimer: disclaimerMessage,
-         chip: chipName,
-      },
+      }
    };
 }
-
 
 export default async function Page({ params }) {
 

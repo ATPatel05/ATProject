@@ -10,7 +10,6 @@ export const InnovativeIdeasPage = {
          paragraph: 'There are many types of innovation, including product innovation, business model innovation, service innovation, and scientific (technology) innovation.'
       }
    ],
-   
 }
 
 
