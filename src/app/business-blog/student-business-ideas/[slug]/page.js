@@ -18,9 +18,7 @@ export async function generateMetadata({ params }) {
       description,
       image,
       date,
-      keywords,
-      disclaimerMessage,
-      chipName,
+      keywords
    } = blog;
 
    const siteUrl = "https://www.skilluplines.com";
@@ -72,11 +70,7 @@ export async function generateMetadata({ params }) {
          description,
          images: [imageUrl],
          creator: "@SkillUpLines",
-      },
-      other: {
-         disclaimer: disclaimerMessage,
-         chip: chipName,
-      },
+      }
    };
 }
 
