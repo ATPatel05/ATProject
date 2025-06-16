@@ -1,5 +1,9 @@
 export const InnovativeIdeasPage = {
-   title: 'Top Business innovative ideas will bright our future',
+   title: 'Best innovative ideas to build a bright and successful future',
+   description: 'The best innovative ideas can brighten your future and transform your entire life in 2025.',
+   keywords: [
+      
+   ],
    topicintroline: 'We provide in-depth knowledge for each business idea, including what the idea is, what it involves, and how to start it in 2025.',
    introline:'',
    introduction: [
@@ -12,12 +16,10 @@ export const InnovativeIdeasPage = {
    ],
 }
 
-
-
-
 export const InnovativeIdeasBlogsList = [
    {
       title: "Best innovative ideas for become succesfull businessman",
+      description: '',
       slug: "student-business-youtube",
       chipName: 'YouTube',
       date: "Apr. 6, 2025",

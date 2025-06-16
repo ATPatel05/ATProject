@@ -1,18 +1,15 @@
 export const BestBusinessPage = {
-   title: 'Top Business Ideas you can start with low Investment',
-   description: 'Skilluplines provides the best small and successful business ideas to start with low investment blog and become a profitable businessman in 2025.',
-   topicintroline: 'We provide in-depth knowledge for each business idea, including what the idea is, what it involves and how to start it in 2025.',
+   title: 'Best business ideas to start in 2025',
+   topicintroline: 'SkillUpLines provides in-depth knowledge for each business idea, which is very useful for entrepreneurs, including what the idea is, what it involves, and how to start it in 2025.',
    introduction: [
       {
          paragraph: 'In this artical, explore the best small business ideas for Indians that you can start easily while doing your job. These small and profitable business ideas can help you earn extra money in 2025.'
       },
       {
-         paragraph: 'A small business can improve your financial stability, provide diversification, help us gain knowledge, build valuable connections, and create a brighter future.'
+         paragraph: 'A small business (or side job) can improve financial stability, provide diversification, increase knowledge, build valuable connections, and lay the foundation for a successful company and a brighter future.'
       },
    ]
 }
-
-
 
 export const TopBusinessIdeasBlogsList = [
    {

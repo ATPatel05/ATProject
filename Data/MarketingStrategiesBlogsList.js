@@ -1,5 +1,33 @@
 export const MarketingStrategyPage = {
-   title: 'Top Business Marketing Strategies which can help to grow business',
+   title: 'Top business marketing strategies to use in 2025',
+   description: 'Skilluplines provides the best marketing strategies with effective planning to build a successful and profitable business in 2025.',
+   keywords: [
+      "business marketing",
+      "marketing",
+      "top product marketing",
+      "best product selling",
+      "best product selling in 2025",
+      "best product selling strategy",
+      "top business marketing in 2025",
+      "product marketing roadmap",
+      "best business marketing",
+      "best business marketing strategies",
+      "business marketing tips",
+      "business marketing strategy",
+      "product marketing strategy",
+      "best product marketing strategies",
+      "best business marketing techniques",
+      "business marketing in 2025",
+      "best business marketing in 2025",
+      "business mindset",
+      "business motivation",
+      "business marketing planning",
+      "product marketing planning",
+      "product marketing plan",
+      "business marketing plan",
+      "best business marketing tips in 2025",
+      "low-cost marketing strategies for startups"
+   ],
    topicintroline: 'We provide the best marketing strategies with step-by-step guidance to attract new customers and boost your brand growth.',
    introduction: [
       {
@@ -14,11 +42,10 @@ export const MarketingStrategyPage = {
    ]
 }
 
-
-
 export const MarketingStrategiesBlogsList = [
    {
       title: "Best Marketing Strategy for become succesfull businessman",
+      description: '',
       slug: "student-business-youtube",
       chipName: 'YouTube',
       date: "Apr. 6, 2025",

@@ -1,5 +1,27 @@
 export const ManagementStrategiesPage = {
-   title: 'Top Business Management strategies which important for you business to get sustainable success',
+   title: 'Top business management strategies to use in 2025',
+   description: 'Skilluplines provides top business management strategies, growth mindset tips, and a planning roadmap to grow your business with motivation and success in 2025.',
+   keywords: [
+      "business management",
+      "company management",
+      "top company management",
+      "top business management",
+      "company management roadmap",
+      "best business management",
+      "business management strategies",
+      "business management tips",
+      "business management strategy",
+      "company management strategy",
+      "best company management strategies",
+      "best business management techniques",
+      "business management in 2025",
+      "business mindset",
+      "business motivation",
+      "business management planning",
+      "company management planning",
+      "company management plan",
+      "business management plan"
+   ],
    topicintroline: 'We provide the best management tips and step-by-step guides on how to manage a business effectively for greater profitability and long-term success.',
    introduction: [
       {
@@ -11,11 +33,10 @@ export const ManagementStrategiesPage = {
    ]
 }
 
-
-
 export const ManagementStrategiesBlogsList = [
    {
       title: "Best Management Strategy for become succesfull businessman",
+      description: '',
       slug: "student-business-youtube",
       chipName: 'YouTube',
       date: "Apr. 6, 2025",
