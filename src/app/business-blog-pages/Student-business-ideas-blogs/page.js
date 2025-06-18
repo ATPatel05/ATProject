@@ -4,7 +4,7 @@ import YsenseBlogCard from '../../../components/YsenseBlogCard';
 import { StudentBusinessIdeasBlogsList, StudentBusinessIdeasPage } from '../../../../Data/StudentBusinessIdeasBlogsList';
 import styles from './page.module.css';
 import SectionHeader from '@/components/SectionHeader';
-
+import SideJobIdea from '@/components/SideJobIdea';
 
 export async function generateMetadata() {
    const blog = StudentBusinessIdeasPage
@@ -78,6 +78,7 @@ export async function generateMetadata() {
 const page = () => {
    return (
       <main className={styles.container}>
+         <SideJobIdea />
          <h1 className={styles.title}>{StudentBusinessIdeasPage.title}</h1>
          {StudentBusinessIdeasPage.introduction.map((para, index) => (
             <p key={index} className={styles.table_content_list}>

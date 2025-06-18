@@ -1,4 +1,5 @@
 import BusinessBlogCard from "@/components/BusinessBlogCard";
+import SideJobIdea from '@/components/SideJobIdea'
 import { TopBusinessIdeasBlogsList, BestBusinessPage } from "../../Data/TopBusinessIdeasBlogsList";
 import YsenseBlogCard from '@/components/YsenseBlogCard'
 import styles from './page.module.css';
@@ -8,6 +9,7 @@ export default function HomePage() {
   return (
     <>
       <main className={styles.container}>
+        <SideJobIdea />
         <h1 className={styles.title}>{BestBusinessPage.title}</h1>
         {BestBusinessPage.introduction.map((para, index) => (
           <p key={index} className={styles.table_content_list}>
