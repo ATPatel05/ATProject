@@ -8,7 +8,7 @@ export default function Breaking() {
                Side Business
             </div>
             <marquee className={styles.breaking_title}>
-               ySense is best idea for side income
+               Make Money Without Money in Your Free Time with ySense – A Smart Way to Earn Online
             </marquee>
          </div>
       </>
