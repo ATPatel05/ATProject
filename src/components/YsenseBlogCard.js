@@ -7,7 +7,7 @@ export default function page() {
          <div className={styles.small_card}>
             <div className={styles.image_wrapper}>
                <Link href='/business-blog/ySense' className={styles.card_link}>
-                  <img src='/AT.png' alt='' className={styles.card_image} />
+                  <img src='/Ysense/ySense.png' alt='make money without money with ySense in free timwe' className={styles.card_image} />
                </Link>
             </div>
             <div className={styles.card_content}>
