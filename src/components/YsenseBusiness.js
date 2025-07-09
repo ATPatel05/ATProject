@@ -7,7 +7,7 @@ export default function page() {
          <main className={styles.container}>
             <h1 className={styles.title}>How to Make Money Online Without Investment Using ySense – Best Earning Idea for Students in Free Time</h1>
             <section>
-               <img className={styles.ySense_image_banner} src='/Ysense/ySense.jpg' alt='make money without money with ySense in free timwe' />
+               <img className={styles.ySense_image_banner} src='/Ysense/Ysense.jpg' alt='make money without money with ySense in free timwe' />
                <h2 className={styles.title}>About Ysense</h2>
                <p className={styles.stepText}>
                   ySense is an easy-to-use website/application where you can earn money by doing simple tasks like{" "}
