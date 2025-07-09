@@ -32,20 +32,32 @@ export const MarketingStrategyPage = {
    guideHeadingLine: "In this you'll Business management & Guide is helpful to manage business in 2025",
    ultimateGuideList: [
       {
-         guide: 'What Is Business operation?',
+         guide: 'What Is Business Marketing?',
       },
       {
-         guide: 'importance of business operation',
+         guide: 'Business Marketing Basics',
       },
       {
-         guide: 'Market Research and Competitive Analysis',
+         guide: 'Why Marketing Is Essential for Business Growth',
       },
       {
-         guide: 'Creating a Unique Value Proposition (UVP)',
+         guide: 'Types of Business Marketing Strategies',
       },
       {
-         guide: 'Essential Skills Every Business Manager Needs',
+         guide: 'Key Elements of a Successful Marketing Plan',
       },
+      {
+         guide: 'Marketing Tools and Platforms for 2025',
+      },
+      {
+         guide: 'How to Improve Marketing ROI',
+      },
+      {
+         guide: 'Real-World Examples and Case Studies',
+      },
+      {
+         guide: 'Conclusion and Final Thoughts',
+      }
    ]
 }
 
