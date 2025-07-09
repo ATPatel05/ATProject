@@ -1,6 +1,6 @@
 import React from 'react'
 import BusinessBlogCard from '../../../components/BusinessBlogCard';
-import { MarketingStrategiesBlogsList, MarketingStrategyPage } from '../../../../Data/MarketingStrategiesBlogsList';
+import { MarketingStrategiesBlogsList, MarketingStrategyPage } from '@/blogData/MarketingStrategiesBlogsList';
 import styles from './page.module.css';
 import SectionHeader from '@/components/SectionHeader';
 
@@ -22,7 +22,7 @@ export async function generateMetadata() {
    } = blog;
 
    const siteUrl = "https://www.skilluplines.com";
-   const fullUrl = `${siteUrl}/business-blog/ySense`;
+   const fullUrl = `${siteUrl}/business-blog/business-marketing-blogs`;
    const imageUrl = `${siteUrl}${image}`;
 
    return {
@@ -36,7 +36,7 @@ export async function generateMetadata() {
       authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
       creator: "SkillUpLines Team",
       publisher: "SkillUpLines",
-      category: "Business, Small Business, Business Blog",
+      category: "Business Marketing, Digital Marketing, Marketing Strategies, Advertising, Branding, Entrepreneurship",
       robots: {
          index: true,
          follow: true,
@@ -77,14 +77,17 @@ const page = () => {
    return (
       <main className={styles.container}>
          <h1 className={styles.title}>{MarketingStrategyPage.title}</h1>
-         {MarketingStrategyPage.introduction.map((para, index) => (
-            <p key={index} className={styles.table_content_list}>
-               {para.paragraph}
-            </p>
-         ))}
          <p className={styles.headning_red_line}>
             {MarketingStrategyPage.topicintroline}
          </p>
+         <h2 className={styles.guide_list_heading}>{MarketingStrategyPage.guideHeadingLine}</h2>
+         <ul className={styles.table_box} >
+            {MarketingStrategyPage.ultimateGuideList.map((para, index) => (
+               <li key={index} className={styles.table_content_list}>
+                  {para.guide}
+               </li>
+            ))}
+         </ul>
          <SectionHeader >Marketing Strategies</SectionHeader>
          {MarketingStrategiesBlogsList.map((blog, index) => (
             <BusinessBlogCard key={index} businessBlog={blog} />

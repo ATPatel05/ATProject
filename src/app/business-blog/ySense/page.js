@@ -1,5 +1,5 @@
 import YsenseBusiness from '@/components/YsenseBusiness'
-import { YsensePageSEO } from '../../../../Data/YsenseSEO';
+import { YsensePageSEO } from '../../../blogData/YsenseSEO';
 
 export async function generateMetadata() {
    const blog = YsensePageSEO

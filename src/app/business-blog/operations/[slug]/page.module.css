@@ -29,13 +29,6 @@
    margin-top: 17px;
 }
 
-.disclaimerMessage {
-   font-size: 23px;
-   color: #373232;
-   margin: 15px 0;
-   font-weight: 600;
-}
-
 .sub_heading {
    font-size: 1.4rem;
    font-weight: bold;
@@ -60,10 +53,6 @@
       font-size: 20px;
    }
 
-   .disclaimerMessage {
-      font-size: 20px;
-   }
-
    .table_content_list {
       font-size: 1.123rem;
    }
@@ -79,10 +68,6 @@
    }
 
    .stepText {
-      font-size: 18px;
-   }
-
-   .disclaimerMessage {
       font-size: 18px;
    }
 
@@ -105,10 +90,6 @@
    }
 
    .stepText {
-      font-size: 16px;
-   }
-
-   .disclaimerMessage {
       font-size: 16px;
    }
 

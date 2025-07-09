@@ -43,7 +43,7 @@ export default function page() {
             We’re not just building a business blog — we’re building a <strong>movement</strong> of dreamers who take action.
           </p>
         </section>
-
+    
         <p className={styles.description_paragraph}>– Team SkillUpLines</p>
       </article>
     </main>

@@ -1,11 +1,11 @@
-import BusinessBlogContentPost from '@/components/BusinessBlogContentPost';
-import { InnovativeIdeasBlogsList } from '@/blogData/InnovativeIdeasBlogsList';
+import React from 'react'
+import BusinessBlogCard from '../../../components/BusinessBlogCard';
+import { ManagementStrategiesBlogsList, ManagementStrategiesPage } from '@/blogData/ManagementStrategiesBlogsList';
 import styles from './page.module.css';
+import SectionHeader from '@/components/SectionHeader';
 
-export async function generateMetadata({ params }) {
-   const resolvedParams = await params;
-   const slug = resolvedParams.slug;
-   const blog = InnovativeIdeasBlogsList.find(item => item.slug === slug);
+export async function generateMetadata() {
+   const blog = ManagementStrategiesPage
 
    if (!blog) {
       return {
@@ -18,12 +18,11 @@ export async function generateMetadata({ params }) {
       title,
       description,
       image,
-      date,
       keywords
    } = blog;
 
    const siteUrl = "https://www.skilluplines.com";
-   const fullUrl = `${siteUrl}/business-blog/innovation/${slug}`;
+   const fullUrl = `${siteUrl}/business-blog-pages/business-management-blogs`;
    const imageUrl = `${siteUrl}${image}`;
 
    return {
@@ -37,7 +36,7 @@ export async function generateMetadata({ params }) {
       authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
       creator: "SkillUpLines Team",
       publisher: "SkillUpLines",
-      category: "Innovation, Business Innovation, Startup Innovation, Product Innovation, Creative Business Ideas, Future Business Trends",
+      category: "Business Management, Leadership, Team Management, Strategic Planning, Organizational Development, Business Planning",
       robots: {
          index: true,
          follow: true,
@@ -55,7 +54,6 @@ export async function generateMetadata({ params }) {
          description,
          url: fullUrl,
          siteName: "SkillUpLines",
-         publishedTime: new Date(date).toISOString(),
          images: [
             {
                url: imageUrl,
@@ -75,16 +73,27 @@ export async function generateMetadata({ params }) {
    };
 }
 
-export default async function Page({ params }) {
-
-   const resolvedParams = await params;
-   const slug = resolvedParams.slug;
-   const blog = InnovativeIdeasBlogsList.find(item => item.slug === slug);
-
+const page = () => {
    return (
       <main className={styles.container}>
-         <BusinessBlogContentPost blog={blog} />
+         <h1 className={styles.title}>{ManagementStrategiesPage.title}</h1>
+         <p className={styles.headning_red_line}>
+            {ManagementStrategiesPage.topicintroline}
+         </p>
+         <h2 className={styles.guide_list_heading}>{ManagementStrategiesPage.guideHeadingLine}</h2>
+         <ul className={styles.table_box} >
+            {ManagementStrategiesPage.ultimateGuideList.map((para, index) => (
+               <li key={index} className={styles.table_content_list}>
+                  {para.guide}
+               </li>
+            ))}
+         </ul>
+         <SectionHeader >Management Strategies</SectionHeader>
+         {ManagementStrategiesBlogsList.map((blog, index) => (
+            <BusinessBlogCard key={index} businessBlog={blog} />
+         ))}
       </main>
-   );
+   )
 }
 
+export default page

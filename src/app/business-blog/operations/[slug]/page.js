@@ -1,13 +1,11 @@
-import React from 'react'
-import BusinessBlogCard from '../../../components/BusinessBlogCard';
-import YsenseBlogCard from '../../../components/YsenseBlogCard';
-import { StudentBusinessIdeasBlogsList, StudentBusinessIdeasPage } from '../../../../Data/StudentBusinessIdeasBlogsList';
+import BusinessBlogContentPost from '@/components/BusinessBlogContentPost';
 import styles from './page.module.css';
-import SectionHeader from '@/components/SectionHeader';
-import SideJobIdea from '@/components/SideJobIdea';
+import { BuisnessOperationBlogsList } from '@/blogData/OperationsIdeasBlogsList';
 
-export async function generateMetadata() {
-   const blog = StudentBusinessIdeasPage
+export async function generateMetadata({ params }) {
+   const resolvedParams = await params;
+   const slug = resolvedParams.slug;
+   const blog = BuisnessOperationBlogsList.find(item => item.slug === slug);
 
    if (!blog) {
       return {
@@ -20,11 +18,12 @@ export async function generateMetadata() {
       title,
       description,
       image,
+      date,
       keywords
    } = blog;
 
    const siteUrl = "https://www.skilluplines.com";
-   const fullUrl = `${siteUrl}/business-blog/ySense`;
+   const fullUrl = `${siteUrl}/business-blog/innovation/${slug}`;
    const imageUrl = `${siteUrl}${image}`;
 
    return {
@@ -38,7 +37,7 @@ export async function generateMetadata() {
       authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
       creator: "SkillUpLines Team",
       publisher: "SkillUpLines",
-      category: "Business, Small Business, Business Blog",
+      category: "Business Operations, Business Routines, Operational Efficiency, Process Management, Business Systems, Daily Business Activities",
       robots: {
          index: true,
          follow: true,
@@ -56,6 +55,7 @@ export async function generateMetadata() {
          description,
          url: fullUrl,
          siteName: "SkillUpLines",
+         publishedTime: new Date(date).toISOString(),
          images: [
             {
                url: imageUrl,
@@ -75,27 +75,15 @@ export async function generateMetadata() {
    };
 }
 
-const page = () => {
+export default async function Page({ params }) {
+
+   const resolvedParams = await params;
+   const slug = resolvedParams.slug;
+   const blog = BuisnessOperationBlogsList.find(item => item.slug === slug);
+
    return (
       <main className={styles.container}>
-         <SideJobIdea />
-         <h1 className={styles.title}>{StudentBusinessIdeasPage.title}</h1>
-         {StudentBusinessIdeasPage.introduction.map((para, index) => (
-            <p key={index} className={styles.table_content_list}>
-               {para.paragraph}
-            </p>
-         ))}
-
-         <p className={styles.headning_red_line}>
-          {StudentBusinessIdeasPage.topicintroline}
-        </p>
-         <SectionHeader >Student Business Ideas</SectionHeader>
-         <YsenseBlogCard />
-         {StudentBusinessIdeasBlogsList.map((blog, index) => (
-            <BusinessBlogCard key={index} businessBlog={blog} />
-         ))}
+         <BusinessBlogContentPost blog={blog} />
       </main>
-   )
+   );
 }
-
-export default page

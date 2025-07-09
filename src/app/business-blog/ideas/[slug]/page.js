@@ -1,4 +1,5 @@
-import { TopBusinessIdeasBlogsList } from '../../../../../Data/TopBusinessIdeasBlogsList';
+import BusinessBlogContentPost from '@/components/BusinessBlogContentPost';
+import { TopBusinessIdeasBlogsList } from '@/blogData/TopBusinessIdeasBlogsList';
 import styles from './page.module.css';
 
 export async function generateMetadata({ params }) {
@@ -36,7 +37,7 @@ export async function generateMetadata({ params }) {
       authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
       creator: "SkillUpLines Team",
       publisher: "SkillUpLines",
-      category: "Business, Small Business, Business Blog",
+      category: "Business Ideas, Startup Ideas, Small Business Ideas, Business for Beginners, Online Business, Entrepreneurship",
       robots: {
          index: true,
          follow: true,
@@ -82,23 +83,7 @@ export default async function Page({ params }) {
 
    return (
       <main className={styles.container}>
-         <h1 className={styles.title}>{blog.title}</h1>
-         <p className={styles.date}>{blog.date}</p>
-         <img src={blog.image} alt="Ysense_play" className={styles.images} />
-
-         <h2 className={styles.sub_heading}>Table of Content</h2>
-         {blog.blogContent.map((section, index) => (
-            <p key={index} className={styles.table_content_list}>{index + 1}{". "}{section.topicHeading}</p>
-         ))}
-         <p className={styles.disclaimerMessage}>{blog.disclaimerMessage}</p>
-         {blog.blogContent.map((section, index) => (
-            <section key={index} style={{ marginBottom: '2rem' }}>
-               <h2 key={index} className={styles.sub_heading}>{index + 1}{". "}{section.topicHeading}</h2>
-               {section.paragraphs.map((p, idx) => (
-                  <p key={idx} className={styles.stepText}>{p.line}</p>
-               ))}
-            </section>
-         ))}
+         <BusinessBlogContentPost blog={blog} />
       </main>
    );
 }

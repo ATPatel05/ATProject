@@ -1,6 +1,6 @@
 import React from 'react'
 import BusinessBlogCard from '../../../components/BusinessBlogCard';
-import { InnovativeIdeasBlogsList, InnovativeIdeasPage } from '../../../../Data/InnovativeIdeasBlogsList';
+import { InnovativeIdeasBlogsList, InnovativeIdeasPage } from '@/blogData/InnovativeIdeasBlogsList';
 import styles from './page.module.css';
 import SectionHeader from '@/components/SectionHeader';
 
@@ -22,7 +22,7 @@ export async function generateMetadata() {
    } = blog;
 
    const siteUrl = "https://www.skilluplines.com";
-   const fullUrl = `${siteUrl}/business-blog/ySense`;
+   const fullUrl = `${siteUrl}/business-blog/business-innovation-ideas-blogs`;
    const imageUrl = `${siteUrl}${image}`;
 
    return {
@@ -36,7 +36,7 @@ export async function generateMetadata() {
       authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
       creator: "SkillUpLines Team",
       publisher: "SkillUpLines",
-      category: "Business, Small Business, Business Blog",
+      category: "Innovation, Business Innovation, Startup Innovation, Product Innovation, Creative Business Ideas, Future Business Trends",
       robots: {
          index: true,
          follow: true,
@@ -76,14 +76,12 @@ export async function generateMetadata() {
 const page = () => {
    return (
       <main className={styles.container}>
-
          <h1 className={styles.title}>{InnovativeIdeasPage.title}</h1>
          {InnovativeIdeasPage.introduction.map((para, index) => (
             <p key={index} className={styles.table_content_list}>
                {para.paragraph}
             </p>
          ))}
-
          <SectionHeader >Innovative Blog</SectionHeader>
          {InnovativeIdeasBlogsList.map((blog, index) => (
             <BusinessBlogCard key={index} businessBlog={blog} />

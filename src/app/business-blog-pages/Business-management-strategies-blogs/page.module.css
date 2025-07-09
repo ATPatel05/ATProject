@@ -11,16 +11,27 @@
    margin-top: 30px;
 }
 
+.guide_list_heading {
+   color: #3c3939;
+   font-size: 1.4rem;
+   font-weight: 500;
+   margin-top: 20px;
+}
+
+.table_box {
+   margin-top: 10px;
+}
+
 .table_content_list {
+   list-style-type: disc;
    font-size: 21px;
    color: #1d1d1d;
-   margin: 15px 0;
-   margin-top: 13px;
+   margin-top: 4px;
+   margin-left: 30px;
 }
 
 .headning_red_line {
-   font-size: 21px;
-   color: rgb(243, 81, 27);
+   font-size: 1.4rem;
    margin: 15px 0;
    margin-top: 13px;
 }
@@ -31,11 +42,16 @@
    }
 
    .table_content_list {
-      font-size: 18px;
+      font-size: 16px;
+      margin-left: 25px;
    }
 
    .headning_red_line {
-      font-size: 18px;
+      font-size: 1.1rem;
+   }
+
+   .guide_list_heading {
+      font-size: 1.1rem;
    }
 }
 
@@ -45,11 +61,16 @@
    }
 
    .table_content_list {
-      font-size: 16px;
+      font-size: 15px;
+      margin-left: 20px;
    }
 
    .headning_red_line {
-      font-size: 16px;
+      font-size: 0.97rem;
+   }
+
+   .guide_list_heading {
+      font-size: 0.97rem;
    }
 }
 
@@ -59,10 +80,15 @@
    }
 
    .table_content_list {
-      font-size: 14px;
+      font-size: 12px;
+      margin-left: 18px;
    }
 
    .headning_red_line {
-      font-size: 14px;
+      font-size: 0.97rem;
+   }
+
+   .guide_list_heading {
+      font-size: 0.97rem;
    }
 }

@@ -11,13 +11,13 @@ const Navigations = () => {
                <Link href="/" className={styles.businessBlogLink}>Business Ideas</Link>
             </div>
             <div className={styles.linkWrapper}>
-               <Link href="/business-blog-pages/Student-business-ideas-blogs" className={styles.businessBlogLink}>Student Business Ideas</Link>
+               <Link href="/business-blog-pages/Business-management-strategies-blogs" className={styles.businessBlogLink}>Management Strategies</Link>
             </div>
             <div className={styles.linkWrapper}>
-               <Link href="/business-blog-pages/business-management-blogs" className={styles.businessBlogLink}>Management Strategies</Link>
+               <Link href="/business-blog-pages/Business-marketing-strategies-blogs" className={styles.businessBlogLink}>Marketing Strategies</Link>
             </div>
             <div className={styles.linkWrapper}>
-               <Link href="/business-blog-pages/business-marketing-blogs" className={styles.businessBlogLink}>Marketing Strategies</Link>
+               <Link href="/business-blog-pages/Business-operations-blogs" className={styles.businessBlogLink}>Operations & Rounies</Link>
             </div>
             <div className={styles.linkWrapper}>
                <Link href="/business-blog-pages/Business-innovation-ideas-blogs" className={styles.businessBlogLink}>Innovation Blog</Link>

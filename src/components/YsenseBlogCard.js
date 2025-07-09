@@ -7,7 +7,7 @@ export default function page() {
          <div className={styles.small_card}>
             <div className={styles.image_wrapper}>
                <Link href='/business-blog/ySense' className={styles.card_link}>
-                  <img src='/Ysense/ySense.png' alt='make money without money with ySense in free timwe' className={styles.card_image} />
+                  <img src='/Ysense/ySense.jpg' alt='make money without money with ySense in free timwe' className={styles.card_image} />
                </Link>
             </div>
             <div className={styles.card_content}>
@@ -16,9 +16,9 @@ export default function page() {
                </Link>
                <div className={styles.card_country_date}>
                   <div className={styles.subheading}>
-                     Breaking
+                     ySense
                   </div>
-                  <span className={styles.card_date}>4 june, 2025</span>
+                  <span className={styles.card_date}>Jun 4, 2025</span>
                </div>
             </div>
          </div>

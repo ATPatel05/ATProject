@@ -1,11 +1,13 @@
 import React from 'react'
 import BusinessBlogCard from '../../../components/BusinessBlogCard';
-import { ManagementStrategiesBlogsList ,ManagementStrategiesPage } from '../../../../Data/ManagementStrategiesBlogsList';
+import YsenseBlogCard from '../../../components/YsenseBlogCard';
+import { BuisnessOperationBlogsList, OperationPage } from '@/blogData/OperationsIdeasBlogsList';
 import styles from './page.module.css';
 import SectionHeader from '@/components/SectionHeader';
+import SideJobIdea from '@/components/SideJobIdea';
 
 export async function generateMetadata() {
-   const blog = ManagementStrategiesPage
+   const blog = OperationPage
 
    if (!blog) {
       return {
@@ -22,7 +24,7 @@ export async function generateMetadata() {
    } = blog;
 
    const siteUrl = "https://www.skilluplines.com";
-   const fullUrl = `${siteUrl}/business-blog/ySense`;
+   const fullUrl = `${siteUrl}/business-blog/business-Operations-blogs`;
    const imageUrl = `${siteUrl}${image}`;
 
    return {
@@ -36,7 +38,7 @@ export async function generateMetadata() {
       authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
       creator: "SkillUpLines Team",
       publisher: "SkillUpLines",
-      category: "Business, Small Business, Business Blog",
+      category: "Business Operations, Business Routines, Operational Efficiency, Process Management, Business Systems, Daily Business Activities",
       robots: {
          index: true,
          follow: true,
@@ -76,17 +78,21 @@ export async function generateMetadata() {
 const page = () => {
    return (
       <main className={styles.container}>
-         <h1 className={styles.title}>{ManagementStrategiesPage.title}</h1>
-         {ManagementStrategiesPage.introduction.map((para, index) => (
-            <p key={index} className={styles.table_content_list}>
-               {para.paragraph}
-            </p>
-         ))}
+         <SideJobIdea />
+         <h1 className={styles.title}>{OperationPage.title}</h1>
          <p className={styles.headning_red_line}>
-          {ManagementStrategiesPage.topicintroline}
-        </p>
-         <SectionHeader >Management Strategies</SectionHeader>
-         {ManagementStrategiesBlogsList.map((blog, index) => (
+            {OperationPage.topicintroline}
+         </p>
+         <h2 className={styles.guide_list_heading}>{OperationPage.guideHeadingLine}</h2>
+         <ul className={styles.table_box} >
+            {OperationPage.ultimateGuideList.map((para, index) => (
+               <li key={index} className={styles.table_content_list}>
+                  {para.guide}
+               </li>
+            ))}
+         </ul>
+         <SectionHeader >Student Business Ideas</SectionHeader>
+         {BuisnessOperationBlogsList.map((blog, index) => (
             <BusinessBlogCard key={index} businessBlog={blog} />
          ))}
       </main>
