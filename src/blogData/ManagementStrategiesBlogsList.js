@@ -61,6 +61,15 @@ export const ManagementStrategiesPage = {
    ]
 }
 
+const ManagementStrategiesListSitemap = [
+   {
+      folderPath: '/business-blog/management',
+      slug: "build-business-mindset-success",
+   }
+]
+export default ManagementStrategiesListSitemap;
+
+
 export const ManagementStrategiesBlogsList = [
    {
       title: "How to Build a Strong Business Mindset to become Successful businessman",

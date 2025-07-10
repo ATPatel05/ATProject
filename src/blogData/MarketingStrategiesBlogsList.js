@@ -61,6 +61,16 @@ export const MarketingStrategyPage = {
    ]
 }
 
+
+const MarketingStrategiesListSitemap = [
+   {
+      folderPath: '/business-blog/marketing',
+      slug: "business-marketing-strategies",
+   }
+]
+
+export default MarketingStrategiesListSitemap;
+
 export const MarketingStrategiesBlogsList = [
    {
       title: "Business Marketing Strategies to Boost Brand Awareness in 2025",

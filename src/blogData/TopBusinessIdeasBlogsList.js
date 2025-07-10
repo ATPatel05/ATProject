@@ -30,6 +30,14 @@ export const BestBusinessPage = {
    ]
 }
 
+const BuisnessOperationBlogsListSitemap = [
+   {
+      folderPath: '/business-blog/ideas',
+      slug: "business-ideas-luxury-hotel",
+   }
+]
+export default BuisnessOperationBlogsListSitemap;
+
 export const TopBusinessIdeasBlogsList = [
    {
       title: "Luxury Hotel Business: Setup Guide & Growth Tips to Start in 2025",

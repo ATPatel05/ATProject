@@ -1,6 +1,5 @@
 import React from 'react'
 import BusinessBlogCard from '../../../components/BusinessBlogCard';
-import YsenseBlogCard from '../../../components/YsenseBlogCard';
 import { BuisnessOperationBlogsList, OperationPage } from '@/blogData/OperationsIdeasBlogsList';
 import styles from './page.module.css';
 import SectionHeader from '@/components/SectionHeader';
@@ -91,7 +90,7 @@ const page = () => {
                </li>
             ))}
          </ul>
-         <SectionHeader >Student Business Ideas</SectionHeader>
+         <SectionHeader >Operations & Routines</SectionHeader>
          {BuisnessOperationBlogsList.map((blog, index) => (
             <BusinessBlogCard key={index} businessBlog={blog} />
          ))}

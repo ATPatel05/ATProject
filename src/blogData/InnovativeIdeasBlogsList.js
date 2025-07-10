@@ -20,6 +20,16 @@ export const InnovativeIdeasPage = {
    ]
 }
 
+const InnovativeBlogsListSitemap = [
+   {
+      folderPath: "/business-blog/innovation",
+      slug: "electric-vehicle-benefits-challenges"
+   },
+];
+
+export default InnovativeBlogsListSitemap;
+
+
 export const InnovativeIdeasBlogsList = [
    {
       title: "The Ultimate Guide to Electric Vehicles: Benefits, Technology, and Future Trends",

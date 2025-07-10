@@ -17,7 +17,7 @@ const Navigations = () => {
                <Link href="/business-blog-pages/Business-marketing-strategies-blogs" className={styles.businessBlogLink}>Marketing Strategies</Link>
             </div>
             <div className={styles.linkWrapper}>
-               <Link href="/business-blog-pages/Business-operations-blogs" className={styles.businessBlogLink}>Operations & Rounies</Link>
+               <Link href="/business-blog-pages/Business-operations-blogs" className={styles.businessBlogLink}>Operations & Routines</Link>
             </div>
             <div className={styles.linkWrapper}>
                <Link href="/business-blog-pages/Business-innovation-ideas-blogs" className={styles.businessBlogLink}>Innovation Blog</Link>

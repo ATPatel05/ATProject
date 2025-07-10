@@ -21,10 +21,20 @@ export const OperationPage = {
    ]
 }
 
+
+
+const BuisnessOperationBlogsListSitemap = [
+   {
+      folderPath: '/business-blog/operations',
+      slug: "business-operation-guide-important",
+   }
+]
+export default BuisnessOperationBlogsListSitemap;
+
 export const BuisnessOperationBlogsList = [
    {
       title: "Business Operations and Routines That Help Improve Workflow and Growth",
-      slug: "business-ideas-luxury-hotel",
+      slug: "business-operation-guide-important",
       description: 'Learn how to start a luxury hotel business from scratch. This guide covers planning, location, staffing, interior design, online presence, and high-profit marketing strategies to build a sustainable and successful hotel brand.',
       chipName: 'Business Operation',
       date: "Jul 9, 2025",
