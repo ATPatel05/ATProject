@@ -24,11 +24,7 @@ const InnovativeBlogsListSitemap = [
    {
       folderPath: "/business-blog/innovation",
       slug: "electric-vehicle-benefits-challenges"
-   },
-   {
-      folderPath: "/business-blog/innovation",
-      slug: "electric-vehicle-benefits-challenges"
-   },
+   }
 ];
 
 export default InnovativeBlogsListSitemap;
