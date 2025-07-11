@@ -22,7 +22,7 @@ export async function generateMetadata() {
    } = blog;
 
    const siteUrl = "https://www.skilluplines.com";
-   const fullUrl = `${siteUrl}/business-blog-pages/business-innovation-ideas-blogs`;
+   const fullUrl = `${siteUrl}/business-blog-pages/Business-innovation-ideas-blogs`;
    const imageUrl = `${siteUrl}${image}`;
 
    return {
