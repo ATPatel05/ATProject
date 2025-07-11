@@ -60,6 +60,9 @@ export const metadata = {
       "max-video-preview": -1,
     },
   },
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     type: "website",
     title: "SkillUpLines – Business Ideas & Marketing Tips",

@@ -45,6 +45,9 @@ export async function generateMetadata() {
             "max-video-preview": -1,
          },
       },
+      icons: {
+         icon: "/favicon.ico",
+      },
       openGraph: {
          type: "article",
          title,
@@ -71,11 +74,11 @@ export async function generateMetadata() {
 }
 
 const page = () => {
-  return (
-    <>
-    <YsenseBusiness />
-    </>
-  )
+   return (
+      <>
+         <YsenseBusiness />
+      </>
+   )
 }
 
 export default page

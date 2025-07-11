@@ -49,6 +49,9 @@ export async function generateMetadata() {
             "max-video-preview": -1,
          },
       },
+      icons: {
+         icon: "/favicon.ico",
+      },
       openGraph: {
          type: "article",
          title,
