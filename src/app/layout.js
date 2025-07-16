@@ -88,7 +88,7 @@ export const metadata = {
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
-  category: "Business, Marketing, Entrepreneurship",
+category: "Business Ideas, Startup Ideas, Small Business, Low Investment Business, Home-Based Business, Profitable Businesses, Online Business, Innovative Business Models, Entrepreneurship, Business Opportunities",
   applicationName: "SkillUpLines",
 };
 
