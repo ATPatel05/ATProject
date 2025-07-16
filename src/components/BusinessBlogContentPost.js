@@ -6,7 +6,7 @@ const BusinessBlogContentPost = ({ blog }) => {
       <article>
          <h1 className={styles.title}>{blog.title}</h1>
          <p className={styles.date}>{blog.date}</p>
-         <img src={blog.image} alt="Ysense_play" className={styles.images} />
+         <img src={blog.image} alt={blog.title} className={styles.images} />
          <h2 className={styles.sub_heading}>Table of Content</h2>
          <ol>
             {blog.blogContent.map((section, index) => (
