@@ -1408,7 +1408,7 @@ export const TopBusinessIdeasBlogsList = [
       slug: "influencer-small-business",
       description: 'Explore how to start your journey as an influencer in 2025. Learn how to build your brand, grow an audience, and turn influence into a small business.',
       chipName: 'Influencer',
-      date: "Jul 16, 2025",
+      date: "Jul 17, 2025",
       image: "/BusinessIdeas/influencer-small-business.jpg",
       folderPath: 'ideas',
       disclaimerMessage: 'Your business idea should align with your budget, skills, and availability. It should address a market need and offer the potential for sustainable growth. Experience, training, or licensing may be required depending on the industry.',
