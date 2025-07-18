@@ -8,6 +8,7 @@ import InnovativeBlogsListSitemap from '@/blogData/InnovativeIdeasBlogsList';
 
 const staticPages = [
    { path: "/", changefreq: "daily", priority: 1.0 },
+   { path: "/business-blog/ySense", changefreq: "weekly", priority: 0.9 },
    { path: "/business-blog-pages/Business-management-strategies-blogs", changefreq: "weekly", priority: 0.9 },
    { path: "/business-blog-pages/Business-marketing-strategies-blogs", changefreq: "weekly", priority: 0.9 },
    { path: "/business-blog-pages/Business-operations-blogs", changefreq: "weekly", priority: 0.9 },

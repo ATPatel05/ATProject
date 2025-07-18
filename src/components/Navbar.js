@@ -9,8 +9,8 @@ export default function Navbar() {
         <Link href="/">
           <img
             className={styles.nav_image}
-            src="/businessuplines-logo.jpg"
-             alt="BusinessUpLines logo - Business Ideas, Marketing & Finance Blog"
+            src="/SkillUpLines-logo.png"
+            alt="SkillUpLines logo - Business Ideas, Management ,Marketing & Innovative Blog"
           />
         </Link>
       </nav>

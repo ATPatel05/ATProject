@@ -12,8 +12,8 @@ export default function Footer() {
               <Link href="/" passHref>
                 <img
                   className={styles.footer_image}
-                  src="/businessuplines-logo.jpg"
-                  alt="The Times Of Galaxy Logo"
+                  src="/SkillUpLines-logo.png"
+                  alt="SkillUpLines logo - Business Ideas, Management ,Marketing & Innovative Blog"
                 />
               </Link>
               <p className={styles.web_content}>
