@@ -16,7 +16,7 @@ export default function page() {
                </Link>
                <div className={styles.card_country_date}>
                   <div className={styles.subheading}>
-                     ySense
+                     ySense Earnings
                   </div>
                   <span className={styles.card_date}>Jun 4, 2025</span>
                </div>
