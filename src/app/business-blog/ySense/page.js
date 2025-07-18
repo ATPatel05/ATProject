@@ -20,7 +20,7 @@ export async function generateMetadata() {
 
    const siteUrl = "https://www.skilluplines.com";
    const fullUrl = `${siteUrl}/business-blog/ySense`;
-   const imageUrl = `${siteUrl}${image}`;
+   const imageUrl = `${siteUrl}/Ysense/Ysense.jpg`;
 
    return {
       title,
