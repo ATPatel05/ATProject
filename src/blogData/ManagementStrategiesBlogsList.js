@@ -970,7 +970,7 @@ export const ManagementStrategiesBlogsList = [
       blogContent: [
          {
             topicHeading: "Introduction to Business Operations Management",
-            paragraph: [
+            paragraphs: [
                {
                   line: "Business operations management refers to the daily processes that help a business run smoothly, from resource procurement to product or service delivery."
                },
@@ -983,7 +983,7 @@ export const ManagementStrategiesBlogsList = [
             ]
          }, {
             topicHeading: "What is Business Operations Management?",
-            paragraph: [
+            paragraphs: [
                {
                   line: "Business operations management involves planning, organizing, and overseeing the day-to-day activities that drive people, processes, and technology in a business setting."
                },
@@ -996,7 +996,7 @@ export const ManagementStrategiesBlogsList = [
             ]
          }, {
             topicHeading: "Core Components of Business Operations",
-            paragraph: [
+            paragraphs: [
                {
                   line: "Business operations rely on four key components: processes, people, technology, and supply chain—each working together to support efficiency and long-term growth."
                },
@@ -1015,7 +1015,7 @@ export const ManagementStrategiesBlogsList = [
             ]
          }, {
             topicHeading: "Why Operations Management Matters for Small Businesses",
-            paragraph: [
+            paragraphs: [
                {
                   line: "Effective operations management helps small businesses avoid workflow bottlenecks, ensuring that tasks move smoothly from planning to execution without unnecessary delays."
                },
@@ -1034,7 +1034,7 @@ export const ManagementStrategiesBlogsList = [
             ]
          }, {
             topicHeading: "Operations Strategy vs Business Strategy",
-            paragraph: [
+            paragraphs: [
                {
                   line: "Business strategy outlines what a company aims to achieve in the long run, such as increasing market share, expanding into new regions, or improving brand visibility."
                },
@@ -1053,7 +1053,7 @@ export const ManagementStrategiesBlogsList = [
             ]
          }, {
             topicHeading: "Key Responsibilities of Operations Management",
-            paragraph: [
+            paragraphs: [
                {
                   line: "Designing workflow systems helps structure processes, eliminate inefficiencies, and guide employees in completing tasks with consistency, clarity, and improved cross-functional collaboration."
                },
@@ -1078,7 +1078,7 @@ export const ManagementStrategiesBlogsList = [
             ]
          }, {
             topicHeading: "Steps to Build an Effective Operations Management Plan",
-            paragraph: [
+            paragraphs: [
                {
                   line: "Start by mapping your current operations. Document every daily workflow, process, and team interaction to gain visibility into how your business functions across departments."
                },
@@ -1100,7 +1100,7 @@ export const ManagementStrategiesBlogsList = [
             ]
          }, {
             topicHeading: "Best Practices for Improving Operational Efficiency",
-            paragraph: [
+            paragraphs: [
                {
                   line: "Automating repetitive tasks saves time and reduces human error. It helps your team focus on important work rather than spending hours on manual operations."
                },
@@ -1119,7 +1119,7 @@ export const ManagementStrategiesBlogsList = [
             ]
          }, {
             topicHeading: "Common Operations Management Mistakes to Avoid",
-            paragraph: [
+            paragraphs: [
                {
                   line: "Relying only on manual systems limits scalability and increases error rates. Automation helps manage growth while maintaining consistency and reducing operational strain."
                },
@@ -1138,7 +1138,7 @@ export const ManagementStrategiesBlogsList = [
             ]
          }, {
             topicHeading: "Case Study: Improving Operational Efficiency in a Small E-commerce Business",
-            paragraph: [
+            paragraphs: [
                {
                   line: "A small e-commerce store struggled with delayed deliveries and frequent stockouts due to manual order handling and poor inventory tracking systems."
                },
