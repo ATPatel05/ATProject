@@ -66,6 +66,10 @@ const MarketingStrategiesListSitemap = [
    {
       folderPath: '/business-blog/marketing',
       slug: "business-marketing-strategies",
+   },
+   {
+      folderPath: '/business-blog/marketing',
+      slug: "content-marketing-guide-business-growth",
    }
 ]
 

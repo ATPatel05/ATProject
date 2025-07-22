@@ -63,6 +63,10 @@ const BuisnessOperationBlogsListSitemap = [
       folderPath: '/business-blog/ideas',
       slug: "influencer-small-business",
    },
+   {
+      folderPath: '/business-blog/ideas',
+      slug: "virtual-assistant-business-idea",
+   },
 ]
 export default BuisnessOperationBlogsListSitemap;
 
