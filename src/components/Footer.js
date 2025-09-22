@@ -6,13 +6,12 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.row}>
-
           <div className={styles.footer_col}>
             <div className={styles.img_detail}>
               <Link href="/" passHref>
                 <img
                   className={styles.footer_image}
-                  src="/SkillUpLines-logo.png"
+                  src="/Logo.jpg"
                   alt="SkillUpLines logo - Business Ideas, Management ,Marketing & Innovative Blog"
                 />
               </Link>

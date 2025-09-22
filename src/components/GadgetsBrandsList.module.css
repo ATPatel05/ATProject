@@ -1,0 +1,40 @@
+.phone_brand {
+   text-align: center;
+   color: #3f7ec2;
+   margin: auto;
+   border-top: 1px solid #e7e7e7;
+   border-right: 1px solid #e7e7e7;
+   border-left: 1px solid #e7e7e7;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+.phone_brand:hover {
+   color: white;
+   background-color: #3f7ec2;
+}
+
+.phone_brand_link {
+   width: 100%;
+   font: bold small tahoma;
+   font-size: 0.89rem;
+   text-transform: uppercase;
+   display: block;
+   padding: 7px;
+}
+
+.last_phone_brand {
+   text-align: center;
+   color: #3f7ec2;
+   margin: auto;
+   border-top: 1px solid #e7e7e7;
+   border-right: 1px solid #e7e7e7;
+   border-left: 1px solid #e7e7e7;
+   border-bottom: 1px solid #e7e7e7;
+   font-weight: 600;
+}
+
+.last_phone_brand:hover {
+   color: white;
+   background-color: #3f7ec2;
+}

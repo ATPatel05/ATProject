@@ -1,0 +1,335 @@
+.phone_intro {
+   display: flex;
+}
+
+.detail {
+   display: flex;
+   align-items: baseline;
+}
+
+.phone_details {
+   display: flex;
+   flex-direction: column;
+   float: left;
+   padding-top: 20px;
+   padding-left: 10px;
+}
+
+.details_label {
+   color: #3f7ec2;
+   background-color: #d5d7da5a;
+   font: bold small tahoma;
+   font-size: 0.83rem;
+   padding: 3px;
+   margin: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #c2d7f6eb;
+   border-right-style: solid;
+   border-right-color: #b3c6e6cb;
+   border-left-style: solid;
+   border-left-color: #e5ecf6;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   width: 100px;
+   min-width: 100px;
+   display: block;
+   clear: left;
+   float: left;
+}
+
+.details_phone_link {
+   font-size: 0.89rem;
+   color: #3f7ec2;
+   float: left;
+   padding: 2px;
+}
+
+.specifications_section {
+   margin-top: 30px;
+}
+
+.specifications {
+   padding-top: 15px;
+}
+
+.specifications_table {
+   width: 100%;
+   border-collapse: collapse;
+   border: 1px solid #f0f0f0;
+   background-color: #fafafaa3;
+   border-bottom: 7px solid #d5d7da8f;
+}
+
+.specifications_table_data {
+   font-size: 0.89rem;
+   border-bottom: 1px solid #f0f0f0;
+   padding: 3px;
+}
+
+.hData {
+   color: #606061;
+   vertical-align: top;
+   width: 120px;
+   font-weight: 700;
+   font-size: 1rem;
+   border-bottom: 1px solid #f0f0f0;
+   padding: 4px 8px;
+}
+
+.specifications_table_head {
+   vertical-align: top;
+   font: bold small tahoma;
+   text-align: left;
+   width: 95px;
+   font-size: 16px;
+   padding: 5px 10px;
+   color: #3f7ec2;
+   max-width: 100px;
+   text-transform: uppercase;
+
+}
+
+.specifications_table_head_up {
+   display: none;
+   font: bold small tahoma;
+   vertical-align: top;
+   text-align: left;
+   font-size: 13px;
+   padding: 4px 8px;
+   text-transform: uppercase;
+   background-color: #e6e7e95a;
+   color: #3f7ec2;
+}
+
+.details_span {
+   font-size: 0.89rem;
+   float: left;
+   padding: 2px;
+   margin: 1px;
+}
+
+.phone_post {
+   width: 98px;
+   cursor: pointer;
+}
+
+.phone_name {
+   text-align: center;
+   color: #535e6b;
+   background-color: hsla(0, 0%, 96%, 0.485);
+   display: block;
+   font-size: 0.7rem;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+.mobile_blog {
+   width: 100%;
+}
+
+.post_image {
+   padding: 10px 10px 4px 10px;
+   display: block;
+   width: 200px;
+   min-width: 200px;
+}
+
+.post_link {
+   text-align: center;
+}
+
+.all_posts {
+   float: left;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.phone_review_section {
+   margin-top: 15px;
+   padding-left: 5px;
+   padding-right: 10px;
+   display: flex;
+}
+
+.mobile_review_blog {
+   margin-top: 5px;
+}
+
+.phone_review_blog {
+   text-align: center;
+   color: #3f7ec2;
+   font-weight: 600;
+   font-size: 1rem;
+}
+
+.details_phone_link:hover {
+   text-decoration: underline;
+}
+
+.phone_post:hover .phone_name {
+   background-color: #3f7ec2;
+   color: white;
+}
+
+.phone_review_blog:hover {
+   text-decoration: underline;
+}
+
+.phone_review_blog_description {
+   font-size: 0.82rem;
+}
+
+.modile_extra_data {
+   width: 540px;
+   display: flex;
+   flex-direction: column;
+}
+
+.amazon_logo {
+   height: 21px;
+}
+
+.price_list {
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+}
+
+.affLink {
+   font-size: 1rem;
+   display: flex;
+   width: 190px;
+   justify-content: space-between;
+   align-content: center;
+   float: left;
+   margin-left: 6px;
+   padding: 7px;
+}
+
+.affLink:hover .phone_price{
+   text-decoration: underline;
+}
+
+.price_aff_section {
+   margin-top: 30px;
+}
+
+.phone_price {
+   font-size: 0.9rem;
+   color: #3f7ec2;
+}
+
+.Price_Aff {
+   margin-top: 15px;
+   display: flex;
+   margin-right: 10px;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+.ram_heading {
+   color: #606061;
+   vertical-align: top;
+   min-width: 100px;
+   font-weight: 600;
+   font-size: 1rem;
+   padding: 5px 10px;
+   margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 850px) {
+   .modile_extra_data {
+      width: 450px;
+   }
+}
+
+@media screen and (max-width: 780px) {
+   .mobile_blog {
+      width: 100%;
+      max-width: 100%;
+      padding: 0px;
+   }
+}
+
+@media screen and (max-width: 730px) {
+
+   .container {
+      flex-direction: column;
+   }
+
+   .modile_extra_data {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 612px) {
+   .phone_post {
+      width: 111px;
+   }
+}
+
+@media screen and (max-width: 585px) {
+   .detail {
+      flex-direction: column;
+   }
+
+   .details_span {
+      font-size: 0.8rem;
+   }
+
+   .details_label {
+      width: 100%;
+      font-size: 0.89rem;
+   }
+
+   .ram_heading {
+      font-size: 13px;
+   }
+
+   .phone_price {
+      font-size: 0.83rem;
+   }
+
+   .hData {
+      font-size: 0.89rem;
+   }
+
+   .specifications_table_data {
+      font-size: 0.76rem;
+   }
+
+   .specifications_table_head_up {
+      display: table-cell;
+   }
+
+
+   .specifications_table_head {
+      display: none;
+   }
+}
+
+
+
+@media screen and (max-width: 436px) {
+   .phone_intro {
+      flex-direction: column;
+   }
+
+   .phone_post {
+      width: 96px;
+   }
+
+   .post_image {
+      margin: auto;
+   }
+}
+
+
+
+@media screen and (max-width: 367px) {
+   .phone_post {
+      width: 100px;
+   }
+}

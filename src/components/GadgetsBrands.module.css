@@ -1,0 +1,75 @@
+.modile_phone_finder {
+   box-sizing: border-box;
+   width: 157px;
+   min-width: 157px;
+   display: flex;
+   flex-direction: column;
+}
+
+.select_gadgets_Accessories {
+   margin-top: 30px;
+}
+
+.phone_brand_heading {
+   text-align: center;
+   background-color: #3f7ec2;
+   font: bold small tahoma;
+   font-size: 0.89rem;
+   text-transform: uppercase;
+   color: white;
+   margin: auto;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   margin-bottom: 2px;
+}
+
+.phone_brand {
+   text-align: center;
+   color: #3f7ec2;
+   margin: auto;
+   border-top: 1px solid #e7e7e7;
+   border-right: 1px solid #e7e7e7;
+   border-left: 1px solid #e7e7e7;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+.phone_brand:hover {
+   color: white;
+   background-color: #3f7ec2;
+}
+
+.phone_brand_link {
+   width: 100%;
+   font: bold small tahoma;
+   font-size: 0.89rem;
+   text-transform: uppercase;
+   display: block;
+   padding: 7px;
+}
+
+.last_phone_brand {
+   text-align: center;
+   color: #3f7ec2;
+   margin: auto;
+   border-top: 1px solid #e7e7e7;
+   border-right: 1px solid #e7e7e7;
+   border-left: 1px solid #e7e7e7;
+   border-bottom: 1px solid #e7e7e7;
+   font-weight: 600;
+}
+
+.last_phone_brand:hover {
+   color: white;
+   background-color: #3f7ec2;
+}
+
+@media screen and (max-width: 780px) {
+   .modile_phone_finder {
+      display: none;
+   }
+
+   .modile_phone_finder {
+      width: 100%;
+   }
+}

@@ -79,16 +79,7 @@ export async function generateMetadata() {
 const page = () => {
    return (
       <main className={styles.container}>
-         <h1 className={styles.title}>{InnovativeIdeasPage.title}</h1>
-         {InnovativeIdeasPage.introduction.map((para, index) => (
-            <p key={index} className={styles.table_content_list}>
-               {para.paragraph}
-            </p>
-         ))}
-         <SectionHeader >Innovative Blog</SectionHeader>
-         {InnovativeIdeasBlogsList.map((blog, index) => (
-            <BusinessBlogCard key={index} businessBlog={blog} />
-         ))}
+         
       </main>
    )
 }

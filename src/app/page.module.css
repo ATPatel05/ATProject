@@ -1,94 +1,94 @@
 .container {
-   width: 95%;
-   max-width: 700px;
-   padding: 10px;
-   margin: 0 auto;
-}
-
-.title {
-   font-size: 2rem;
-   font-weight: bold;
-   margin-top: 30px;
-}
-
-.guide_list_heading {
-   color: #3c3939;
-   font-size: 1.4rem;
-   font-weight: 500;
+   margin: auto;
+   padding: 8px;
+   width: 100%;
+   max-width: 1000px;
    margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   gap: 8px;
 }
 
-.table_box {
-   margin-top: 10px;
+.mobile_blog {
+   width: 100%;
+   max-width: 100%;
+   box-sizing: border-box;
+   overflow: hidden;  /* Critical fix: prevent children from overflowing */
+   margin-right: 10px;
 }
 
-.table_content_list {
-   list-style-type: disc;
-   font-size: 21px;
-   color: #1d1d1d;
-   margin-top: 4px;
-   margin-left: 30px;
+.phone_review_section {
+   
+   padding-left: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
 }
 
-.headning_red_line {
-   font-size: 1.4rem;
-   margin: 15px 0;
-   margin-top: 13px;
+.mobile_review_blog {
+   margin-top: 5px;
 }
 
-@media screen and (max-width: 768px) {
-   .title {
-      font-size: 1.7rem;
-   }
+.phone_review_blog {
+   text-align: center;
+   color: #3f7ec2;
+   font-weight: 600;
+   font-size: 1rem;
+}
 
-   .table_content_list {
-      font-size: 16px;
-      margin-left: 25px;
-   }
+.phone_review_blog:hover {
+   text-decoration: underline;
+}
 
-   .headning_red_line {
-      font-size: 1.1rem;
-   }
+.phone_review_blog_description {
+   font-size: 0.82rem;
+}
 
-   .guide_list_heading {
-      font-size: 1.1rem;
+.all_phones {
+   display: flex;
+   overflow-x: auto;
+   align-items: center;
+   scroll-snap-type: x mandatory;
+   -webkit-overflow-scrolling: touch;
+   width: 100%;
+}
+
+.all_phones::-webkit-scrollbar {
+   display: none;
+}
+
+.all_phones>* {
+   flex: 0 0 auto;
+}
+
+.modile_extra_data {
+   width: 450px;
+   display: flex;
+   flex-direction: column;
+}
+
+@media screen and (max-width: 850px) {
+   .modile_extra_data {
+      width: 450px;
    }
 }
 
-@media screen and (max-width: 530px) {
-   .title {
-      font-size: 1.5rem;
-   }
-
-   .table_content_list {
-      font-size: 15px;
-      margin-left: 20px;
-   }
-
-   .headning_red_line {
-      font-size: 0.97rem;
-   }
-
-   .guide_list_heading {
-      font-size: 0.97rem;
+@media screen and (max-width: 780px) {
+   .mobile_blog {
+      width: 100%;
+      max-width: 100%;
+      padding: 0px;
    }
 }
 
-@media screen and (max-width: 400px) {
-   .title {
-      font-size: 1.3rem;
+@media screen and (max-width: 730px) {
+
+   .container {
+      flex-direction: column;
    }
 
-   .table_content_list {
-      font-size: 12px;
-      margin-left: 18px;
+   .modile_extra_data {
+      width: 100%;
    }
 
-   .headning_red_line {
-      font-size: 0.97rem;
-   }
-
-   .guide_list_heading {
-      font-size: 0.97rem;
-   }
 }

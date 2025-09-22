@@ -1,31 +1,36 @@
 const baseUrl = "https://www.skilluplines.com";
 
-import TopBusinessIdeasBlogsListSitemap from '@/blogData/TopBusinessIdeasBlogsList';
-import ManagementStrategiesListSitemap from '@/blogData/ManagementStrategiesBlogsList';
-import MarketingStrategiesListSitemap from '@/blogData/MarketingStrategiesBlogsList';
-import BuisnessOperationBlogsListSitemap from '@/blogData/OperationsIdeasBlogsList';
-import InnovativeBlogsListSitemap from '@/blogData/InnovativeIdeasBlogsList';
+import { AllSamsungPhonesList } from '@/PhoneData/SamsungPhonesList';
 
 const staticPages = [
    { path: "/", changefreq: "daily", priority: 1.0 },
-   { path: "/business-blog/ySense", changefreq: "weekly", priority: 0.9 },
-   { path: "/business-blog-pages/Business-management-strategies-blogs", changefreq: "weekly", priority: 0.9 },
-   { path: "/business-blog-pages/Business-marketing-strategies-blogs", changefreq: "weekly", priority: 0.9 },
-   { path: "/business-blog-pages/Business-operations-blogs", changefreq: "weekly", priority: 0.9 },
-   { path: "/business-blog-pages/Business-innovation-ideas-blogs", changefreq: "weekly", priority: 0.9 },
+   { path: "/Gadgets", changefreq: "weekly", priority: 0.9 },
+   { path: "/LuxuryProducts", changefreq: "weekly", priority: 0.9 },
+   { path: "/SamsungPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/ApplePhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/GooglePixelPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/OnePlusPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/OppoPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/VivoPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/RealmePhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/IQOOPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/XiaoMIPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/InfinixPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/SonyPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/LenovoPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/MotarolaPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/XoloPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/LavaPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/PocoPhones", changefreq: "weekly", priority: 0.9 },
+   { path: "/NokiaPhones", changefreq: "weekly", priority: 0.9 },
 ];
 
 const blogUrls = [
-   ...TopBusinessIdeasBlogsListSitemap,
-   ...ManagementStrategiesListSitemap,
-   ...MarketingStrategiesListSitemap,
-   ...BuisnessOperationBlogsListSitemap,
-   ...InnovativeBlogsListSitemap,
+   ...AllSamsungPhonesList,
 ];
 
 export async function GET() {
    const urls = [];
-
 
    for (const page of staticPages) {
       urls.push(`
@@ -40,13 +45,12 @@ export async function GET() {
    for (const blog of blogUrls) {
       urls.push(`
       <url>
-        <loc>${baseUrl}${blog.folderPath}/${blog.slug}</loc>
+        <loc>${baseUrl}/${blog.folderPath}/${blog.slug}</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
       </url>
     `);
    }
-
 
    const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

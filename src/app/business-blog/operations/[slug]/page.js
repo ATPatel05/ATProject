@@ -1,4 +1,4 @@
-import BusinessBlogContentPost from '@/components/BusinessBlogContentPost';
+import BusinessBlogContentPost from '@/components/PhonePriceSpecification';
 import styles from './page.module.css';
 import { BuisnessOperationBlogsList } from '@/blogData/OperationsIdeasBlogsList';
 

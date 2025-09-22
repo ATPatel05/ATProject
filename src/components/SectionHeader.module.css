@@ -1,24 +1,30 @@
 .section_heaning {
-   font-size: 25px;
+   width: 100%;
+   font-size: 19px;
    font-weight: bold;
    display: flex;
+   background-color: hsla(0, 0%, 96%, 0.556);
    align-items: center;
    gap: 11px;
-   margin-bottom: 15px;
-   margin-top: 44px;
 }
 
 .red_border {
    width: 6px;
    height: 16px;
-   background-color: red;
+   background-color: #3f7ec2;
    padding-top: 17px;
    padding-bottom: 17px;
 }
 
+@media screen and (max-width: 850px) {
+   .section_heaning {
+      font-size: 17px;
+   }
+}
+
 @media screen and (max-width: 768px) {
    .section_heaning {
-      font-size: 23px;
+      font-size: 16px;
    }
 
    .red_border {
@@ -29,7 +35,7 @@
 
 @media screen and (max-width: 530px) {
    .section_heaning {
-      font-size: 21px;
+      font-size: 15px;
    }
 
    .red_border {
@@ -40,6 +46,6 @@
 
 @media screen and (max-width: 400px) {
    .section_heaning {
-      font-size: 19px;
+      font-size: 16px;
    }
 }

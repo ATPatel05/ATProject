@@ -1,16 +1,122 @@
 .navbar {
-   background-color: rgba(247, 247, 247, 0.523);
-   justify-content: center;
+   background-color: #3f7ec2;
+   justify-content: space-between;
    display: flex;
    align-items: center;
    height: 75px;
+   width: 100%;
+   max-width: 1000px;
+   margin: auto;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
 }
 
 .nav_image {
    max-width: 260px;
    height: auto;
    width: 100%;
-   mix-blend-mode: multiply;
+   border-radius: 4px;
+   margin-left: 12px;
+   margin-right: auto;
+}
+
+.nav_link {
+   color: #fff;
+   height: 100%;
+   float: left;
+   text-align: center;
+   font-size: 17px;
+   font-weight: 500;
+   padding: 28px 10px 28px 10px;
+   text-transform: uppercase;
+   line-height: 1.1;
+}
+
+.nav_link:hover {
+   color: #3f7ec2;
+   background-color: white;
+}
+
+.nav_link_list {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   gap: 10;
+   margin-right: 30px;
+}
+
+.phone_brand_heading {
+   text-align: center;
+   background-color: #3f7ec2;
+   font: bold small tahoma;
+   font-size: 0.89rem;
+   text-transform: uppercase;
+   color: white;
+   margin: auto;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+.phone_brand {
+   text-align: center;
+   color: #3f7ec2;
+   margin: auto;
+   font-weight: 600;
+   cursor: pointer;
+   padding-top: 0.123rem;
+   padding-bottom: 0.123rem;
+}
+
+.phone_brand_link {
+   width: 100%;
+   color: #3f7ec2;
+   background-color: white;
+   font: bold small tahoma;
+   /* border-bottom: 1px solid #e7e7e7;
+   border-right: 1px solid #e7e7e7; */
+   font-size: 0.89rem;
+   text-transform: uppercase;
+   display: block;
+   display: flex;
+   justify-content: center;
+   padding: 7px;
+}
+
+.last_phone_brand {
+   text-align: center;
+   color: #3f7ec2;
+   margin: auto;
+   border-top: 1px solid #e7e7e7;
+   border-right: 1px solid #e7e7e7;
+   border-bottom: 1px solid #e7e7e7;
+   font-weight: 600;
+}
+
+.phone_brand_link:hover {
+   color: white;
+   background-color: #3f7ec2;
+}
+
+.phone_brands {
+   display: none;
+   background-color: white;
+   position: absolute;
+   top: 50px;
+   left: 0;
+   right: 0;
+   flex-direction: column;
+   height: auto;
+   width: 100%;
+   max-width: 300px;
+   list-style-position: initial;
+}
+
+.menu {
+   display: none;
+}
+
+.all_lists {
+   border-bottom: 1px solid #e7e7e7;
 }
 
 .linkWrapper {
@@ -37,22 +143,147 @@
    margin: 0;
 }
 
+.link_heading {
+   margin-top: 10px;
+   margin-bottom: 7px;
+}
+
+.nav_link_row {
+   display: flex;
+   padding-top: 0.13rem;
+   padding-bottom: 0.13rem;
+   border-right: 1px solid #e7e7e7;
+}
+
+.Toggle_Button {
+   max-width: 50px;
+   height: auto;
+   width: 100%;
+   border-radius: 4px;
+   margin-right: 20px;
+}
+
+.showMenu {
+   opacity: 0;
+   max-height: auto;
+   transition: all 0.3s;
+}
+
 @media screen and (max-width: 768px) {
    .navbar {
+      width: auto;
       height: 60px;
    }
 
    .nav_image {
-      max-width: 225px;
+      max-width: 230px;
+      border-radius: 4px;
+      margin-left: 10px;
+   }
+
+   .Toggle_Button {
+      max-width: 45px;
+   }
+
+   .nav_link {
+      font-size: 14px;
+      width: 96%;
+      border-radius: 8px;
+   }
+}
+
+@media screen and (max-width: 850px) {
+   .nav_link {
+      font-size: 14px;
+   }
+}
+
+@media screen and (max-width: 780px) {
+   .navbar {
+      width: auto;
+      height: 60px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+   }
+
+   .nav_image {
+      max-width: 230px;
+      border-radius: 4px;
+      margin-left: 10px;
+   }
+
+   .Toggle_Button {
+      max-width: 45px;
+   }
+
+   .nav_link_list {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      background-color: #3f7ec2;
+      height: auto;
+      width: 100%;
+      list-style-position: initial;
+
+   }
+
+   .phone_brands {
+      top: 60px;
+   }
+
+   .nav_link {
+      padding: 10px;
+   }
+
+   .menu {
+      display: block;
+   }
+
+   .showMenu {
+      opacity: 1;
+      max-height: auto;
+      transition: all 0.3s;
+   }
+
+   .showphoneBrands {
+      display: block;
+      max-height: auto;
+      transition: all 0.3s;
+   }
+
+   .closeMenu {
+      display: none;
+      transition: all 0.3s;
+   }
+
+   .closephoneBrands {
+      display: none;
+      transition: all 0.3s;
    }
 }
 
 @media screen and (max-width: 500px) {
+   .nav_link_list {
+      top: 50px;
+   }
+
+   .phone_brands {
+      top: 50px;
+   }
+
    .navbar {
       height: 50px;
    }
 
    .nav_image {
-      max-width: 180px;
+      max-width: 170px;
+      border-radius: 2px;
+   }
+
+   .Toggle_Button {
+      max-width: 40px;
+      border-radius: 3px;
    }
 }
