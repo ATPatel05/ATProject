@@ -1,8 +1,21 @@
 import PhoneBrands from '@/components/PhoneBrands';
 import styles from './page.module.css';
 import SectionHeader from "@/components/SectionHeader";
-import { AllSamsungPhonesList } from '@/PhoneData/SamsungPhonesList';
 import PhonePost from '@/components/PhonePost';
+import { AllSamsungPhonesList } from '@/PhoneData/SamsungPhonesList';
+import { AllApplePhonesList } from '@/PhoneData/ApplePhonesList';
+import { AllGooglePhonesList } from '@/PhoneData/GooglePhonesList';
+import { AllOnePlusPhonesList } from '@/PhoneData/OnePlusPhonesList';
+import { AllOppoPhonesList } from '@/PhoneData/OppoPhonesList';
+import { AllXiaoMIPhonesList } from '@/PhoneData/XiaoMIPhonesList';
+import { AllVivoPhonesList } from '@/PhoneData/VivoPhonesList';
+import { AllRealmePhonesList } from '@/PhoneData/RealMePhones';
+import { AllIQOOPhonesList } from '@/PhoneData/IQOOPhonesList';
+import { AllBlackViewPhonesList } from '@/PhoneData/BlackviewPhonesLists';
+import { AllSonyPhonesList } from '@/PhoneData/SonyPhonesLists';
+import { AllMotarolaPhonesList } from '@/PhoneData/MotarolaPhonesLists';
+import { AllLavaPhonesList } from '@/PhoneData/LavaPhonesLists';
+import { AllPocoPhonesList } from '@/PhoneData/PocoPhonesLists';
 
 export default function HomePage() {
   return (
@@ -21,7 +34,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>Apple Phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllApplePhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -29,7 +42,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>Google Phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllGooglePhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -37,7 +50,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>OnePlus Phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllOnePlusPhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -45,7 +58,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>Oppo Phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllOppoPhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -53,7 +66,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>XiaoMI Phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllXiaoMIPhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -61,7 +74,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>Vivo Phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllVivoPhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -69,7 +82,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>Realme Phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllRealmePhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -77,7 +90,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>IQOO Phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllIQOOPhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -85,7 +98,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>BlackView Phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllBlackViewPhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -93,7 +106,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>Sony Phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllSonyPhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -101,7 +114,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>Motarola Phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllMotarolaPhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -109,7 +122,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>Lava phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllLavaPhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
@@ -117,7 +130,7 @@ export default function HomePage() {
           <section className={styles.phone_review_section}>
             <SectionHeader>Poco phones</SectionHeader>
             <section className={styles.all_phones}>
-              {AllSamsungPhonesList.map((phone, index) => (
+              {AllPocoPhonesList.map((phone, index) => (
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>

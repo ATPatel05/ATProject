@@ -4,6 +4,21 @@ import SectionHeader from "@/components/SectionHeader";
 import GadgetsBrands from '@/components/GadgetsBrands';
 import { AllSamsungPhonesList } from '@/PhoneData/SamsungPhonesList';
 import PhonePost from '@/components/PhonePost';
+import { AllBoATGadgetsList } from '@/GadgetData/AllBoATGadgetsList';
+import { AllJBLGadgetsList } from '@/GadgetData/AllJBLGadgetsList';
+import { AllAppleGadgetsList } from '@/GadgetData/AllAppleGadgetsList';
+import { AllSamsungGadgetsList } from '@/GadgetData/AllSamsungGadgetsList';
+import { AllOnePlusGadgetsList } from '@/GadgetData/AllOnePlusGadgetsList';
+import { AllSonyGadgetsList } from '@/GadgetData/AllSonyGadgetsList';
+import { AllOppoGadgetsList } from '@/GadgetData/AllOppoGadgetsList';
+import { AllZebronicsGadgetsList } from '@/GadgetData/AllZebronicsGadgetsList';
+import { AllPortonicsGadgetsList } from '@/GadgetData/AllPortonicsGadgetsList';
+import { AllSoundcoreGadgetsList } from '@/GadgetData/AllSoundcoreGadgetsList';
+import { AllGoboultGadgetsList } from '@/GadgetData/AllGoboultGadgetsList';
+import { AllNoiceGadgetsList } from '@/GadgetData/AllNoiseGadgetsList';
+import { AllMiviGadgetsList } from '@/GadgetData/AllMiviGadgetsList';
+import { AllAmazonBasisGadgetsList } from '@/GadgetData/AllAmazonBasisGadgetsList';
+import { AllDigitekGadgetsList } from '@/GadgetData/AllDigitekGadgetsList';
 
 export function generateMetadata() {
 
@@ -87,33 +102,9 @@ const page = () => {
       <GadgetsBrands />
       <div className={styles.mobile_blog}>
         <section className={styles.phone_review_section}>
-          <SectionHeader>Apple Gadgets</SectionHeader>
-          <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
-              <PhonePost key={index} phone={phone} />
-            ))}
-          </section>
-        </section>
-        <section className={styles.phone_review_section}>
-          <SectionHeader>Samsung Gadgets</SectionHeader>
-          <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
-              <PhonePost key={index} phone={phone} />
-            ))}
-          </section>
-        </section>
-        <section className={styles.phone_review_section}>
-          <SectionHeader>OnePlus Gadgets</SectionHeader>
-          <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
-              <PhonePost key={index} phone={phone} />
-            ))}
-          </section>
-        </section>
-        <section className={styles.phone_review_section}>
           <SectionHeader>BoAT Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllBoATGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
@@ -121,7 +112,31 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>JBL Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllJBLGadgetsList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
+        </section>
+        <section className={styles.phone_review_section}>
+          <SectionHeader>Apple Gadgets</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllAppleGadgetsList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
+        </section>
+        <section className={styles.phone_review_section}>
+          <SectionHeader>Samsung Gadgets</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllSamsungGadgetsList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
+        </section>
+        <section className={styles.phone_review_section}>
+          <SectionHeader>OnePlus Gadgets</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllOnePlusGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
@@ -129,7 +144,7 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>Sony Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllSonyGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
@@ -137,7 +152,7 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>Oppo Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllOppoGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
@@ -145,7 +160,7 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>Zebronics Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllZebronicsGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
@@ -153,7 +168,7 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>Portonics Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllPortonicsGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
@@ -161,7 +176,7 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>Soundcore Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllSoundcoreGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
@@ -169,7 +184,7 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>Goboult Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllGoboultGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
@@ -177,7 +192,7 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>Noise Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllNoiceGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
@@ -185,7 +200,7 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>Mivi Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllMiviGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
@@ -193,7 +208,7 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>Amazon Basis</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllAmazonBasisGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
@@ -201,7 +216,7 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>Digitek Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllSamsungPhonesList.map((phone, index) => (
+            {AllDigitekGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>

@@ -11,34 +11,22 @@
 
 .mobile_blog {
    width: 100%;
-   max-width: 100%;
-   box-sizing: border-box;
-   overflow: hidden;  /* Critical fix: prevent children from overflowing */
-   margin-right: 10px;
 }
 
-.phone_review_section {  
+.post_link {
+   text-align: center;
+}
+
+.all_posts {
+   float: left;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.phone_review_section {
    padding-left: 5px;
    display: flex;
    flex-wrap: wrap;
-   margin-bottom: 30px;
-}
-
-.all_phones {
-   display: flex;
-   overflow-x: auto;
-   align-items: center;
-   scroll-snap-type: x mandatory;
-   -webkit-overflow-scrolling: touch;
-   width: 100%;
-}
-
-.all_phones::-webkit-scrollbar {
-   display: none;
-}
-
-.all_phones>* {
-   flex: 0 0 auto;
 }
 
 .mobile_review_blog {
@@ -51,6 +39,7 @@
    font-weight: 600;
    font-size: 1rem;
 }
+
 
 .phone_review_blog:hover {
    text-decoration: underline;
@@ -85,6 +74,7 @@
    .container {
       flex-direction: column;
    }
+
 
    .modile_extra_data {
       width: 100%;
