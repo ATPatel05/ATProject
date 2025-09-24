@@ -1,20 +1,3 @@
-export const ApplePageSEO = {
-   title: 'Best small business ideas and Guide to start in 2025',
-   Description: 'We offer these small business ideas blogs with key points as a business blueprint to help entrepreneurs build a high-value, sustainable business in 2025 and beyond.',
-   keywords: [
-      "luxury hotel business",
-      "how to start a hotel",
-      "hotel business ideas",
-      "luxury resort setup",
-      "hotel management tips",
-      "profitable hotel business",
-      "hotel marketing strategies",
-      "build hotel brand",
-      "tourism business ideas",
-      "hotel investment plan",
-   ],
-}
-
 export const AllApplePhonesList = [
    {
       title: "Samsung S25 Ultra Phone details price in india, usa, canada, UK and germany and available on amazon",
@@ -33,9 +16,9 @@ export const AllApplePhonesList = [
       Memory: '128GB/256GB/512GB storage , no card slot',
       Battery: '4900 mAh',
       PhoneDescription: '',
-      ManufacturerLink: '/AllPhoneBrands/SamsungPhones',
+      ManufacturerLink: '/AllPhoneBrands/ApplePhones',
       image: "/SamsangPhones/Samsung.jpeg",
-      folderPath: 'AllPhoneBrands/SamsungPhone',
+      folderPath: 'AllPhoneBrands/ApplePhone',
       disclaimerMessage: 'Your business idea should align with your budget, skills, and availability. It should address a market need and offer the potential for sustainable growth. Experience, training, or licensing may be required depending on the industry..',
       keywords: [
          "luxury hotel business",

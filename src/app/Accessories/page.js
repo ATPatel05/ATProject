@@ -11,7 +11,6 @@ export function generateMetadata() {
   const fullUrl = `${siteUrl}/Gadgets`;
   const title = "Phone Accessories & gadgets with Specificatio. Buy in india, USA, Canada | SkillUpLines"
   const description = "Buy All Brand gadgets with Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones , Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK. Fast Delivery & Great Deals.";
-
   const keywords = [
     "Latest gadgets",
     "Latest headphones",

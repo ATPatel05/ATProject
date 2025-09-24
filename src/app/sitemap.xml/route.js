@@ -38,6 +38,15 @@ const staticPages = [
    { path: "/AllGadgets/SonyGadgets", changefreq: "weekly", priority: 0.9 },
    { path: "/AllGadgets/SoundcoreGadgets", changefreq: "weekly", priority: 0.9 },
    { path: "/AllGadgets/ZebronicsGadgets", changefreq: "weekly", priority: 0.9 },
+   { path: "/AllLuxuryProducts/LuxuryBags", changefreq: "weekly", priority: 0.9 },
+   { path: "/AllLuxuryProducts/LuxuryBreslates", changefreq: "weekly", priority: 0.9 },
+   { path: "/AllLuxuryProducts/LuxuryGoggleses", changefreq: "weekly", priority: 0.9 },
+   { path: "/AllLuxuryProducts/LuxuryHandBags", changefreq: "weekly", priority: 0.9 },
+   { path: "/AllLuxuryProducts/LuxuryMakeUpKits", changefreq: "weekly", priority: 0.9 },
+   { path: "/AllLuxuryProducts/LuxuryNacklaces", changefreq: "weekly", priority: 0.9 },
+   { path: "/AllLuxuryProducts/LuxuryPerfumes", changefreq: "weekly", priority: 0.9 },
+   { path: "/AllLuxuryProducts/LuxuryShoses", changefreq: "weekly", priority: 0.9 },
+   { path: "/AllLuxuryProducts/LuxuryWatches", changefreq: "weekly", priority: 0.9 },
 ];
 
 const blogUrls = [

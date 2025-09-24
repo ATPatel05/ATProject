@@ -2,6 +2,16 @@ import React from 'react'
 import styles from './page.module.css';
 import SectionHeader from "@/components/SectionHeader";
 import LuxuryProducts from '@/components/LuxuryProducts';
+import PhonePost from '@/components/PhonePost';
+import { AllLuxuryWatchList } from '@/LuxuryItemsData/LuxuryWatchList';
+import { AllLuxuryHandBagList } from '@/LuxuryItemsData/LuxuryHandBagList';
+import { AllLuxuryBreslateList } from '@/LuxuryItemsData/LuxuryBreslateList';
+import { AllLuxuryPerfumeList } from '@/LuxuryItemsData/LuxuryPerfumeList';
+import { AllLuxuryShoseList } from '@/LuxuryItemsData/LuxuryShoseList';
+import { AllLuxuryNacklaceList } from '@/LuxuryItemsData/LuxuryNacklaceList';
+import { AllLuxuryGogglesList } from '@/LuxuryItemsData/LuxuryGogglesList';
+import { AllLuxuryMakeUpKitList } from '@/LuxuryItemsData/LuxuryMakeUpKitList';
+import { AllLuxuryBagList } from '@/LuxuryItemsData/LuxuryBagList';
 
 export function generateMetadata() {
 
@@ -9,7 +19,6 @@ export function generateMetadata() {
   const fullUrl = `${siteUrl}/Gadgets`;
   const title = "Luxury Products full Specification. Buy in india, USA, Canada, Germany | SkillUpLines"
   const description = "Buy luxury items with Full Specifications Online at Best Prices on Amazon. Shop Top watch, Hand Bag, Breslate  Perfume, Shose, NeckLace, Goggles & MackUp Kit in India, USA, Canada, Germany & UK. Fast Delivery & Great Deals.";
-
   const keywords = [
     "Luxury Items",
     "expensive products",
@@ -89,12 +98,80 @@ const page = () => {
       <LuxuryProducts />
       <div className={styles.mobile_blog}>
         <section className={styles.phone_review_section}>
-          <SectionHeader>Samsung Phones</SectionHeader>
+          <SectionHeader>Watch</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllLuxuryWatchList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
         </section>
-
+        <section className={styles.phone_review_section}>
+          <SectionHeader>Hand Bag</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllLuxuryHandBagList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
+        </section>
+        <section className={styles.phone_review_section}>
+          <SectionHeader>Breslate</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllLuxuryBreslateList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
+        </section>
+        <section className={styles.phone_review_section}>
+          <SectionHeader>Perfume</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllLuxuryPerfumeList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
+        </section>
+        <section className={styles.phone_review_section}>
+          <SectionHeader>Shose</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllLuxuryShoseList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
+        </section>
+        <section className={styles.phone_review_section}>
+          <SectionHeader>Nacklace</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllLuxuryNacklaceList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
+        </section>
+        <section className={styles.phone_review_section}>
+          <SectionHeader>Gogglse</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllLuxuryGogglesList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
+        </section>
+        <section className={styles.phone_review_section}>
+          <SectionHeader>MakeUp Kit</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllLuxuryMakeUpKitList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
+        </section>
+        <section className={styles.phone_review_section}>
+          <SectionHeader>Bag</SectionHeader>
+          <section className={styles.all_phones}>
+            {AllLuxuryBagList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
+          </section>
+        </section>
       </div>
     </main>
   )
 }
 
-export default page
+export default page;
