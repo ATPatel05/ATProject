@@ -16,9 +16,9 @@ export const AllDooGeePhonesList = [
       Memory: '128GB/256GB/512GB storage , no card slot',
       Battery: '4900 mAh',
       PhoneDescription: '',
-      ManufacturerLink: '/AllPhoneBrands/DoogeePhones',
+      ManufacturerLink: '/AllPhoneBrands/GooglePixelPhones',
       image: "/SamsangPhones/Samsung.jpeg",
-      folderPath: 'AllPhoneBrands/DoogeePhone',
+      folderPath: 'AllPhoneBrands/GooglePixelPhone',
       disclaimerMessage: 'Your business idea should align with your budget, skills, and availability. It should address a market need and offer the potential for sustainable growth. Experience, training, or licensing may be required depending on the industry..',
       keywords: [
          "luxury hotel business",
