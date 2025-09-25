@@ -1,5 +1,6 @@
 import styles from './page.module.css';
 import PhoneBrands from '@/components/PhoneBrands';
+import PhonePost from '@/components/PhonePost';
 import SectionHeader from '@/components/SectionHeader';
 import { AllVivoPhonesList } from '@/PhoneData/VivoPhonesList';
 
