@@ -1,9 +1,9 @@
 import styles from './page.module.css';
+import PhonePost from '@/components/PhonePost';
 import PhoneBrands from '@/components/PhoneBrands';
 import SectionHeader from '@/components/SectionHeader';
 import { AllDooGeePhonesList } from '@/PhoneData/DooGeePhonesList';
 
-import PhonePost from '@/components/PhonePost';
 // export function generateMetadata() {
 
 //   const siteUrl = "https://www.skilluplines.com";
