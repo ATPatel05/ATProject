@@ -1,6 +1,7 @@
 import styles from './page.module.css';
 import PhoneBrands from '@/components/PhoneBrands';
-import SectionHeader from '@/components/SectionHeader';
+import PhonePriceSpecification from '@/components/PhonePriceSpecification';
+import { AllDooGeePhonesList } from '@/PhoneData/DooGeePhonesList';
 
 // export async function generateMetadata({ params }) {
 //    const resolvedParams = await params;
@@ -79,17 +80,17 @@ import SectionHeader from '@/components/SectionHeader';
 // }
 
 
-export default function Page() {
+export default async function Page({ params }) {
+
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug;
+  const phoneDetails = AllDooGeePhonesList.find(item => item.slug === slug);
 
   return (
     <main className={styles.container}>
       <PhoneBrands />
       <div className={styles.mobile_blog}>
-        <SectionHeader>Latest Doogee Phones</SectionHeader>
-        <div className={styles.maintainence}>
-          <p className={styles.message}>Site is in Maintenance</p>
-          <p className={styles.message}>All items will be available in short time</p>
-        </div>
+        <PhonePriceSpecification phoneDetails={phoneDetails} />
       </div>
     </main>
   );

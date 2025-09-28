@@ -55,21 +55,6 @@
    flex-direction: column;
 }
 
-.maintainence{
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-}
-
-.message{
-   width: 100%;
-   color: #3f7ec2;
-   font: bold small tahoma;
-   font-size: 0.89rem;
-   display: block;
-   padding: 7px;
-}
-
 @media screen and (max-width: 850px) {
    .modile_extra_data {
       width: 450px;

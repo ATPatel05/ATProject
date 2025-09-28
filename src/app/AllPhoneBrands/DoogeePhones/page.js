@@ -1,7 +1,7 @@
 import styles from './page.module.css';
-import PhonePost from '@/components/PhonePost';
 import PhoneBrands from '@/components/PhoneBrands';
 import SectionHeader from '@/components/SectionHeader';
+import PhonePost from '@/components/PhonePost';
 import { AllDooGeePhonesList } from '@/PhoneData/DooGeePhonesList';
 
 // export function generateMetadata() {
@@ -81,7 +81,7 @@ export default function Page() {
     <main className={styles.container}>
       <PhoneBrands />
       <div className={styles.mobile_blog}>
-        <SectionHeader>Doogee</SectionHeader>
+        <SectionHeader>Blackiew</SectionHeader>
         <section className={styles.phone_review_section}>
           {AllDooGeePhonesList.map((phone, index) => (
             <PhonePost key={index} phone={phone} />
