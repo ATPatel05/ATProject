@@ -68,57 +68,57 @@ export default function Navbar() {
           </li>
           <li>
             <div className={styles.nav_link_row}>
-              <a href='/AllGadgets/SamsungPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/SamsungPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Samsung
               </a>
-              <a href='/AllGadgets/ApplePhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/ApplePhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Apple
               </a>
-              <a href='/AllGadgets/GooglePixelPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/GooglePixelPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Google
               </a>
             </div>
             <div className={styles.nav_link_row}>
-              <a href='/AllGadgets/OnePlusPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/OnePlusPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 OnePlus
               </a>
-              <a href='/AllGadgets/OppoPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/OppoPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Oppo
               </a>
-              <a href='/AllGadgets/IQOOPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/IQOOPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 IQOO
               </a>
             </div>
             <div className={styles.nav_link_row}>
-              <a href='/AllGadgets/VivoPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/VivoPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Vivo
               </a>
-              <a href='/AllGadgets/RealmePhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/RealmePhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Realme
               </a>
-              <a href='/AllGadgets/GoogeePhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/DooGeePhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Googee
               </a>
             </div>
             <div className={styles.nav_link_row}>
-              <a href='/AllGadgets/PocoPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/PocoPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Poco
               </a>
-              <a href='/AllGadgets/XiaoMIPhone' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/XiaoMIPhone' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 XiaoMI
               </a>
-              <a href='/AllGadgets/MotarolaPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/MotarolaPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Motorola
               </a>
             </div>
             <div className={styles.nav_link_row}>
-              <a href='/AllGadgets/BlackViewPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/BlackViewPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 BlackView
               </a>
-              <a href='/AllGadgets/SonyPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/SonyPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Sony
               </a>
-              <a href='/AllGadgets/LavaPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/LavaPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Lava
               </a>
             </div>
@@ -129,57 +129,57 @@ export default function Navbar() {
           </li>
           <li>
             <div className={styles.nav_link_row}>
-              <a href='/AllAccessories/AppleAccessories' className={styles.phone_brand_link}>
-                Apple
-              </a>
-              <a href='/AllAccessories/SamsungAccessories' className={styles.phone_brand_link}>
-                Samsung
-              </a>
-              <a href='/AllAccessories/OnePlusAccessories' className={styles.phone_brand_link}>
-                OnePlus
-              </a>
-            </div>
-            <div className={styles.nav_link_row}>
-              <a href='/AllAccessories/BoatAccessories' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/BoatGadgets' className={styles.phone_brand_link}>
                 Boat
               </a>
-              <a href='/AllAccessories/JBLAccessories' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/JBLGadgets' className={styles.phone_brand_link}>
                 JBL
               </a>
-              <a href='/AllAccessories/SonyAccessories' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/SonyGadgets' className={styles.phone_brand_link}>
                 Sony
               </a>
             </div>
             <div className={styles.nav_link_row}>
-              <a href='/AllAccessories/OppoAccessories' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/AppleGadgets' className={styles.phone_brand_link}>
+                Apple
+              </a>
+              <a href='/AllGadgets/SamsungGadgets' className={styles.phone_brand_link}>
+                Samsung
+              </a>
+              <a href='/AllGadgets/OnePlusGadgets' className={styles.phone_brand_link}>
+                OnePlus
+              </a>
+            </div>
+            <div className={styles.nav_link_row}>
+              <a href='/AllGadgets/OppoGadgets' className={styles.phone_brand_link}>
                 Oppo
               </a>
-              <a href='/AllAccessories/ZebronicsAccessories' className={styles.phone_brand_link}>
-                Zebronics
+              <a href='/AllGadgets/RealmeGadgets' className={styles.phone_brand_link}>
+                Realme
               </a>
-              <a href='/AllAccessories/PortonicsAccessories' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/PortonicsGadgets' className={styles.phone_brand_link}>
                 Portonics
               </a>
             </div>
             <div className={styles.nav_link_row}>
-              <a href='/AllAccessories/SoundecorAccessories' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/SoundecorGadgets' className={styles.phone_brand_link}>
                 Soundcore
               </a>
-              <a href='/AllAccessories/GoboultAccessories' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/GoboultGadgets' className={styles.phone_brand_link}>
                 Goboult
               </a>
-              <a href='/AllAccessories/NoiseAccessories' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/NoiseGadgets' className={styles.phone_brand_link}>
                 Noise
               </a>
             </div>
             <div className={styles.nav_link_row}>
-              <a href='/AllAccessories/MiviAccessories' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/MiviGadgets' className={styles.phone_brand_link}>
                 Mivi
               </a>
-              <a href='/AllAccessories/AmazonBasisAccessories' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/AmazonBasisGadgets' className={styles.phone_brand_link}>
                 Amazon
               </a>
-              <a href='/AllPhoneBrands/DigitekAccessories' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/DigitekGadgets' className={styles.phone_brand_link}>
                 Digitek
               </a>
             </div>

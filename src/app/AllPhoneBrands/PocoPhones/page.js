@@ -74,8 +74,6 @@ import { AllPocoPhonesList } from '@/PhoneData/PocoPhonesLists';
 //   };
 // }
 
-
-
 export default function Page() {
 
   return (
@@ -89,7 +87,6 @@ export default function Page() {
           ))}
 
         </section>
-
       </div>
     </main>
   );

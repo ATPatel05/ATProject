@@ -1,8 +1,8 @@
-import { AllApplePhonesList } from '@/PhoneData//ApplePhonesList';
 import styles from './page.module.css';
 import SectionHeader from '@/components/SectionHeader';
 import PhonePost from '@/components/PhonePost';
 import GadgetsBrands from '@/components/GadgetsBrands';
+import { AllBoATGadgetsList } from '@/GadgetData/AllBoATGadgetsList';
 
 // export function generateMetadata() {
 
@@ -81,21 +81,12 @@ export default function Page() {
     <main className={styles.container}>
       <GadgetsBrands />
       <div className={styles.mobile_blog}>
-        <SectionHeader>Samsung Latest</SectionHeader>
+        <SectionHeader>BoAT</SectionHeader>
         <section className={styles.phone_review_section}>
-          {AllApplePhonesList.map((phone, index) => (
+          {AllBoATGadgetsList.map((phone, index) => (
             <PhonePost key={index} phone={phone} />
           ))}
         </section>
-
-        <section>
-          <SectionHeader>Latest Phones</SectionHeader>
-        </section>
-
-        <section>
-          <SectionHeader>Populer Phones</SectionHeader>
-        </section>
-
       </div>
     </main>
   );
@@ -105,7 +96,14 @@ export default function Page() {
 
 
 // export default async function Page({ params }) {
+{/* 
+        <section>
+          <SectionHeader>Latest Phones</SectionHeader>
+        </section>
 
+        <section>
+          <SectionHeader>Populer Phones</SectionHeader>
+        </section> */}
 //    const resolvedParams = await params;
 //    const slug = resolvedParams.slug;
 //    const blog = TopBusinessIdeasBlogsList.find(item => item.slug === slug);

@@ -1,15 +1,14 @@
-
 import styles from './page.module.css';
 import PhoneBrands from '@/components/PhoneBrands';
-import { AllSamsungPhonesList } from '@/PhoneData/SamsungPhonesList';
 import PhonePriceSpecification from '@/components/PhonePriceSpecification';
+import { AllSamsungPhonesList } from '@/PhoneData/SamsungPhonesList';
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
-  const blog = AllSamsungPhonesList.find(item => item.slug === slug);
+  const PhoneSEO = AllSamsungPhonesList.find(item => item.slug === slug);
 
-  if (!blog) {
+  if (!PhoneSEO) {
     return {
       title: "Not Found | SkillUpLines",
       description: "This blog post does not exist on SkillUpLines.",
@@ -21,10 +20,10 @@ export async function generateMetadata({ params }) {
     description,
     image,
     keywords
-  } = blog;
+  } = PhoneSEO;
 
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/${slug.folderPath}/${slug}`;
+  const fullUrl = `${siteUrl}/${PhoneSEO.folderPath}/${slug}`;
   const imageUrl = `${siteUrl}${image}`;
 
   return {
@@ -38,7 +37,7 @@ export async function generateMetadata({ params }) {
     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
     creator: "SkillUpLines Team",
     publisher: "SkillUpLines",
-    category: "",
+    category: "Business Ideas, Startup Ideas, Small Business Ideas, Business for Beginners, Online Business, Entrepreneurship",
     robots: {
       index: true,
       follow: true,
@@ -77,7 +76,6 @@ export async function generateMetadata({ params }) {
     }
   };
 }
-
 
 export default async function Page({ params }) {
 

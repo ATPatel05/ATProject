@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './page.module.css';
 import SectionHeader from "@/components/SectionHeader";
 import GadgetsBrands from '@/components/GadgetsBrands';
-import { AllSamsungPhonesList } from '@/PhoneData/SamsungPhonesList';
 import PhonePost from '@/components/PhonePost';
 import { AllBoATGadgetsList } from '@/GadgetData/AllBoATGadgetsList';
 import { AllJBLGadgetsList } from '@/GadgetData/AllJBLGadgetsList';
@@ -15,7 +14,7 @@ import { AllZebronicsGadgetsList } from '@/GadgetData/AllZebronicsGadgetsList';
 import { AllPortonicsGadgetsList } from '@/GadgetData/AllPortonicsGadgetsList';
 import { AllSoundcoreGadgetsList } from '@/GadgetData/AllSoundcoreGadgetsList';
 import { AllGoboultGadgetsList } from '@/GadgetData/AllGoboultGadgetsList';
-import { AllNoiceGadgetsList } from '@/GadgetData/AllNoiseGadgetsList';
+import { AllNoiseGadgetsList } from '@/GadgetData/AllNoiseGadgetsList';
 import { AllMiviGadgetsList } from '@/GadgetData/AllMiviGadgetsList';
 import { AllAmazonBasisGadgetsList } from '@/GadgetData/AllAmazonBasisGadgetsList';
 import { AllDigitekGadgetsList } from '@/GadgetData/AllDigitekGadgetsList';
@@ -210,7 +209,7 @@ const page = () => {
         <section className={styles.phone_review_section}>
           <SectionHeader>Noise Gadgets</SectionHeader>
           <section className={styles.all_phones}>
-            {AllNoiceGadgetsList.map((phone, index) => (
+            {AllNoiseGadgetsList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
           </section>

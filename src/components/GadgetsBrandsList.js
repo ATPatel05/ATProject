@@ -30,7 +30,11 @@ const GadgetsBrandsList = () => {
                OnePlus
             </a>
          </li>
-
+         <li className={styles.phone_brand}>
+            <a href='/AllGadgets/RealmeGadgets' className={styles.phone_brand_link}>
+               Realme
+            </a>
+         </li>
          <li className={styles.phone_brand}>
             <a href='/AllGadgets/SonyGadgets' className={styles.phone_brand_link}>
                Sony
@@ -39,11 +43,6 @@ const GadgetsBrandsList = () => {
          <li className={styles.phone_brand}>
             <a href='/AllGadgets/OppoGadgets' className={styles.phone_brand_link}>
                Oppo
-            </a>
-         </li>
-         <li className={styles.phone_brand}>
-            <a href='/AllGadgets/ZebronicsGadgets' className={styles.phone_brand_link}>
-               Zebronics
             </a>
          </li>
          <li className={styles.phone_brand}>

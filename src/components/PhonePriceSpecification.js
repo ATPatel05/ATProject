@@ -11,46 +11,46 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
 
         <div className={styles.phone_intro}>
           <div>
-            <img className={styles.post_image} src='/SamsangPhones/Samsung.jpeg' alt={phoneDetails.phoneHeading}></img>
+            <img className={styles.post_image} src={phoneDetails.image} alt={phoneDetails.phoneHeading} />
           </div>
           <div className={styles.phone_details}>
             <div className={styles.detail} >
               <label className={styles.details_label}>Announced</label>
-              <span className={styles.details_span}>Released 2025, September 04</span>
+              <span className={styles.details_span}>{phoneDetails.Announced}</span>
             </div>
             <div className={styles.detail} >
               <label className={styles.details_label}>Manufacturer</label>
               <a href={phoneDetails.ManufacturerLink} className={styles.details_phone_link}>
-                Samsung
+                {phoneDetails.Manufacturer}
               </a>
             </div>
             <div className={styles.detail} >
               <label className={styles.details_label}>Body</label>
-              <span className={styles.details_span}>190g, 7.4mm thickness</span>
+              <span className={styles.details_span}>{phoneDetails.Body}</span>
             </div>
             <div className={styles.detail} >
               <label className={styles.details_label}>Display</label>
-              <span className={styles.details_span}>6.7 inches, Corning Gorilla Glass Victus+</span>
+              <span className={styles.details_span}>{phoneDetails.Display}</span>
             </div>
             <div className={styles.detail} >
               <label className={styles.details_label}>Platform</label>
-              <span className={styles.details_span}>Android 16, up to 7 major upgrades, One UI 8</span>
+              <span className={styles.details_span}>{phoneDetails.Platform}</span>
             </div>
             <div className={styles.detail} >
               <label className={styles.details_label}>Ram</label>
-              <span className={styles.details_span}>8GB RAM</span>
+              <span className={styles.details_span}>{phoneDetails.Ram}</span>
             </div>
             <div className={styles.detail} >
               <label className={styles.details_label}>Memory</label>
-              <span className={styles.details_span}>128GB/256GB/512GB storage , no card slot</span>
+              <span className={styles.details_span}>{phoneDetails.Memory}</span>
             </div>
             <div className={styles.detail} >
               <label className={styles.details_label}>Battery</label>
-              <span className={styles.details_span}>4900 mAh</span>
+              <span className={styles.details_span}>{phoneDetails.Battery}</span>
             </div>
             <div className={styles.detail} >
               <label className={styles.details_label}>Description</label>
-              <span className={styles.details_span}>Samsung Galaxy M22 is a smartphone powered by Android 11 with OneUI 3.1 Core, featuring a 48MP rear camera with f/1.8 aperture, LED flash, 8MP ultra-wide camera with f/2.2 aperture, 2MP depth and 2MP sensor with f/2.4 aperture, 13MP front camera with f/2.0 aperture</span>
+              <span className={styles.details_span}>{phoneDetails.PhoneDescription}</span>
             </div>
           </div>
         </div>

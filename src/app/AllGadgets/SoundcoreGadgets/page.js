@@ -1,10 +1,8 @@
-import BusinessBlogContentPost from '@/components/PhonePriceSpecification';
-import { AllApplePhonesList } from '@/PhoneData//ApplePhonesList';
 import styles from './page.module.css';
-import PhoneBrands from '@/components/PhoneBrands';
 import SectionHeader from '@/components/SectionHeader';
 import PhonePost from '@/components/PhonePost';
 import GadgetsBrands from '@/components/GadgetsBrands';
+import { AllSoundcoreGadgetsList } from '@/GadgetData/AllSoundcoreGadgetsList';
 
 // export function generateMetadata() {
 
@@ -83,38 +81,20 @@ export default function Page() {
     <main className={styles.container}>
       <GadgetsBrands />
       <div className={styles.mobile_blog}>
-        <SectionHeader>Apple Phones</SectionHeader>
+        <SectionHeader>SoundCore</SectionHeader>
         <section className={styles.phone_review_section}>
-          {AllApplePhonesList.map((phone, index) => (
+          {AllSoundcoreGadgetsList.map((phone, index) => (
             <PhonePost key={index} phone={phone} />
           ))}
         </section>
-
-        <section>
+        {/* <section>
           <SectionHeader>Latest Phones</SectionHeader>
         </section>
 
         <section>
           <SectionHeader>Populer Phones</SectionHeader>
-        </section>
-
+        </section> */}
       </div>
     </main>
   );
 }
-
-
-
-
-// export default async function Page({ params }) {
-
-//    const resolvedParams = await params;
-//    const slug = resolvedParams.slug;
-//    const blog = TopBusinessIdeasBlogsList.find(item => item.slug === slug);
-
-//    return (
-//       <main className={styles.container}>
-//          <BusinessBlogContentPost blog={blog} />
-//       </main>
-//    );
-// }

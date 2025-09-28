@@ -7,29 +7,44 @@ import { AllGooglePhonesList } from '@/PhoneData/GooglePhonesList';
 // export function generateMetadata() {
 
 //   const siteUrl = "https://www.skilluplines.com";
-//   const fullUrl = `${siteUrl}/LuxuryProducts`;
-//   const title = "Luxury Products full Specification. Buy in india, USA, Canada, Germany | SkillUpLines"
-//   const description = "Buy luxury items with Full Specifications Online at Best Prices on Amazon. Shop Top watch, Hand Bag, Breslate  Perfume, Shose, NeckLace, Goggles & MackUp Kit in India, USA, Canada, Germany & UK. Fast Delivery & Great Deals.";
+//   const fullUrl = `${siteUrl}/Gadgets`;
+//   const title = "Phone Accessories & gadgets with Specificatio. Buy in india, USA, Canada | SkillUpLines"
+//   const description = "Buy All Brand gadgets with Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones , Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK. Fast Delivery & Great Deals.";
+
 //   const keywords = [
-//     "Luxury Items",
-//     "expensive products",
-//     "expensive luxury",
-//     "Luxury products",
-//     "stylish watch",
+//     "Boat",
+//     "JBL",
+//     "Apple",
+//     "Samsung",
+//     "OnePlus",
+//     "Sony",
+//     "Oppo",
+//     "Zebronics",
+//     "Portonics",
+//     "Soundcore",
+//     "Goboult",
+//     "Noise",
+//     "Goboult",
+//     "Goboult",
+//     "Mivi",
+//     "Amazon basis",
+//     "Realme",
+//     "Latest gadgets",
+//     "Latest headphones",
+//     "latest earphones",
+//     "latest Bluetooth headphones",
+//     "Latest airdrops",
+//     "latest Bluetooth Speakers",
+//     "Latest Phones",
+//     "Latest headphones Specification",
+//     "Latest 2025 headphones ",
+//     "charger",
+//     "earphone",
+//     "information",
+//     "info",
+//     "specs",
 //     "specification",
-//     "luxury",
-//     "best luxury product",
-//     "expensive luxury items",
-//     "expensive luxury product",
-//     "luxury Hand Bag",
-//     "luxury Breslate",
-//     "best Perfume",
-//     "best Shose",
-//     "luxury NeckLace",
-//     "Fancy Goggles",
-//     "luxury MackUp Kit",
-//     "luxury bag",
-//     "luxury stylish bag",
+//     "Latest Smart Phones",
 //   ]
 
 //   return {
@@ -43,7 +58,7 @@ import { AllGooglePhonesList } from '@/PhoneData/GooglePhonesList';
 //     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
 //     creator: "SkillUpLines Team",
 //     publisher: "SkillUpLines",
-//     category: "Luxury Items, expensive products, expensive luxury, stylish watch, Luxury products, expensive luxury items, expensive luxury product, luxury Hand Bag, luxury Breslate, best Perfume, best Shose, luxury NeckLace, Fancy Goggles, luxury MackUp Kit, luxury bag",
+//     category: "Latest headphones, amazon price, mobile phone Accessories & Parts Full Specification, earphones Details, speaker Price, phone Accessories Full Details, headphones detailed Description",
 //     robots: {
 //       index: true,
 //       follow: true,
@@ -64,17 +79,24 @@ import { AllGooglePhonesList } from '@/PhoneData/GooglePhonesList';
 //       description,
 //       url: fullUrl,
 //       siteName: "SkillUpLines",
+//       // images: [
+//       //   {
+//       //     url: imageUrl,
+//       //     width: 1200,
+//       //     height: 630,
+//       //     alt: title,
+//       //   },
+//       // ],
 //     },
 //     twitter: {
 //       card: "summary_large_image",
 //       title,
 //       description,
+//       // images: [imageUrl],
 //       creator: "@SkillUpLines",
 //     }
 //   };
 // }
-
-
 
 export default function Page() {
 

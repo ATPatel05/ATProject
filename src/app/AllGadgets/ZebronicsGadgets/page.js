@@ -88,13 +88,13 @@ export default function Page() {
           ))}
         </section>
 
-        <section>
+        {/* <section>
           <SectionHeader>Latest Phones</SectionHeader>
         </section>
 
         <section>
           <SectionHeader>Populer Phones</SectionHeader>
-        </section>
+        </section> */}
 
       </div>
     </main>

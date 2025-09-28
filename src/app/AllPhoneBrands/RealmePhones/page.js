@@ -74,8 +74,6 @@ import { AllRealmePhonesList } from '@/PhoneData/RealMePhones';
 //   };
 // }
 
-
-
 export default function Page() {
 
   return (
@@ -89,7 +87,6 @@ export default function Page() {
           ))}
 
         </section>
-
       </div>
     </main>
   );

@@ -1,10 +1,8 @@
-import BusinessBlogContentPost from '@/components/PhonePriceSpecification';
-import { AllApplePhonesList } from '@/PhoneData//ApplePhonesList';
 import styles from './page.module.css';
-import PhoneBrands from '@/components/PhoneBrands';
 import SectionHeader from '@/components/SectionHeader';
 import PhonePost from '@/components/PhonePost';
 import GadgetsBrands from '@/components/GadgetsBrands';
+import { AllSamsungGadgetsList } from '@/GadgetData/AllSamsungGadgetsList';
 
 // export function generateMetadata() {
 
@@ -83,19 +81,11 @@ export default function Page() {
     <main className={styles.container}>
       <GadgetsBrands />
       <div className={styles.mobile_blog}>
-        <SectionHeader>Samsung Latest</SectionHeader>
+        <SectionHeader>Samsung</SectionHeader>
         <section className={styles.phone_review_section}>
-          {AllApplePhonesList.map((phone, index) => (
+          {AllSamsungGadgetsList.map((phone, index) => (
             <PhonePost key={index} phone={phone} />
           ))}
-        </section>
-
-        <section>
-          <SectionHeader>Latest Phones</SectionHeader>
-        </section>
-
-        <section>
-          <SectionHeader>Populer Phones</SectionHeader>
         </section>
       </div>
     </main>

@@ -1,11 +1,10 @@
 import styles from './page.module.css';
-import PhoneBrands from '@/components/PhoneBrands';
-import PhonePost from '@/components/PhonePost';
 import SectionHeader from '@/components/SectionHeader';
-import { AllInfinixPhonesList } from '@/PhoneData/InfinixPhonesLists';
+import PhonePost from '@/components/PhonePost';
+import GadgetsBrands from '@/components/GadgetsBrands';
+import { AllRealmeGadgetsList } from '@/GadgetData/AllRealmeGadgetsList';
 
 // export function generateMetadata() {
-
 //   const siteUrl = "https://www.skilluplines.com";
 //   const fullUrl = `${siteUrl}/LuxuryProducts`;
 //   const title = "Luxury Products full Specification. Buy in india, USA, Canada, Germany | SkillUpLines"
@@ -79,16 +78,14 @@ export default function Page() {
 
   return (
     <main className={styles.container}>
-      <PhoneBrands />
+      <GadgetsBrands />
       <div className={styles.mobile_blog}>
-        <SectionHeader>Infinix</SectionHeader>
+        <SectionHeader>Realme</SectionHeader>
         <section className={styles.phone_review_section}>
-          {AllInfinixPhonesList.map((phone, index) => (
+          {AllRealmeGadgetsList.map((phone, index) => (
             <PhonePost key={index} phone={phone} />
           ))}
-
         </section>
-
       </div>
     </main>
   );

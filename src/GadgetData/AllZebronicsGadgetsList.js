@@ -6,14 +6,9 @@ export const AllZebronicsGadgetsList = [
       description: 'Learn how to start a luxury hotel business from scratch. This guide covers planning, location, staffing, interior design, online presence, and high-profit marketing strategies to build a sustainable and successful hotel brand.',
       chipName: 'Luxury service',
       Name: 'Samsung Galaxy S25 Ultra',
-      postName: 'Galaxy S25 Ultra',
+      postName: 'BoAT',
       Announced: 'Released 2025, September 04',
-      Manufacturer: 'Samsung',
-      Body: '190g, 7.4mm thickness',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
+      Brand: 'Samsung',
       Battery: '4900 mAh',
       PhoneDescription: '',
       ManufacturerLink: '/AllGadgets/ZebronicsGadgets',
@@ -31,6 +26,134 @@ export const AllZebronicsGadgetsList = [
          "build hotel brand",
          "tourism business ideas",
          "hotel investment plan",
+      ],
+      ItroData: [
+         {
+            IntroHeading: 'Battry',
+            IntroLine: "5000 MH"
+         },
+      ],
+      AmazonPrice: [
+         {
+            RamRom: '128GB 8GB Ram',
+            price: [
+               {
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+            ]
+         },
+         {
+            RamRom: '128GB 8GB Ram',
+            price: [
+               {
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+            ]
+         },
+         {
+            RamRom: '128GB 8GB Ram',
+            price: [
+               {
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+            ]
+         },
+      ],
+      Specifications: [
+         {
+            SpecificationHeading: 'Display1',
+            Details: [
+               {
+                  SpecificationType: 'Features',
+                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+               },
+               {
+                  SpecificationType: 'Display',
+                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+               },
+               {
+                  SpecificationType: 'Capacity',
+                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Display2',
+            Details: [
+               {
+                  SpecificationType: 'Features',
+                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+               },
+               {
+                  SpecificationType: 'Display',
+                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+               },
+               {
+                  SpecificationType: 'Capacity',
+                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+               },
+            ],
+         },
+      ]
+   },
+
+
+   {
+      slug: "Soundcore-Headphone",
+      title: "Soundcore Rockers 510 full Detailed specifications with best Price",
+      description: 'Learn how to start a luxury hotel business from scratch. This guide covers planning, location, staffing, interior design, online presence, and high-profit marketing strategies to build a sustainable and successful hotel brand.',
+      image: "/SamsangPhones/Samsung.jpeg",
+      keywords: [
+         "luxury hotel business",
+         "how to start a hotel",
+         "hotel business ideas",
+         "luxury resort setup",
+         "hotel management tips",
+         "profitable hotel business",
+         "hotel marketing strategies",
+         "build hotel brand",
+         "tourism business ideas",
+         "hotel investment plan",
+      ],
+      postName: 'Soundcore',
+      ProductHeading: 'Samsang Galaxy S25 Ultra',
+      Announced: 'Released 2025, September 04',
+      folderPath: 'AllGadgets/SoundcoreGadget',
+      Brand: 'Soundcore',
+      ManufacturerLink: '/AllGadgets/SoundcoreGadgets',
+      PhoneDescription: 'Portronics Muffs M2 Bluetooth Headphones Over Ear with Upto 40 Hrs Playtime, 40mm Dynamic Drivers, AUX 3.5mm, Powerful Bass, Laptop & PC Support,Type C Charging Port, Foldable Design(White)',
+      ItroData: [
+         {
+            IntroHeading: 'Battry',
+            IntroLine: "5000 MH"
+         },
       ],
       AmazonPrice: [
          {

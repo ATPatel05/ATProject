@@ -74,7 +74,6 @@ import PhonePost from '@/components/PhonePost';
 //   };
 // }
 
-
 export default function Page() {
 
   return (
@@ -87,7 +86,6 @@ export default function Page() {
             <PhonePost key={index} phone={phone} />
           ))}
         </section>
-
         {/* <section className={styles.phone_review_section}>
           <SectionHeader>Latest Phones</SectionHeader>
         </section>

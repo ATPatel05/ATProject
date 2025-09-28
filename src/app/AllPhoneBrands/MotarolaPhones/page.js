@@ -74,8 +74,6 @@ import { AllMotarolaPhonesList } from '@/PhoneData/MotarolaPhonesLists';
 //   };
 // }
 
-
-
 export default function Page() {
 
   return (
@@ -87,9 +85,7 @@ export default function Page() {
           {AllMotarolaPhonesList.map((phone, index) => (
             <PhonePost key={index} phone={phone} />
           ))}
-
         </section>
-
       </div>
     </main>
   );
