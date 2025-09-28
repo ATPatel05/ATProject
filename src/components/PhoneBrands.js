@@ -11,21 +11,6 @@ const PhoneBrands = () => {
             <p className={styles.phone_brand_heading}>Phone Brands</p>
          </div>
          <PhoneBrandList />
-         <div className={styles.select_gadgets_Accessories}>
-            <div className={styles.select_phone_brand}>
-               <p className={styles.phone_brand_heading}>Gadgets Brands</p>
-            </div>
-
-            <GadgetsBrandsList />
-         </div>
-         <div className={styles.select_gadgets_Accessories}>
-            <div className={styles.select_phone_brand}>
-               <p className={styles.phone_brand_heading}>Luxury Products</p>
-            </div>
-
-            <LuxuryProductsList />
-         </div>
-
       </div>
    )
 }
