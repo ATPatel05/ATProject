@@ -1,25 +1,9 @@
 export const AllLuxuryPerfumeList = [
    {
-      title: "Samsung S25 Ultra Phone details price in india, usa, canada, UK and germany and available on amazon",
-      phoneHeading: 'Samsang Galaxy S25 Ultra',
-      slug: "iphone-17-amazon-price",
+      slug: "BoAT-Headphone",
+      title: "BoAT Rockers 510 full Detailed specifications with best Price",
       description: 'Learn how to start a luxury hotel business from scratch. This guide covers planning, location, staffing, interior design, online presence, and high-profit marketing strategies to build a sustainable and successful hotel brand.',
-      chipName: 'Luxury service',
-      Name: 'Samsung Galaxy S25 Ultra',
-      postName: 'Galaxy S25 Ultra',
-      Announced: 'Released 2025, September 04',
-      Manufacturer: 'Samsung',
-      Body: '190g, 7.4mm thickness',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: '',
-      ManufacturerLink: '/AllLuxuryProducts/LuxuryPerfumes',
       image: "/SamsangPhones/Samsung.jpeg",
-      folderPath: 'AllLuxuryProducts/LuxuryPerfume',
-      disclaimerMessage: 'Your business idea should align with your budget, skills, and availability. It should address a market need and offer the potential for sustainable growth. Experience, training, or licensing may be required depending on the industry..',
       keywords: [
          "luxury hotel business",
          "how to start a hotel",
@@ -32,60 +16,40 @@ export const AllLuxuryPerfumeList = [
          "tourism business ideas",
          "hotel investment plan",
       ],
+      postName: 'Luxury Perfumes',
+      ProductHeading: 'Samsang Galaxy S25 Ultra',
+      Announced: 'Released 2025, September 04',
+      folderPath: 'AllLuxuryProducts/LuxuryPerfume',
+      Brand: 'LuxuryPerfumes',
+      ManufacturerLink: '/AllLuxuryProducts/LuxuryPerfumes',
+      PhoneDescription: 'Portronics Muffs M2 Bluetooth Headphones Over Ear with Upto 40 Hrs Playtime, 40mm Dynamic Drivers, AUX 3.5mm, Powerful Bass, Laptop & PC Support,Type C Charging Port, Foldable Design(White)',
+      ItroData: [
+         {
+            IntroHeading: 'Battry',
+            IntroLine: "5000 MH"
+         },
+      ],
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
             price: [
                {
+                  affLink: '/',
                   image: '/AmazonCom.jpg',
                   price: '$38,999'
                },
                {
+                  affLink: '/',
                   image: '/AmazonCom.jpg',
                   price: '$38,999'
                },
                {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-
-            ]
-         },
-         {
-            RamRom: '128GB 8GB Ram',
-            price: [
-               {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-               {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-               {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-
-            ]
-         },
-         {
-            RamRom: '128GB 8GB Ram',
-            price: [
-               {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-               {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-               {
+                  affLink: '/',
                   image: '/AmazonCom.jpg',
                   price: '$38,999'
                },
             ]
-         },
+         }
       ],
       Specifications: [
          {
@@ -107,57 +71,6 @@ export const AllLuxuryPerfumeList = [
          },
          {
             SpecificationHeading: 'Display2',
-            Details: [
-               {
-                  SpecificationType: 'Features',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-               {
-                  SpecificationType: 'Display',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-               {
-                  SpecificationType: 'Capacity',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-            ],
-         },
-         {
-            SpecificationHeading: 'Display3',
-            Details: [
-               {
-                  SpecificationType: 'Features',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-               {
-                  SpecificationType: 'Display',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-               {
-                  SpecificationType: 'Capacity',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-            ],
-         },
-         {
-            SpecificationHeading: 'Display4',
-            Details: [
-               {
-                  SpecificationType: 'Features',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-               {
-                  SpecificationType: 'Display',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-               {
-                  SpecificationType: 'Capacity',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-            ],
-         },
-         {
-            SpecificationHeading: 'Display5',
             Details: [
                {
                   SpecificationType: 'Features',

@@ -96,15 +96,6 @@ export default function Page() {
             <PhonePost key={index} phone={phone} />
           ))}
         </section>
-
-        {/* <section>
-          <SectionHeader>Latest Phones</SectionHeader>
-        </section>
-
-        <section>
-          <SectionHeader>Populer Phones</SectionHeader>
-        </section> */}
-
       </div>
     </main>
   );

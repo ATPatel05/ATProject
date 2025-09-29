@@ -3,11 +3,11 @@ import styles from './PhonePost.module.css';
 
 const PhonePost = ({ phone }) => {
 const PhoneDetailUrl = `/${phone.folderPath}/${phone.slug}`;
-
+  
    return (
       <h3 className={styles.phone_post}>
          <a href={PhoneDetailUrl}>
-            <img className={styles.post_image} src={phone.image}>
+            <img className={styles.post_image} src={phone.image} alt={phone.title}>
             </img>
             <strong >
                <span className={styles.phone_name}>

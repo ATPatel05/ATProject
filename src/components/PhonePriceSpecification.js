@@ -65,7 +65,7 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
                 {section.RamRom}
               </h3>
               {section.price.map((p, idx) => (
-                <a key={idx} href={phoneDetails.ManufacturerLink} className={styles.affLink} >
+                <a key={idx} href={p.affLink} className={styles.affLink} >
                   <img
                     className={styles.amazon_logo}
                     src={p.image}

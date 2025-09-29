@@ -1,4 +1,3 @@
-import { AllApplePhonesList } from '@/PhoneData//ApplePhonesList';
 import styles from './page.module.css';
 import SectionHeader from '@/components/SectionHeader';
 import PhonePost from '@/components/PhonePost';
@@ -87,8 +86,6 @@ export default function Page() {
             <PhonePost key={index} phone={phone} />
           ))}
         </section>
-
-        
       </div>
     </main>
   );

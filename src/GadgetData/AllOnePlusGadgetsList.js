@@ -34,53 +34,22 @@ export const AllOnePlusGadgetsList = [
             RamRom: '128GB 8GB Ram',
             price: [
                {
+                  affLink: '/',
                   image: '/AmazonCom.jpg',
                   price: '$38,999'
                },
                {
+                  affLink: '/',
                   image: '/AmazonCom.jpg',
                   price: '$38,999'
                },
                {
+                  affLink: '/',
                   image: '/AmazonCom.jpg',
                   price: '$38,999'
                },
             ]
-         },
-         {
-            RamRom: '128GB 8GB Ram',
-            price: [
-               {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-               {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-               {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-            ]
-         },
-         {
-            RamRom: '128GB 8GB Ram',
-            price: [
-               {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-               {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-               {
-                  image: '/AmazonCom.jpg',
-                  price: '$38,999'
-               },
-            ]
-         },
+         }
       ],
       Specifications: [
          {

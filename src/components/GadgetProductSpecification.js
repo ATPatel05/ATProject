@@ -16,12 +16,12 @@ const GadgetProductSpecification = ({ GadgetDetails }) => {
                <div className={styles.phone_details}>
                   <div className={styles.detail} >
                      <label className={styles.details_label}>Announced</label>
-                     <span className={styles.details_span}>Released 2025, September 04</span>
+                     <span className={styles.details_span}>{GadgetDetails.Announced}</span>
                   </div>
                   <div className={styles.detail} >
                      <label className={styles.details_label}>Brand</label>
                      <a href={GadgetDetails.ManufacturerLink} className={styles.details_phone_link}>
-                        BoAt
+                        {GadgetDetails.Brand}
                      </a>
                   </div>
 
@@ -34,8 +34,8 @@ const GadgetProductSpecification = ({ GadgetDetails }) => {
                </div>
             </div>
          </section>
-         <section className={styles.price_aff_section}>
 
+         <section className={styles.price_aff_section}>
             <SectionHeader>Prices</SectionHeader>
             <div className={styles.Price_Aff} >
                {GadgetDetails.AmazonPrice.map((section, index) =>
@@ -44,7 +44,7 @@ const GadgetProductSpecification = ({ GadgetDetails }) => {
                         {section.RamRom}
                      </h3>
                      {section.price.map((p, idx) => (
-                        <a key={idx} href={GadgetDetails.ManufacturerLink} className={styles.affLink} >
+                        <a key={idx} href={p.affLink} className={styles.affLink} >
                            <img
                               className={styles.amazon_logo}
                               src={p.image}
@@ -59,10 +59,8 @@ const GadgetProductSpecification = ({ GadgetDetails }) => {
          </section>
 
          <section className={styles.specifications_section}>
-
             <SectionHeader>Specifications</SectionHeader>
             <section className={styles.specifications}>
-
                {GadgetDetails.Specifications.map((section, index) =>
                   <table key={index} className={styles.specifications_table}>
                      <tbody>
