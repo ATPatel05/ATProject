@@ -89,7 +89,7 @@ export default function Page() {
     <main className={styles.container}>
       <LuxuryProducts />
       <div className={styles.mobile_blog}>
-        <SectionHeader>Breslate</SectionHeader>
+        <SectionHeader>Bracelet</SectionHeader>
         <section className={styles.phone_review_section}>
           {AllLuxuryBreslateList.map((phone, index) => (
             <PhonePost key={index} phone={phone} />

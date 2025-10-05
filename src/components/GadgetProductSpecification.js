@@ -20,7 +20,12 @@ const GadgetProductSpecification = ({ GadgetDetails }) => {
                   </div>
                   <div className={styles.detail} >
                      <label className={styles.details_label}>Brand</label>
-                     <a href={GadgetDetails.ManufacturerLink} className={styles.details_phone_link}>
+                     <a
+                        href={GadgetDetails.ManufacturerLink}
+                        className={styles.details_phone_link}
+                        rel="nofollow sponsored"
+                        target="_blank"
+                     >
                         {GadgetDetails.Brand}
                      </a>
                   </div>
@@ -70,7 +75,7 @@ const GadgetProductSpecification = ({ GadgetDetails }) => {
                            </th>
                         </tr>
                         <tr >
-                           <th rowSpan={5} className={styles.specifications_table_head}>
+                           <th rowSpan={section.Details.length + 2} className={styles.specifications_table_head}>
                               {section.SpecificationHeading}
                            </th>
                         </tr>

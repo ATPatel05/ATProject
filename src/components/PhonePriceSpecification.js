@@ -4,6 +4,7 @@ import SectionHeader from './SectionHeader';
 
 const PhonePriceSpecification = ({ phoneDetails }) => {
 
+
   return (
     <div className={styles.mobile_blog}>
       <SectionHeader>{phoneDetails.phoneHeading}</SectionHeader>
@@ -20,7 +21,12 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
             </div>
             <div className={styles.detail} >
               <label className={styles.details_label}>Manufacturer</label>
-              <a href={phoneDetails.ManufacturerLink} className={styles.details_phone_link}>
+              <a
+                href={phoneDetails.ManufacturerLink}
+                className={styles.details_phone_link}
+                rel="nofollow sponsored"
+                target="_blank"
+              >
                 {phoneDetails.Manufacturer}
               </a>
             </div>
@@ -65,7 +71,13 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
                 {section.RamRom}
               </h3>
               {section.price.map((p, idx) => (
-                <a key={idx} href={p.affLink} className={styles.affLink} >
+                <a
+                  key={idx}
+                  href={p.affLink}
+                  className={styles.affLink}
+                  rel="nofollow sponsored"
+                  target="_blank"
+                >
                   <img
                     className={styles.amazon_logo}
                     src={p.image}
@@ -77,51 +89,6 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
             </div>
           )
           }
-
-          {/* <h3 className={styles.ram_heading}>
-            128GB 8GB RAM
-          </h3>
-
-          <a href={phoneDetails.ManufacturerLink} className={styles.affLink} >
-            <img
-              className={styles.amazon_logo}
-              src="/AmazonIndia.jpg"
-              alt="amazon logo of india"
-            />
-            <p className={styles.phone_price}>₹38,999</p>
-          </a>
-          <a href={phoneDetails.ManufacturerLink} className={styles.affLink} >
-            <img
-              className={styles.amazon_logo}
-              src="/AmazonCom.jpg"
-              alt="amazon logo of india"
-            />
-            <p className={styles.phone_price}>$38,999</p>
-          </a>
-          <a href={phoneDetails.ManufacturerLink} className={styles.affLink} >
-            <img
-              className={styles.amazon_logo}
-              src="/AmazonGermany.jpg"
-              alt="amazon logo of india"
-            />
-            <p className={styles.phone_price}>€38,999</p>
-          </a>
-          <a href={phoneDetails.ManufacturerLink} className={styles.affLink} >
-            <img
-              className={styles.amazon_logo}
-              src="/AmazonCanada.jpg"
-              alt="amazon logo of india"
-            />
-            <p className={styles.phone_price}>₹38,999</p>
-          </a>
-          <a href={phoneDetails.ManufacturerLink} className={styles.affLink} >
-            <img
-              className={styles.amazon_logo}
-              src="/AmazonUK.jpg"
-              alt="amazon logo of india"
-            />
-            <p className={styles.phone_price}>£38,999</p>
-          </a> */}
         </div>
 
 
@@ -141,7 +108,7 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
                   </th>
                 </tr>
                 <tr >
-                  <th rowSpan={5} className={styles.specifications_table_head}>
+                  <th rowSpan={section.Details.length+2} className={styles.specifications_table_head}>
                     {section.SpecificationHeading}
                   </th>
                 </tr>
@@ -160,35 +127,6 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
               </tbody>
             </table>
           )}
-
-          {/* <table className={styles.specifications_table}>
-            <tbody>
-              <tr className={styles.row_head} >
-                <th colSpan={2} className={styles.specifications_table_head_up}>
-                  Launch
-                </th>
-              </tr>
-              <tr>
-                <th rowSpan={4} className={styles.specifications_table_head} >
-                  Launch
-                </th >
-                <td className={styles.hData} >
-                  Announced
-                </td >
-                <td className={styles.specifications_table_data} >
-                  2025, March 04
-                </td>
-              </tr>
-              <tr>
-                <td className={styles.hData} >
-                  Status
-                </td >
-                <td className={styles.specifications_table_data} >
-                  Available. Released 2025, March 12
-                </td>
-              </tr>
-            </tbody>
-          </table> */}
         </section>
       </section>
     </div>

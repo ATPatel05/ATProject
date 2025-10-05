@@ -15,7 +15,12 @@ const LuxuryProductSpecification = ({ LuxuryProdDetails }) => {
                <div className={styles.phone_details}>
                   <div className={styles.detail} >
                      <label className={styles.details_label}>Brand</label>
-                     <a href={LuxuryProdDetails.ManufacturerLink} className={styles.details_phone_link}>
+                     <a
+                        href={LuxuryProdDetails.ManufacturerLink}
+                        className={styles.details_phone_link}
+                        rel="nofollow sponsored"
+                        target="_blank"
+                     >
                         {LuxuryProdDetails.Brand}
                      </a>
                   </div>
@@ -37,7 +42,12 @@ const LuxuryProductSpecification = ({ LuxuryProdDetails }) => {
                         {section.RamRom}
                      </h3>
                      {section.price.map((p, idx) => (
-                        <a key={idx} href={LuxuryProdDetails.ManufacturerLink} className={styles.affLink} >
+                        <a
+                           key={idx}
+                           href={LuxuryProdDetails.ManufacturerLink}
+                           className={styles.affLink}
+                           rel="nofollow sponsored"
+                           target="_blank">
                            <img
                               className={styles.amazon_logo}
                               src={p.image}
@@ -63,7 +73,7 @@ const LuxuryProductSpecification = ({ LuxuryProdDetails }) => {
                            </th>
                         </tr>
                         <tr >
-                           <th rowSpan={5} className={styles.specifications_table_head}>
+                           <th rowSpan={section.Details.length + 2} className={styles.specifications_table_head}>
                               {section.SpecificationHeading}
                            </th>
                         </tr>

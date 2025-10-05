@@ -4,8 +4,8 @@ import { AllSamsungPhonesList } from '@/PhoneData/SamsungPhonesList';
 
 const staticPages = [
    { path: "/", changefreq: "daily", priority: 1.0 },
-   { path: "/Gadgets", changefreq: "weekly", priority: 0.9 },
-   { path: "/LuxuryProducts", changefreq: "weekly", priority: 0.9 },
+   { path: "/Gadgets", changefreq: "daily", priority: 1 },
+   { path: "/LuxuryProducts", changefreq: "daily", priority: 1 },
    { path: "/AllPhoneBrands/SamsungPhones", changefreq: "weekly", priority: 0.9 },
    { path: "/AllPhoneBrands/ApplePhones", changefreq: "weekly", priority: 0.9 },
    { path: "/AllPhoneBrands/GooglePixelPhones", changefreq: "weekly", priority: 0.9 },
@@ -58,6 +58,7 @@ export async function GET() {
       urls.push(`
       <url>
         <loc>${baseUrl}${page.path}</loc>
+        <lastmod>${new Date().toISOString()}</lastmod>
         <changefreq>${page.changefreq}</changefreq>
         <priority>${page.priority}</priority>
       </url>
@@ -68,6 +69,7 @@ export async function GET() {
       urls.push(`
       <url>
         <loc>${baseUrl}/${blog.folderPath}/${blog.slug}</loc>
+        <lastmod>${new Date().toISOString()}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
       </url>
@@ -85,5 +87,3 @@ export async function GET() {
       },
    });
 }
-
-
