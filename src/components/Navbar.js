@@ -1,6 +1,5 @@
 'use client';
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
@@ -38,7 +37,7 @@ export default function Navbar() {
           className={`${styles.nav_link_list} ${isOpen ? styles.showMenu : styles.closeMenu
             }`}
         >
-          <a className={styles.nav_link} onClick={() => setIsOpen(false)} href="/">Home</a>
+          <a className={styles.nav_link} onClick={() => setIsOpen(false)} href="/">Phone</a>
           <a className={styles.nav_link} onClick={() => setIsOpen(false)} href="/Gadgets">Gadgets & Accessories</a>
           <a className={styles.nav_link} onClick={() => setIsOpen(false)} href="/LuxuryProducts">Luxury</a>
         </ul>
@@ -53,10 +52,10 @@ export default function Navbar() {
             <p className={styles.phone_brand_heading}>Menu</p>
           </li>
           <li className={styles.phone_brand} >
-            <a className={styles.phone_brand_link} onClick={() => setIsOpen(false)} href="/">Home</a>
+            <a className={styles.phone_brand_link} onClick={() => setIsOpen(false)} href="/">Phone</a>
           </li>
           <li className={styles.phone_brand} >
-            <a className={styles.phone_brand_link} onClick={() => setIsOpen(false)} href="/Gadgets">Gadgets</a>
+            <a className={styles.phone_brand_link} onClick={() => setIsOpen(false)} href="/Gadgets">Gadgets & Accessories</a>
           </li>
           <li className={styles.phone_brand} >
             <a className={styles.phone_brand_link} onClick={() => setIsOpen(false)} href="/LuxuryProducts">Luxury</a>
@@ -195,8 +194,8 @@ export default function Navbar() {
               <a href='/AllLuxuryProducts/LuxuryHandBags' className={styles.phone_brand_link}>
                 Hand Bag
               </a>
-              <a href='/AllLuxuryProducts/LuxuryBreslate' className={styles.phone_brand_link}>
-                Breslate
+              <a href='/AllLuxuryProducts/LuxuryBracelets' className={styles.phone_brand_link}>
+                Bracelet
               </a>
             </div>
             <div className={styles.nav_link_row}>

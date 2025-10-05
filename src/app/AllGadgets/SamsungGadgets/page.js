@@ -4,76 +4,97 @@ import PhonePost from '@/components/PhonePost';
 import GadgetsBrands from '@/components/GadgetsBrands';
 import { AllSamsungGadgetsList } from '@/GadgetData/AllSamsungGadgetsList';
 
-// export function generateMetadata() {
+export function generateMetadata() {
+  const siteUrl = "https://www.skilluplines.com";
+  const fullUrl = `${siteUrl}/AllPhoneBrands/SamsungGadgets`;
+  const title = "Samsung Accessories & gadgets with Specification. Buy in india, USA, Canada | SkillUpLines"
+  const description = "Samsung Accessories with Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Samsung Brand in India, USA, Canada, Germany & UK.";
+  const keywords = [
+    "Samsung accessories",
+    "Samsung gadgets",
+    "Samsung devices",
+    "Samsung phone accessories",
+    "Samsung headphones",
+    "Samsung earphones",
+    "Samsung chargers",
+    "Samsung power banks",
+    "Samsung cables",
+    "Samsung adapters",
+    "Samsung speakers",
+    "Samsung smart devices",
+    "Samsung watches accessories",
+    "Samsung mobile accessories",
+    "Best Samsung accessories 2025",
+    "Samsung accessories price in India",
+    "Samsung accessories specifications",
+    "Buy Samsung gadgets online",
+    "Latest Samsung accessories collection",
+    "Original Samsung accessories",
+    "Samsung accessories store",
+    "Samsung phone parts and accessories",
+    "Samsung Bluetooth devices",
+    "Samsung smart gadgets",
+    "Samsung audio devices",
+    "Samsung cases and covers",
+    "Samsung gaming accessories",
+    "Samsung official accessories",
+    "Samsung wireless headphones",
+    "Samsung TWS earbuds",
+    "Samsung portable speakers",
+    "Samsung soundbars",
+    "Samsung car audio accessories"
+  ];
 
-//   const siteUrl = "https://www.skilluplines.com";
-//   const fullUrl = `${siteUrl}/LuxuryProducts`;
-//   const title = "Luxury Products full Specification. Buy in india, USA, Canada, Germany | SkillUpLines"
-//   const description = "Buy luxury items with Full Specifications Online at Best Prices on Amazon. Shop Top watch, Hand Bag, Breslate  Perfume, Shose, NeckLace, Goggles & MackUp Kit in India, USA, Canada, Germany & UK. Fast Delivery & Great Deals.";
-//   const keywords = [
-//     "Luxury Items",
-//     "expensive products",
-//     "expensive luxury",
-//     "Luxury products",
-//     "stylish watch",
-//     "specification",
-//     "luxury",
-//     "best luxury product",
-//     "expensive luxury items",
-//     "expensive luxury product",
-//     "luxury Hand Bag",
-//     "luxury Breslate",
-//     "best Perfume",
-//     "best Shose",
-//     "luxury NeckLace",
-//     "Fancy Goggles",
-//     "luxury MackUp Kit",
-//     "luxury bag",
-//     "luxury stylish bag",
-//   ]
-
-//   return {
-//     title,
-//     description,
-//     keywords,
-//     metadataBase: new URL(siteUrl),
-//     alternates: {
-//       canonical: fullUrl,
-//     },
-//     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
-//     creator: "SkillUpLines Team",
-//     publisher: "SkillUpLines",
-//     category: "Luxury Items, expensive products, expensive luxury, stylish watch, Luxury products, expensive luxury items, expensive luxury product, luxury Hand Bag, luxury Breslate, best Perfume, best Shose, luxury NeckLace, Fancy Goggles, luxury MackUp Kit, luxury bag",
-//     robots: {
-//       index: true,
-//       follow: true,
-//       googleBot: {
-//         index: true,
-//         follow: true,
-//         "max-snippet": -1,
-//         "max-image-preview": "large",
-//         "max-video-preview": -1,
-//       },
-//     },
-//     icons: {
-//       icon: "/favicon.ico",
-//     },
-//     openGraph: {
-//       type: "article",
-//       title,
-//       description,
-//       url: fullUrl,
-//       siteName: "SkillUpLines",
-//     },
-//     twitter: {
-//       card: "summary_large_image",
-//       title,
-//       description,
-//       creator: "@SkillUpLines",
-//     }
-//   };
-// }
-
+  return {
+    title,
+    description,
+    keywords,
+    metadataBase: new URL(siteUrl),
+    alternates: {
+      canonical: fullUrl,
+    },
+    authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
+    creator: "SkillUpLines Team",
+    publisher: "SkillUpLines",
+    category: "Samsung Accessories, Gadgets & Devices full specifications",
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-snippet": -1,
+        "max-image-preview": "large",
+        "max-video-preview": -1,
+      },
+    },
+    icons: {
+      icon: "/favicon.ico",
+    },
+    openGraph: {
+      type: "article",
+      title,
+      description,
+      url: fullUrl,
+      siteName: "SkillUpLines",
+      // images: [
+      //   {
+      //     url: imageUrl,
+      //     width: 1200,
+      //     height: 630,
+      //     alt: title,
+      //   },
+      // ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      // images: [imageUrl],
+      creator: "@SkillUpLines",
+    }
+  };
+}
 
 export default function Page() {
 

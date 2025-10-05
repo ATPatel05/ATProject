@@ -4,76 +4,94 @@ import PhonePost from '@/components/PhonePost';
 import GadgetsBrands from '@/components/GadgetsBrands';
 import { AllGoboultGadgetsList } from '@/GadgetData/AllGoboultGadgetsList';
 
-// export function generateMetadata() {
+export function generateMetadata() {
+  const siteUrl = "https://www.skilluplines.com";
+  const fullUrl = `${siteUrl}/AllPhoneBrands/GoboultGadgets`;
+  const title = "Goboult Accessories & gadgets with Specification. Buy in india, USA, Canada | SkillUpLines"
+  const description = "Goboult Accessories with Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Goboult Brand in India, USA, Canada, Germany & UK.";
+  const keywords = [
+    "Goboult accessories",
+    "Goboult gadgets",
+    "Goboult devices",
+    "Goboult phone accessories",
+    "Goboult headphones",
+    "Goboult earphones",
+    "Goboult chargers",
+    "Goboult power banks",
+    "Goboult cables",
+    "Goboult adapters",
+    "Goboult speakers",
+    "Goboult smart devices",
+    "Goboult watches accessories",
+    "Goboult mobile accessories",
+    "Best Goboult accessories 2025",
+    "Goboult accessories price in India",
+    "Goboult accessories specifications",
+    "Buy Goboult gadgets online",
+    "Latest Goboult accessories collection",
+    "Original Goboult accessories",
+    "Goboult accessories store",
+    "Goboult Bluetooth devices",
+    "Goboult smart gadgets",
+    "Goboult audio devices",
+    "Goboult cases and covers",
+    "Goboult gaming accessories",
+    "Goboult official accessories",
+    "Goboult wireless headphones",
+    "Goboult TWS earbuds",
+    "Goboult portable speakers"
+  ];
 
-//   const siteUrl = "https://www.skilluplines.com";
-//   const fullUrl = `${siteUrl}/LuxuryProducts`;
-//   const title = "Luxury Products full Specification. Buy in india, USA, Canada, Germany | SkillUpLines"
-//   const description = "Buy luxury items with Full Specifications Online at Best Prices on Amazon. Shop Top watch, Hand Bag, Breslate  Perfume, Shose, NeckLace, Goggles & MackUp Kit in India, USA, Canada, Germany & UK. Fast Delivery & Great Deals.";
-//   const keywords = [
-//     "Luxury Items",
-//     "expensive products",
-//     "expensive luxury",
-//     "Luxury products",
-//     "stylish watch",
-//     "specification",
-//     "luxury",
-//     "best luxury product",
-//     "expensive luxury items",
-//     "expensive luxury product",
-//     "luxury Hand Bag",
-//     "luxury Breslate",
-//     "best Perfume",
-//     "best Shose",
-//     "luxury NeckLace",
-//     "Fancy Goggles",
-//     "luxury MackUp Kit",
-//     "luxury bag",
-//     "luxury stylish bag",
-//   ]
-
-//   return {
-//     title,
-//     description,
-//     keywords,
-//     metadataBase: new URL(siteUrl),
-//     alternates: {
-//       canonical: fullUrl,
-//     },
-//     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
-//     creator: "SkillUpLines Team",
-//     publisher: "SkillUpLines",
-//     category: "Luxury Items, expensive products, expensive luxury, stylish watch, Luxury products, expensive luxury items, expensive luxury product, luxury Hand Bag, luxury Breslate, best Perfume, best Shose, luxury NeckLace, Fancy Goggles, luxury MackUp Kit, luxury bag",
-//     robots: {
-//       index: true,
-//       follow: true,
-//       googleBot: {
-//         index: true,
-//         follow: true,
-//         "max-snippet": -1,
-//         "max-image-preview": "large",
-//         "max-video-preview": -1,
-//       },
-//     },
-//     icons: {
-//       icon: "/favicon.ico",
-//     },
-//     openGraph: {
-//       type: "article",
-//       title,
-//       description,
-//       url: fullUrl,
-//       siteName: "SkillUpLines",
-//     },
-//     twitter: {
-//       card: "summary_large_image",
-//       title,
-//       description,
-//       creator: "@SkillUpLines",
-//     }
-//   };
-// }
-
+  return {
+    title,
+    description,
+    keywords,
+    metadataBase: new URL(siteUrl),
+    alternates: {
+      canonical: fullUrl,
+    },
+    authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
+    creator: "SkillUpLines Team",
+    publisher: "SkillUpLines",
+    category: "Goboult Accessories, Gadgets & Devices full specifications",
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-snippet": -1,
+        "max-image-preview": "large",
+        "max-video-preview": -1,
+      },
+    },
+    icons: {
+      icon: "/favicon.ico",
+    },
+    openGraph: {
+      type: "article",
+      title,
+      description,
+      url: fullUrl,
+      siteName: "SkillUpLines",
+      // images: [
+      //   {
+      //     url: imageUrl,
+      //     width: 1200,
+      //     height: 630,
+      //     alt: title,
+      //   },
+      // ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      // images: [imageUrl],
+      creator: "@SkillUpLines",
+    }
+  };
+}
 
 export default function Page() {
 

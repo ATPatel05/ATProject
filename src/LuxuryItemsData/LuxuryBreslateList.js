@@ -19,9 +19,9 @@ export const AllLuxuryBreslateList = [
       postName: 'LuxuryBreslate',
       ProductHeading: 'Samsang Galaxy S25 Ultra',
       Announced: 'Released 2025, September 04',
-      folderPath: 'AllLuxuryProducts/LuxuryBreslate',
+      folderPath: 'AllLuxuryProducts/LuxuryBracelet',
       Brand: 'LuxuryBreslate',
-      ManufacturerLink: '/AllLuxuryProducts/LuxuryBreslates',
+      ManufacturerLink: '/AllLuxuryProducts/LuxuryBracelets',
       PhoneDescription: 'Portronics Muffs M2 Bluetooth Headphones Over Ear with Upto 40 Hrs Playtime, 40mm Dynamic Drivers, AUX 3.5mm, Powerful Bass, Laptop & PC Support,Type C Charging Port, Foldable Design(White)',
       ItroData: [
          {

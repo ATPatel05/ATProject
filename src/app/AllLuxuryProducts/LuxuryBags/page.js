@@ -4,75 +4,84 @@ import PhonePost from '@/components/PhonePost';
 import LuxuryProducts from '@/components/LuxuryProducts';
 import { AllLuxuryBagList } from '@/LuxuryItemsData/LuxuryBagList';
 
-// export function generateMetadata() {
+export function generateMetadata() {
+  const siteUrl = "https://www.skilluplines.com";
+  const fullUrl = `${siteUrl}/AllPhoneBrands/AmazonBasisGadgets`;
+  const title = "Luxury Bags, Designer bags & Premium Accessories Online - SkillUpLines"
+  const description = "Explore the latest collection of luxury bags and designer handbags. Shop premium, high-quality leather bags, clutches, totes, and crossbody bags online for men and women.";
+  const keywords = [
+    "Luxury bags",
+    "Designer bags",
+    "Premium handbags",
+    "Luxury leather bags",
+    "High-end handbags",
+    "Luxury tote bags",
+    "Luxury clutch bags",
+    "Luxury crossbody bags",
+    "Luxury handbags online",
+    "Designer handbags online",
+    "Luxury bag brands",
+    "Luxury purse collection",
+    "Luxury fashion bags",
+    "Exclusive luxury bags",
+    "Luxury bag for women",
+    "Luxury bag for men",
+    "Luxury backpack",
+    "Luxury bag price",
+    "Luxury bag sale",
+    "Luxury bag latest collection"
+  ];
 
-//   const siteUrl = "https://www.skilluplines.com";
-//   const fullUrl = `${siteUrl}/LuxuryProducts`;
-//   const title = "Luxury Products full Specification. Buy in india, USA, Canada, Germany | SkillUpLines"
-//   const description = "Buy luxury items with Full Specifications Online at Best Prices on Amazon. Shop Top watch, Hand Bag, Breslate  Perfume, Shose, NeckLace, Goggles & MackUp Kit in India, USA, Canada, Germany & UK. Fast Delivery & Great Deals.";
-//   const keywords = [
-//     "Luxury Items",
-//     "expensive products",
-//     "expensive luxury",
-//     "Luxury products",
-//     "stylish watch",
-//     "specification",
-//     "luxury",
-//     "best luxury product",
-//     "expensive luxury items",
-//     "expensive luxury product",
-//     "luxury Hand Bag",
-//     "luxury Breslate",
-//     "best Perfume",
-//     "best Shose",
-//     "luxury NeckLace",
-//     "Fancy Goggles",
-//     "luxury MackUp Kit",
-//     "luxury bag",
-//     "luxury stylish bag",
-//   ]
-
-//   return {
-//     title,
-//     description,
-//     keywords,
-//     metadataBase: new URL(siteUrl),
-//     alternates: {
-//       canonical: fullUrl,
-//     },
-//     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
-//     creator: "SkillUpLines Team",
-//     publisher: "SkillUpLines",
-//     category: "Luxury Items, expensive products, expensive luxury, stylish watch, Luxury products, expensive luxury items, expensive luxury product, luxury Hand Bag, luxury Breslate, best Perfume, best Shose, luxury NeckLace, Fancy Goggles, luxury MackUp Kit, luxury bag",
-//     robots: {
-//       index: true,
-//       follow: true,
-//       googleBot: {
-//         index: true,
-//         follow: true,
-//         "max-snippet": -1,
-//         "max-image-preview": "large",
-//         "max-video-preview": -1,
-//       },
-//     },
-//     icons: {
-//       icon: "/favicon.ico",
-//     },
-//     openGraph: {
-//       type: "article",
-//       title,
-//       description,
-//       url: fullUrl,
-//       siteName: "SkillUpLines",
-//     },
-//     twitter: {
-//       card: "summary_large_image",
-//       title,
-//       description,
-//       creator: "@SkillUpLines",
-//     }
-//   };
-// }
+  return {
+    title,
+    description,
+    keywords,
+    metadataBase: new URL(siteUrl),
+    alternates: {
+      canonical: fullUrl,
+    },
+    authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
+    creator: "SkillUpLines Team",
+    publisher: "SkillUpLines",
+    category: "Luxury Bags, Designer Bags & Premium Accessories",
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-snippet": -1,
+        "max-image-preview": "large",
+        "max-video-preview": -1,
+      },
+    },
+    icons: {
+      icon: "/favicon.ico",
+    },
+    openGraph: {
+      type: "article",
+      title,
+      description,
+      url: fullUrl,
+      siteName: "SkillUpLines",
+      // images: [
+      //   {
+      //     url: imageUrl,
+      //     width: 1200,
+      //     height: 630,
+      //     alt: title,
+      //   },
+      // ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      // images: [imageUrl],
+      creator: "@SkillUpLines",
+    }
+  };
+}
 
 export default function Page() {
 

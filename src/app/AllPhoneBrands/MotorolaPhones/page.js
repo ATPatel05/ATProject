@@ -2,22 +2,22 @@ import styles from './page.module.css';
 import PhoneBrands from '@/components/PhoneBrands';
 import PhonePost from '@/components/PhonePost';
 import SectionHeader from '@/components/SectionHeader';
-import { AllIQOOPhonesList } from '@/PhoneData/IQOOPhonesList';
+import { AllMotarolaPhonesList } from '@/PhoneData/MotarolaPhonesLists';
 
 export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/IQOOPhones`;
-  const title = "IQOO Phones Full Specifications | Buy in India, USA & Canada - SkillUpLines"
-  const description = "IQOO Phones Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of IQOO Brand in India, USA, Canada, Germany & UK.";
+  const fullUrl = `${siteUrl}/AllGadgets/MotorolaPhones`;
+  const title = "Motorola Phones Full Specifications | Buy in India, USA & Canada - SkillUpLines"
+  const description = "Motorola Phones Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Motorola Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
-    "IQOO",
-    "IQOO Phones",
-    "Latest IQOO Phones 2025",
-    "All IQOO Models",
-    "IQOO Devices",
-    "IQOO Mobile Specifications",
-    "Latest IQOO Gadgets"
+    "Motorola",
+    "Motorola Phones",
+    "Latest Motorola Phones 2025",
+    "All Motorola Models",
+    "Motorola Devices",
+    "Motorola Mobile Specifications",
+    "Latest Motorola Gadgets"
   ];
 
   return {
@@ -31,7 +31,7 @@ export function generateMetadata() {
     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
     creator: "SkillUpLines Team",
     publisher: "SkillUpLines",
-    category: "IQOO Phones, Gadgets & Accessories with specifications",
+    category: "Motorola Phones, Gadgets & Accessories with specifications",
     robots: {
       index: true,
       follow: true,
@@ -77,14 +77,12 @@ export default function Page() {
     <main className={styles.container}>
       <PhoneBrands />
       <div className={styles.mobile_blog}>
-        <SectionHeader>IQOO</SectionHeader>
+        <SectionHeader>Motarola</SectionHeader>
         <section className={styles.phone_review_section}>
-          {AllIQOOPhonesList.map((phone, index) => (
+          {AllMotarolaPhonesList.map((phone, index) => (
             <PhonePost key={index} phone={phone} />
           ))}
-
         </section>
-
       </div>
     </main>
   );

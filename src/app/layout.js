@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    default: "Latest Mobile phones buy online Amazon in india, USA, Canada | SkillUpLines",
+    default: "Latest Mobile phones buy online in India, USA, Canada | SkillUpLines",
     template: "%s | SkillUpLines",
   },
   description: "Buy All Brand Mobile Phones with Full Specifications Online at Best Prices on Amazon. Shop Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",

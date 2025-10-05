@@ -15,8 +15,8 @@ const LuxuryProductsList = () => {
             </a>
          </li>
          <li className={styles.phone_brand}>
-            <a href='/AllLuxuryProducts/LuxuryBreslates' className={styles.phone_brand_link}>
-               Breslate
+            <a href='/AllLuxuryProducts/LuxuryBracelets' className={styles.phone_brand_link}>
+               Bracelet
             </a>
          </li>
          <li className={styles.phone_brand}>
