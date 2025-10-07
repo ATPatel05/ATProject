@@ -4,7 +4,6 @@ import SectionHeader from './SectionHeader';
 
 const PhonePriceSpecification = ({ phoneDetails }) => {
 
-
   return (
     <div className={styles.mobile_blog}>
       <SectionHeader>{phoneDetails.phoneHeading}</SectionHeader>

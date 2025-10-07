@@ -19,7 +19,8 @@ export async function generateMetadata({ params }) {
     title,
     description,
     image,
-    keywords
+    keywords,
+    category
   } = PhoneSEO;
 
   const siteUrl = "https://www.skilluplines.com";
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }) {
     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
     creator: "SkillUpLines Team",
     publisher: "SkillUpLines",
-    category: "Business Ideas, Startup Ideas, Small Business Ideas, Business for Beginners, Online Business, Entrepreneurship",
+    category: category,
     robots: {
       index: true,
       follow: true,
