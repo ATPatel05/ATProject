@@ -7,8 +7,8 @@ import { AllSonyPhonesList } from '@/PhoneData/SonyPhonesLists';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllGadgets/SonyPhones`;
-  const title = "Sony Phones Full Specifications | Buy in India, USA & Canada - SkillUpLines"
-  const description = "Sony Phones Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Sony Brand in India, USA, Canada, Germany & UK.";
+  const title = "All Sony Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
+  const description = "All Sony Phones with full Specifications Online at Best Prices. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Sony Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "Sony",
     "Sony Phones",

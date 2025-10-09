@@ -8,8 +8,8 @@ export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/IQOOPhones`;
-  const title = "IQOO Phones Full Specifications | Buy in India, USA & Canada - SkillUpLines"
-  const description = "IQOO Phones Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of IQOO Brand in India, USA, Canada, Germany & UK.";
+  const title = "All IQOO Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
+  const description = "All IQOO Phones with full Specifications Online at Best Prices. Buy Best Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of IQOO Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "IQOO",
     "IQOO Phones",

@@ -7,8 +7,8 @@ import { AllLuxuryNacklaceList } from '@/LuxuryItemsData/LuxuryNacklaceList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/AmazonBasisGadgets`;
-  const title = "Luxury Necklaces, Designer Jewelry & Premium Accessories Online - SkillUpLines"
-  const description = "Explore the finest collection of luxury necklaces and designer jewelry. Shop premium gold, silver, and fashion necklaces online for men and women, perfect for any occasion.";
+  const title = "Luxury Necklaces, Designer Jewelry & Premium Accessories Online at best price in india  - SkillUpLines"
+  const description = "Explore the finest collection of luxury necklaces and designer jewelry. Buy Best premium gold, silver, and fashion necklaces online for men and women, perfect for any occasion.";
   const keywords = [
     "Luxury necklaces",
     "Designer necklaces",

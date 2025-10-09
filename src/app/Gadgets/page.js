@@ -23,8 +23,8 @@ export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/Gadgets`;
-  const title = "Phone Accessories & gadgets with Specification. Buy in india, USA, Canada | SkillUpLines"
-  const description = "Buy All Brand gadgets with Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones , Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK. Fast Delivery & Great Deals.";
+  const title = "Phone Accessories & gadget products with Specification. Buy in india, USA, Canada | SkillUpLines"
+  const description = "Buy All Brand gadgets with Full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.";
 
   const keywords = [
     "Boat",

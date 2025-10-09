@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    default: "Latest Mobile phones buy online in India, USA, Canada | SkillUpLines",
+    default: "Latest Mobile phones online at Best Price in India, USA, Canada | SkillUpLines",
     template: "%s | SkillUpLines",
   },
-  description: "Buy All Brand Mobile Phones with Full Specifications Online at Best Prices on Amazon. Shop Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
+  description: "Buy All Brand Mobile Phones with Full Specifications Online at Best Prices. Buy Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
   keywords: [
     "mobile",
     "phone",
@@ -91,8 +91,8 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    title: "Latest Mobile phones buy online Amazon in india, USA, Canada",
-    description: "Buy All Brand Mobile Phones with Full Specifications Online at Best Prices on Amazon. Shop Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
+    title: "Latest Mobile phones online at Best Price in India, USA, Canada | SkillUpLines",
+    description: "Buy All Brand Mobile Phones with Full Specifications Online at Best Prices. Buy Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
     url: "https://www.skilluplines.com",
     siteName: "SkillUpLines",
     // images: [
@@ -106,8 +106,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SkillUpLines – Latest Mobile phones buy online Amazon in india, USA, Canada",
-    description: "Buy All Brand Mobile Phones with Full Specifications Online at Best Prices on Amazon. Shop Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
+    title: "Latest Mobile phones online at Best Price in India, USA, Canada | SkillUpLines",
+    description: "Buy All Brand Mobile Phones with Full Specifications Online at Best Prices. Buy Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
     // images: ["https://www.skilluplines.com/og-image.jpg"],
   },
   icons: {

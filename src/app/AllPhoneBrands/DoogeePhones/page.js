@@ -8,8 +8,8 @@ export function generateMetadata() {
 
  const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/DooGeePhones`;
-  const title = "DooGee Phones Full Specifications | Buy in India, USA & Canada - SkillUpLines"
-  const description = "DooGee Phones Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of DooGee Brand in India, USA, Canada, Germany & UK.";
+  const title = "All DooGee Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
+  const description = "All DooGee Phones with full Specifications Online at Best Prices. Buy Best Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of DooGee Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "DooGee",
     "DooGee Phones",

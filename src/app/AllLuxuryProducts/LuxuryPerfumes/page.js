@@ -7,8 +7,8 @@ import { AllLuxuryPerfumeList } from '@/LuxuryItemsData/LuxuryPerfumeList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/AmazonBasisGadgets`;
-  const title = "Luxury Perfumes, Designer Fragrances & Premium Scents Online - SkillUpLines"
-  const description = "Discover the finest collection of luxury perfumes and designer fragrances. Shop premium scents online for men and women, perfect for gifting or personal use.";
+  const title = "Luxury Perfumes, Designer Fragrances & Premium Scents Online at best price in india  - SkillUpLines"
+  const description = "Discover the finest collection of luxury perfumes and designer fragrances. Buy Best premium scents online for men and women, perfect for gifting or personal use.";
   const keywords = [
     "Luxury perfume",
     "Designer perfume",

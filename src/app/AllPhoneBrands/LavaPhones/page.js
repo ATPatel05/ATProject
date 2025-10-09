@@ -8,8 +8,8 @@ export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/LavaPhones`;
-  const title = "Lava Phones Full Specifications | Buy in India, USA & Canada - SkillUpLines"
-  const description = "Lava Phones Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of Lava Brand in India, USA, Canada, Germany & UK.";
+  const title = "All Lava Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
+  const description = "All Lava Phones full Specifications Online at Best Prices. Shop Top Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of Lava Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "Lava",
     "Lava Phones",

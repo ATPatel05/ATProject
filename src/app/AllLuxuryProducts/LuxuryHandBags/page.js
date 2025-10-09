@@ -7,8 +7,8 @@ import { AllLuxuryHandBagList } from '@/LuxuryItemsData/LuxuryHandBagList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/AmazonBasisGadgets`;
-  const title = "Luxury Handbags, Designer Bags & Premium Accessories Online - SkillUpLines"
-  const description = "Explore the finest collection of luxury handbags and designer bags. Shop premium leather, tote, clutch, and crossbody handbags online for men and women, perfect for any occasion.";
+  const title = "Luxury Handbags, Designer Bags & Premium Accessories Online at best price in india - SkillUpLines"
+  const description = "Explore the finest collection of luxury handbags and designer bags. Buy Best premium leather, tote, clutch, and crossbody handbags online for men and women, perfect for any occasion.";
   const keywords = [
     "Luxury handbags",
     "Designer handbags",

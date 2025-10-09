@@ -7,8 +7,8 @@ import { AllXiaoMIPhonesList } from '@/PhoneData/XiaoMIPhonesList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllGadgets/XiaoMIPhones`;
-  const title = "XiaoMI Phones Full Specifications | Buy in India, USA & Canada - SkillUpLines"
-  const description = "XiaoMI Phones Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of XiaoMI Brand in India, USA, Canada, Germany & UK.";
+  const title = "All XiaoMI Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
+  const description = "All XiaoMI Phones full Specifications Online at Best Prices. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of XiaoMI Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "XiaoMI",
     "XiaoMI Phones",

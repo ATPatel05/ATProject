@@ -7,8 +7,8 @@ import { AllRealmeGadgetsList } from '@/GadgetData/AllRealmeGadgetsList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/RealmeGadgets`;
-  const title = "Realme Accessories & gadgets with Specification. Buy in india, USA, Canada | SkillUpLines"
-  const description = "Realme Accessories with Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Realme Brand in India, USA, Canada, Germany & UK.";
+  const title = "Realme Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
+  const description = "Realme Accessories with Full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of Realme Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "Realme accessories",
     "Realme gadgets",

@@ -7,8 +7,8 @@ import { AllVivoPhonesList } from '@/PhoneData/VivoPhonesList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllGadgets/VivoPhones`;
-  const title = "Vivo Phones Full Specifications | Buy in India, USA & Canada - SkillUpLines"
-  const description = "Vivo Phones Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Vivo Brand in India, USA, Canada, Germany & UK.";
+  const title = "All Vivo Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
+  const description = "All Vivo Phones with full Specifications Online at Best Prices. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Vivo Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "Vivo",
     "Vivo Phones",

@@ -7,8 +7,8 @@ import { AllLuxuryShoseList } from '@/LuxuryItemsData/LuxuryShoseList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/AmazonBasisGadgets`;
-  const title = "Luxury Shoes | Designer Footwear & Premium Sneakers Online - SkillUpLines"
-  const description = "Explore the latest collection of luxury shoes and designer footwear. Shop premium sneakers, heels, loafers, and formal shoes online for men and women, perfect for any occasion.";
+  const title = "Luxury Shoes | Designer Footwear & Premium Sneakers Online at best price in india  - SkillUpLines"
+  const description = "Explore the latest collection of luxury shoes and designer footwear. Buy Best premium sneakers, heels, loafers, and formal shoes online for men and women, perfect for any occasion.";
   const keywords = [
     "Luxury shoes",
     "Designer shoes",

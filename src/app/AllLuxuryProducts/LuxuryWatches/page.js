@@ -7,8 +7,8 @@ import { AllLuxuryWatchList } from '@/LuxuryItemsData/LuxuryWatchList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/AmazonBasisGadgets`;
-  const title = "Luxury Watches | Designer Watches & Premium Timepieces Online - SkillUpLines"
-  const description = "Discover the finest collection of luxury watches and designer timepieces. Shop premium wristwatches online for men and women, including smart, mechanical, and fashion watches.";
+  const title = "Luxury Watches | Designer Watches & Premium Timepieces Online at best price in india  - SkillUpLines"
+  const description = "Discover the finest collection of luxury watches and designer timepieces. Buy Best premium wristwatches online for men and women, including smart, mechanical, and fashion watches.";
   const keywords = [
     "Luxury watches",
     "Designer watches",

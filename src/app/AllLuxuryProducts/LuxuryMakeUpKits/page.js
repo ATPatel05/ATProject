@@ -7,8 +7,8 @@ import { AllLuxuryMakeUpKitList } from '@/LuxuryItemsData/LuxuryMakeUpKitList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/AmazonBasisGadgets`;
-  const title = "Luxury Makeup Kits, Designer Cosmetics & Premium Beauty Products Online - SkillUpLines"
-  const description = "Discover the finest collection of luxury makeup kits and designer cosmetics. Shop premium beauty products online for women, including makeup sets, kits, and essentials for any occasion.";
+  const title = "Luxury Makeup Kits, Designer Cosmetics & Premium Beauty Products Online at best price in india  - SkillUpLines"
+  const description = "Discover the finest collection of luxury makeup kits and designer cosmetics. Buy Best premium beauty products online for women, including makeup sets, kits, and essentials for any occasion.";
   const keywords = [
     "Luxury makeup kit",
     "Designer makeup kit",

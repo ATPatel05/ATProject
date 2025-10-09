@@ -17,7 +17,7 @@ export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/Gadgets`;
-  const title = "Luxury Products full Specification. Buy in india, USA, Canada, Germany | SkillUpLines"
+  const title = "Best Luxury Products full Specification. Buy in india, USA, Canada, Germany | SkillUpLines"
   const description = "Buy luxury items with Full Specifications Online at Best Prices on Amazon. Shop Top watch, Hand Bag, Breslate  Perfume, Shose, NeckLace, Goggles & MackUp Kit in India, USA, Canada, Germany & UK. Fast Delivery & Great Deals.";
   const keywords = [
     "Luxury Items",
@@ -52,7 +52,7 @@ export function generateMetadata() {
     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
     creator: "SkillUpLines Team",
     publisher: "SkillUpLines",
-    category: "Luxury Items, expensive products, expensive luxury, stylish watch, Luxury products, expensive luxury items, expensive luxury product, luxury Hand Bag, luxury Breslate, best Perfume, best Shose, luxury NeckLace, Fancy Goggles, luxury MackUp Kit, luxury bag",
+    category: "Luxury Products, Premium Accessories, Designer Watches, Luxury Handbags, Elegant Bracelets, Branded Perfumes, Fashionable Shoes, Luxury Necklaces, Fancy Goggles, Premium Makeup Kits, Exclusive Luxury Collection, Expensive Lifestyle Items, Stylish Luxury Gifts, High-End Fashion Accessories, Luxury Home Décor, Designer Jewelry, Trendy Handbags, Luxury Fashion Items, Premium Branded Products, Modern Luxury Style",
     robots: {
       index: true,
       follow: true,

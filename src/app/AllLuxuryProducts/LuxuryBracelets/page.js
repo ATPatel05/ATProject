@@ -7,8 +7,8 @@ import { AllLuxuryBreslateList } from '@/LuxuryItemsData/LuxuryBreslateList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/AmazonBasisGadgets`;
-  const title = "Luxury Bracelets | Designer & Premium Jewelry Online - SkillUpLines"
-  const description = "Discover the finest collection of luxury bracelets and designer jewelry. Shop premium gold, silver, and fashion bracelets online for men and women, perfect for any occasion.";
+  const title = "Luxury Bracelets | Designer & Premium Jewelry Online at best price in india - SkillUpLines"
+  const description = "Discover the finest collection of luxury bracelets and designer jewelry. Buy Best premium gold, silver, and fashion bracelets online for men and women, perfect for any occasion.";
   const keywords = [
     "Luxury bracelets",
     "Designer bracelets",

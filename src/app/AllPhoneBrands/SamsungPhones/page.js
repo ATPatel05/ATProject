@@ -8,8 +8,8 @@ export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllGadgets/SamsungPhones`;
-  const title = "Samsung Phones Full Specifications | Buy in India, USA & Canada - SkillUpLines"
-  const description = "Samsung Phones Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Samsung Brand in India, USA, Canada, Germany & UK.";
+  const title = "All Samsung Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
+  const description = "All Samsung Phones with full Specifications Online at Best Price. Headphones, bluetooth Speakers, wirless headphones & Accessories of Samsung Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "Samsung",
     "Samsung Phones",

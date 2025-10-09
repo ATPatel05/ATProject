@@ -7,8 +7,8 @@ import { AllJBLGadgetsList } from '@/GadgetData/AllJBLGadgetsList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/JBLGadgets`;
-  const title = "JBL Accessories & gadgets with Specification. Buy in india, USA, Canada | SkillUpLines"
-  const description = "JBL Accessories with Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of JBL Brand in India, USA, Canada, Germany & UK.";
+  const title = "JBL Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
+  const description = "JBL Accessories with Full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of JBL Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "JBL accessories",
     "JBL gadgets",

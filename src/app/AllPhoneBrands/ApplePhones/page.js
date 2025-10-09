@@ -8,8 +8,8 @@ export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/ApplePhones`;
-  const title = "Apple Phones Full Specifications | Buy in India, USA & Canada - SkillUpLines"
-  const description = "Appple Phones Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of Apple Brand in India, USA, Canada, Germany & UK.";
+  const title = "All Apple Phones with full Specifications | Buy Online at Best Price in India, USA & Canada - SkillUpLines"
+  const description = "All Apple Phones with full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of Apple Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "Apple",
     "Apple Phones",

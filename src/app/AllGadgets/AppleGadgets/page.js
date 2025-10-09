@@ -7,40 +7,40 @@ import { AllAppleGadgetsList } from '@/GadgetData/AllAppleGadgetsList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/AppleGadgets`;
-  const title = "Apple Accessories & gadgets with Specification. Buy in india, USA, Canada | SkillUpLines"
-  const description = "Apple Accessories with Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Apple Brand in India, USA, Canada, Germany & UK.";
-const keywords = [
-  "Apple accessories",
-  "Apple gadgets",
-  "Apple devices",
-  "Apple phone accessories",
-  "Apple earphones",
-  "Apple headphones",
-  "Apple chargers",
-  "Apple power banks",
-  "Apple cables",
-  "Apple adapters",
-  "Apple speakers",
-  "Apple AirPods",
-  "Apple MagSafe accessories",
-  "Apple watch accessories",
-  "Apple iPhone accessories",
-  "Best Apple accessories 2025",
-  "Apple accessories price in India",
-  "Apple accessories full specifications",
-  "Buy Apple gadgets online",
-  "Latest Apple accessories collection",
-  "Original Apple accessories",
-  "Apple accessories store",
-  "Apple mobile gadgets",
-  "Apple phone parts and accessories",
-  "Apple accessories comparison",
-  "Apple smart gadgets",
-  "Apple Bluetooth devices",
-  "Apple AirPods Pro",
-  "Apple HomePod mini",
-  "Apple official accessories"
-];
+  const title = "Apple Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
+  const description = "Apple Accessories with full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of Apple Brand in India, USA, Canada, Germany & UK.";
+  const keywords = [
+    "Apple accessories",
+    "Apple gadgets",
+    "Apple devices",
+    "Apple phone accessories",
+    "Apple earphones",
+    "Apple headphones",
+    "Apple chargers",
+    "Apple power banks",
+    "Apple cables",
+    "Apple adapters",
+    "Apple speakers",
+    "Apple AirPods",
+    "Apple MagSafe accessories",
+    "Apple watch accessories",
+    "Apple iPhone accessories",
+    "Best Apple accessories 2025",
+    "Apple accessories price in India",
+    "Apple accessories full specifications",
+    "Buy Apple gadgets online",
+    "Latest Apple accessories collection",
+    "Original Apple accessories",
+    "Apple accessories store",
+    "Apple mobile gadgets",
+    "Apple phone parts and accessories",
+    "Apple accessories comparison",
+    "Apple smart gadgets",
+    "Apple Bluetooth devices",
+    "Apple AirPods Pro",
+    "Apple HomePod mini",
+    "Apple official accessories"
+  ];
 
 
   return {

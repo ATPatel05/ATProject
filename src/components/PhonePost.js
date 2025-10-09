@@ -2,11 +2,14 @@ import React from 'react'
 import styles from './PhonePost.module.css';
 
 const PhonePost = ({ phone }) => {
-const PhoneDetailUrl = `/${phone.folderPath}/${phone.slug}`;
-  
+   const PhoneDetailUrl = `/${phone.folderPath}/${phone.slug}`;
+
    return (
       <h3 className={styles.phone_post}>
-         <a href={PhoneDetailUrl}>
+         <a href={PhoneDetailUrl}
+            rel="nofollow sponsored"
+            target="_blank"
+         >
             <img className={styles.post_image} src={phone.image} alt={phone.title}>
             </img>
             <strong >

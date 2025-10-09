@@ -7,8 +7,8 @@ import { AllLuxuryGogglesList } from '@/LuxuryItemsData/LuxuryGogglesList';
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllPhoneBrands/AmazonBasisGadgets`;
-  const title = "Luxury Goggles, Designer Eyewear & Premium Sunglasses Online - SkillUpLines"
-  const description = "Discover the finest collection of luxury goggles and designer sunglasses. Shop premium eyewear online for men and women, offering style, protection, and elegance.";
+  const title = "Luxury Goggles, Designer Eyewear & Premium Sunglasses Online at best price in india - SkillUpLines"
+  const description = "Discover the finest collection of luxury goggles and designer sunglasses. Buy Best premium eyewear online for men and women, offering style, protection, and elegance.";
   const keywords = [
     "Luxury goggles",
     "Designer goggles",

@@ -8,8 +8,8 @@ export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/AllGadgets/OppoPhones`;
-  const title = "Oppo Phones Full Specifications | Buy in India, USA & Canada - SkillUpLines"
-  const description = "Oppo Phones Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Oppo Brand in India, USA, Canada, Germany & UK.";
+  const title = "All Oppo Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
+  const description = "All Oppo Phones full Specifications Online at Best Prices. Buy Best Headphones, bluetooth Speakers, wirless headphones & Accessories of Oppo Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "Oppo",
     "Oppo Phones",
