@@ -98,6 +98,12 @@ const page = () => {
       <LuxuryProducts />
       <div className={styles.mobile_blog}>
         <section className={styles.phone_review_section}>
+          <SectionHeader>Luxury Items</SectionHeader>
+          <p className={styles.site_message}>
+            Our website is currently under maintenance. We’ll be back shortly with an improved experience.
+          </p>
+        </section>
+        {/* <section className={styles.phone_review_section}>
           <SectionHeader>Watch</SectionHeader>
           <section className={styles.all_phones}>
             {AllLuxuryWatchList.map((phone, index) => (
@@ -168,7 +174,7 @@ const page = () => {
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
-        </section>
+        </section> */}
       </div>
     </main>
   )

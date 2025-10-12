@@ -13,12 +13,11 @@
    width: 100%;
    max-width: 100%;
    box-sizing: border-box;
-   overflow: hidden;  /* Critical fix: prevent children from overflowing */
+   overflow: hidden;
    margin-right: 10px;
 }
 
 .phone_review_section {
-   
    padding-left: 5px;
    display: flex;
    flex-wrap: wrap;
@@ -65,6 +64,11 @@
    width: 450px;
    display: flex;
    flex-direction: column;
+}
+
+.mobile_description {
+   margin-top: 5px;
+   padding: 3px 6px;
 }
 
 @media screen and (max-width: 850px) {

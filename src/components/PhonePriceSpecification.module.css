@@ -81,13 +81,11 @@
    vertical-align: top;
    font: bold small tahoma;
    text-align: left;
-   width: 95px;
+   width: 115px;
    font-size: 16px;
    padding: 5px 10px;
    color: #3f7ec2;
-   max-width: 100px;
    text-transform: uppercase;
-
 }
 
 .specifications_table_head_up {

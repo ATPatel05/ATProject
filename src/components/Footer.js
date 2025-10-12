@@ -16,14 +16,14 @@ export default function Footer() {
                 />
               </Link>
               <p className={styles.web_content}>
-                SkillUpLines is your trusted source for profitable business ideas, smart management tips, and proven marketing & selling strategies to grow faster in 2025.
+                You have a skill to purchase best product online at best price product with ultimate guides of skilluplines.
               </p>
             </div>
           </div>
           <div className={styles.news_links}>
             <div className={styles.categories}>
               <Link href="/about" className={styles.categoryLink}>About Us</Link>
-              <Link href="/contact" className={styles.categoryLink}>Contact Us</Link>
+              {/* <Link href="/contact" className={styles.categoryLink}>Contact Us</Link> */}
               <Link href="/privacy-policy" className={styles.categoryLink}>Privacy Policy</Link>
               <Link href="/disclaimer" className={styles.categoryLink}>Disclamer</Link>
               <Link href="/terms-and-conditions" className={styles.categoryLink}>Terms and Conditions</Link>

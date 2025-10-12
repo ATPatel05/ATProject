@@ -24,6 +24,12 @@ export default function HomePage() {
         <PhoneBrands />
         <div className={styles.mobile_blog}>
           <section className={styles.phone_review_section}>
+            <SectionHeader>Mobile Phones</SectionHeader>
+            <p className={styles.mobile_description}>
+              Discover the complete list of latest mobile phones in India & USA with full specifications, features, and updated prices.
+            </p>
+          </section>
+          <section className={styles.phone_review_section}>
             <SectionHeader>Samsung Phones</SectionHeader>
             <section className={styles.all_phones}>
               {AllSamsungPhonesList.map((phone, index) => (

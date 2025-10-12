@@ -40,7 +40,7 @@ const GadgetProductSpecification = ({ GadgetDetails }) => {
             </div>
          </section>
 
-         <section className={styles.price_aff_section}>
+         {/* <section className={styles.price_aff_section}>
             <SectionHeader>Prices</SectionHeader>
             <div className={styles.Price_Aff} >
                {GadgetDetails.AmazonPrice.map((section, index) =>
@@ -61,7 +61,7 @@ const GadgetProductSpecification = ({ GadgetDetails }) => {
                   </div>
                )}
             </div>
-         </section>
+         </section> */}
 
          <section className={styles.specifications_section}>
             <SectionHeader>Specifications</SectionHeader>

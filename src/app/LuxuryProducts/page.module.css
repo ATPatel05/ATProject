@@ -66,6 +66,13 @@
    flex-direction: column;
 }
 
+.site_message {
+   margin: 5px;
+   color: #3f7ec2;
+   font-weight: 600;
+   font-size: 1rem;
+}
+
 @media screen and (max-width: 850px) {
    .modile_extra_data {
       width: 450px;

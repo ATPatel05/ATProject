@@ -13,11 +13,12 @@
    width: 100%;
    max-width: 100%;
    box-sizing: border-box;
-   overflow: hidden;  /* Critical fix: prevent children from overflowing */
+   overflow: hidden;
+   /* Critical fix: prevent children from overflowing */
    margin-right: 10px;
 }
 
-.phone_review_section {  
+.phone_review_section {
    padding-left: 5px;
    display: flex;
    flex-wrap: wrap;
@@ -64,6 +65,13 @@
    width: 450px;
    display: flex;
    flex-direction: column;
+}
+
+.site_message {
+   margin: 5px;
+   color: #3f7ec2;
+   font-weight: 600;
+   font-size: 1rem;
 }
 
 @media screen and (max-width: 850px) {

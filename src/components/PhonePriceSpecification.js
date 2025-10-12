@@ -54,13 +54,21 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
               <span className={styles.details_span}>{phoneDetails.Battery}</span>
             </div>
             <div className={styles.detail} >
+              <label className={styles.details_label}>Price (India)</label>
+              <span className={styles.details_span}>₹149900.00</span>
+            </div>
+            <div className={styles.detail} >
+              <label className={styles.details_label}>Price (USA)</label>
+              <span className={styles.details_span}>$1199.99</span>
+            </div>
+            <div className={styles.detail} >
               <label className={styles.details_label}>Description</label>
               <span className={styles.details_span}>{phoneDetails.PhoneDescription}</span>
             </div>
           </div>
         </div>
       </section>
-      <section className={styles.price_aff_section}>
+      {/* <section className={styles.price_aff_section}>
 
         <SectionHeader>Prices</SectionHeader>
         <div className={styles.Price_Aff} >
@@ -91,7 +99,7 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
         </div>
 
 
-      </section>
+      </section> */}
 
       <section className={styles.specifications_section}>
 
@@ -101,17 +109,17 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
           {phoneDetails.Specifications.map((section, index) =>
             <table key={index} className={styles.specifications_table}>
               <tbody>
-                <tr className={styles.row_head} >
+                <tr>
                   <th colSpan={2} className={styles.specifications_table_head_up}>
                     {section.SpecificationHeading}
                   </th>
                 </tr>
-                <tr >
-                  <th rowSpan={section.Details.length+2} className={styles.specifications_table_head}>
+                <tr>
+                  <th rowSpan={section.Details.length + 2} className={styles.specifications_table_head}>
                     {section.SpecificationHeading}
                   </th>
                 </tr>
-                <tr className={styles.row_head} >
+                <tr>
                 </tr>
                 {section.Details.map((data, idx) => (
                   <tr key={idx}>
