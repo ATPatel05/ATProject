@@ -6,7 +6,7 @@ import { AllAppleGadgetsList } from '@/GadgetData/AllAppleGadgetsList';
 
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/AppleGadgets`;
+  const fullUrl = `${siteUrl}/AllGadgets/AppleGadgets`;
   const title = "Apple Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
   const description = "Apple Accessories with full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of Apple Brand in India, USA, Canada, Germany & UK.";
   const keywords = [

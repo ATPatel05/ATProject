@@ -6,7 +6,7 @@ import { AllNoiseGadgetsList } from '@/GadgetData/AllNoiseGadgetsList';
 
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/NoiseGadgets`;
+  const fullUrl = `${siteUrl}/AllGadgets/NoiseGadgets`;
   const title = "Noise Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
   const description = "Noise Accessories with Full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of Noise Brand in India, USA, Canada, Germany & UK.";
   const keywords = [

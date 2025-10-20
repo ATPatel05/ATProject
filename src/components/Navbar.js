@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <header>
       <nav className={styles.navbar}>
-        <div className={styles.logo}>
+        <div>
           <a href="/">
             <img
               className={styles.nav_image}
@@ -41,8 +41,6 @@ export default function Navbar() {
           <a className={styles.nav_link} onClick={() => setIsOpen(false)} href="/Gadgets">Gadgets & Accessories</a>
           <a className={styles.nav_link} onClick={() => setIsOpen(false)} href="/LuxuryProducts">Luxury</a>
         </ul>
-
-
 
         <ul
           className={`${styles.phone_brands} ${isPhoneBrandsOpen ? styles.showphoneBrands : styles.closephoneBrands
@@ -150,19 +148,30 @@ export default function Navbar() {
               </a>
             </div>
             <div className={styles.nav_link_row}>
+              <a href='/AllGadgets/SonyGadgets' className={styles.phone_brand_link}>
+                Sony
+              </a>
               <a href='/AllGadgets/OppoGadgets' className={styles.phone_brand_link}>
                 Oppo
               </a>
-              <a href='/AllGadgets/RealmeGadgets' className={styles.phone_brand_link}>
-                Realme
-              </a>
-              <a href='/AllGadgets/PortonicsGadgets' className={styles.phone_brand_link}>
-                Portonics
+              <a href='/AllGadgets/pTronGadgets' className={styles.phone_brand_link}>
+                pTron
               </a>
             </div>
             <div className={styles.nav_link_row}>
-              <a href='/AllGadgets/SoundecorGadgets' className={styles.phone_brand_link}>
+              <a href='/AllGadgets/PortonicsGadgets' className={styles.phone_brand_link}>
+                Portonics
+              </a>
+              <a href='/AllGadgets/UbonGadgets' className={styles.phone_brand_link}>
+                Ubon
+              </a>
+              <a href='/AllGadgets/SoundcoreGadgets' className={styles.phone_brand_link}>
                 Soundcore
+              </a>
+            </div>
+            <div className={styles.nav_link_row}>
+              <a href='/AllGadgets/SennheiserGadgets' className={styles.phone_brand_link}>
+                Sennheiser
               </a>
               <a href='/AllGadgets/GoboultGadgets' className={styles.phone_brand_link}>
                 Goboult
@@ -176,7 +185,7 @@ export default function Navbar() {
                 Mivi
               </a>
               <a href='/AllGadgets/AmazonBasisGadgets' className={styles.phone_brand_link}>
-                Amazon
+                Amazon Basis
               </a>
               <a href='/AllGadgets/DigitekGadgets' className={styles.phone_brand_link}>
                 Digitek

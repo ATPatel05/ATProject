@@ -6,7 +6,7 @@ import { AllMiviGadgetsList } from '@/GadgetData/AllMiviGadgetsList';
 
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/MiviGadgets`;
+  const fullUrl = `${siteUrl}/AllGadgets/MiviGadgets`;
   const title = "Mivi Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
   const description = "Mivi Accessories with Full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of Mivi Brand in India, USA, Canada, Germany & UK.";
   const keywords = [

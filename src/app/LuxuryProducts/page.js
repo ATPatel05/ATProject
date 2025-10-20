@@ -17,8 +17,8 @@ export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/Gadgets`;
-  const title = "Best Luxury Products full Specification. Buy in india, USA, Canada, Germany | SkillUpLines"
-  const description = "Buy luxury items with Full Specifications Online at Best Prices on Amazon. Shop Top watch, Hand Bag, Breslate  Perfume, Shose, NeckLace, Goggles & MackUp Kit in India, USA, Canada, Germany & UK. Fast Delivery & Great Deals.";
+  const title = "Best Luxury Products full Specification available in india, USA, Canada, Germany | SkillUpLines"
+  const description = "luxury items with Full Specifications Online at Best Prices on Amazon. Top watch, Hand Bag, Breslate  Perfume, Shose, NeckLace, Goggles & MackUp Kit in India, USA, Canada, Germany & UK. Fast Delivery & Great Deals.";
   const keywords = [
     "Luxury Items",
     "expensive products",

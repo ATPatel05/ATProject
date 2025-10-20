@@ -46,13 +46,28 @@ const GadgetsBrandsList = () => {
             </a>
          </li>
          <li className={styles.phone_brand}>
+            <a href='/AllGadgets/pTronGadgets' className={styles.phone_brand_link}>
+               pTron
+            </a>
+         </li>
+         <li className={styles.phone_brand}>
             <a href='/AllGadgets/PortonicsGadgets' className={styles.phone_brand_link}>
                Portonics
             </a>
          </li>
          <li className={styles.phone_brand}>
+            <a href='/AllGadgets/UbonGadgets' className={styles.phone_brand_link}>
+               Ubon
+            </a>
+         </li>
+         <li className={styles.phone_brand}>
             <a href='/AllGadgets/SoundcoreGadgets' className={styles.phone_brand_link}>
                Soundcore
+            </a>
+         </li>
+         <li className={styles.phone_brand}>
+            <a href='/AllGadgets/SennheiserGadgets' className={styles.phone_brand_link}>
+               Sennheiser
             </a>
          </li>
          <li className={styles.phone_brand}>

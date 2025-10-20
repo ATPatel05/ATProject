@@ -6,7 +6,7 @@ import { AllSoundcoreGadgetsList } from '@/GadgetData/AllSoundcoreGadgetsList';
 
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/SoundcoreGadgets`;
+  const fullUrl = `${siteUrl}/AllGadgets/SoundcoreGadgets`;
   const title = "Soundcore Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
   const description = "Soundcore Accessories with Full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of Soundcore Brand in India, USA, Canada, Germany & UK.";
   const keywords = [

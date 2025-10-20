@@ -3,7 +3,7 @@ export const AllSamsungPhonesList = [
       slug: "iphone-17-amazon-price",
       title: "Apple Iphone 17 pro max full detailed specification",
       description: 'Apple Iphone 17 pro max full detailed specification',
-      image: "/SamsangPhones/Samsung.jpeg",
+      image: "/Phone/Samsung/galaxy.jpg",
       keywords: [
          "Apple",
          "Apple Iphone 17 pro max",
@@ -133,5 +133,4 @@ export const AllSamsungPhonesList = [
          },
       ]
    },
-
 ]

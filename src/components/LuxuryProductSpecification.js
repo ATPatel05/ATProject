@@ -19,7 +19,6 @@ const LuxuryProductSpecification = ({ LuxuryProdDetails }) => {
                         href={LuxuryProdDetails.ManufacturerLink}
                         className={styles.details_phone_link}
                         rel="nofollow sponsored"
-                        target="_blank"
                      >
                         {LuxuryProdDetails.Brand}
                      </a>

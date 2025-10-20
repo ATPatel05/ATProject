@@ -6,7 +6,7 @@ import { AllBoATGadgetsList } from '@/GadgetData/AllBoATGadgetsList';
 
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/BoatGadgets`;
+  const fullUrl = `${siteUrl}/AllGadgets/BoatGadgets`;
   const title = "BoAT Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
   const description = "BoAT Accessories with full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of BoAT Brand in India, USA, Canada, Germany & UK.";
   const keywords = [

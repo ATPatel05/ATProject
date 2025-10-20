@@ -24,7 +24,6 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
                 href={phoneDetails.ManufacturerLink}
                 className={styles.details_phone_link}
                 rel="nofollow sponsored"
-                target="_blank"
               >
                 {phoneDetails.Manufacturer}
               </a>
@@ -53,14 +52,14 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
               <label className={styles.details_label}>Battery</label>
               <span className={styles.details_span}>{phoneDetails.Battery}</span>
             </div>
-            <div className={styles.detail} >
+            {/* <div className={styles.detail} >
               <label className={styles.details_label}>Price (India)</label>
               <span className={styles.details_span}>₹149900.00</span>
-            </div>
-            <div className={styles.detail} >
+            </div> */}
+            {/* <div className={styles.detail} >
               <label className={styles.details_label}>Price (USA)</label>
               <span className={styles.details_span}>$1199.99</span>
-            </div>
+            </div> */}
             <div className={styles.detail} >
               <label className={styles.details_label}>Description</label>
               <span className={styles.details_span}>{phoneDetails.PhoneDescription}</span>

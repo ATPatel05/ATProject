@@ -6,7 +6,7 @@ import { AllDigitekGadgetsList } from '@/GadgetData/AllDigitekGadgetsList';
 
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/DigitekGadgets`;
+  const fullUrl = `${siteUrl}/AllGadgets/DigitekGadgets`;
   const title = "Digitek Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
   const description = "Digitek Accessories with Full Specifications Online at Best Prices on Amazon. Shop Top Headphones, bluetooth Speakers, wirless headphones & Accessories of Digitek Brand in India, USA, Canada, Germany & UK.";
   const keywords = [

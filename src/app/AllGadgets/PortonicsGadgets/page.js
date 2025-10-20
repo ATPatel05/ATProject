@@ -6,7 +6,7 @@ import { AllPortonicsGadgetsList } from '@/GadgetData/AllPortonicsGadgetsList';
 
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/PortonicsGadgets`;
+  const fullUrl = `${siteUrl}/AllGadgets/PortonicsGadgets`;
   const title = "Portonics Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
   const description = "Portonics Accessories with Full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of Portonics Brand in India, USA, Canada, Germany & UK.";
   const keywords = [

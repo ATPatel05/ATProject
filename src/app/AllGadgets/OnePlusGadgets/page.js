@@ -6,7 +6,7 @@ import { AllOnePlusGadgetsList } from '@/GadgetData/AllOnePlusGadgetsList';
 
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/OnePlusGadgets`;
+  const fullUrl = `${siteUrl}/AllGadgets/OnePlusGadgets`;
   const title = "OnePlus Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
   const description = "OnePlus Accessories with Full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of OnePlus Brand in India, USA, Canada, Germany & UK.";
   const keywords = [

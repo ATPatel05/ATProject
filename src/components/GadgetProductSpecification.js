@@ -24,7 +24,6 @@ const GadgetProductSpecification = ({ GadgetDetails }) => {
                         href={GadgetDetails.ManufacturerLink}
                         className={styles.details_phone_link}
                         rel="nofollow sponsored"
-                        target="_blank"
                      >
                         {GadgetDetails.Brand}
                      </a>

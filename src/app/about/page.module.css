@@ -1,6 +1,32 @@
 .container {
-   width: 93%;
-   max-width: 700px;
-   padding: 10px;
-   margin: 0 auto;
+   margin: auto;
+   padding: 8px;
+   width: 100%;
+   max-width: 1000px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   gap: 8px;
+}
+
+.mobile_blog {
+   width: 100%;
+   max-width: 100%;
+   box-sizing: border-box;
+   overflow: hidden;
+   margin-right: 10px;
+}
+
+.about_section {
+   padding-left: 5px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
+}
+
+.Text {
+   font-size: 0.89rem;
+   color: #1d1d1d;
+   margin-top: 0.75rem;
 }

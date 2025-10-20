@@ -8,10 +8,8 @@ const PhonePost = ({ phone }) => {
       <h3 className={styles.phone_post}>
          <a href={PhoneDetailUrl}
             rel="nofollow sponsored"
-            target="_blank"
          >
-            <img className={styles.post_image} src={phone.image} alt={phone.title}>
-            </img>
+            <img className={styles.post_image} src={phone.image} alt={phone.title} />
             <strong >
                <span className={styles.phone_name}>
                   {phone.postName}

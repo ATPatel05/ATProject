@@ -6,7 +6,7 @@ import { AllAmazonBasisGadgetsList } from '@/GadgetData/AllAmazonBasisGadgetsLis
 
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/AmazonBasisGadgets`;
+  const fullUrl = `${siteUrl}/AllGadgets/AmazonBasisGadgets`;
   const title = "Amazon Basis Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
   const description = "All Amazon Basis gadgets with full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of Amazon Basis Brand in India, USA, Canada, Germany & UK.";
   const keywords = [

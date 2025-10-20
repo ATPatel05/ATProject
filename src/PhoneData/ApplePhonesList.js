@@ -58,23 +58,19 @@ export const AllApplePhonesList = [
                {
                   SpecificationType: 'Announced',
                   typeDetail: "2025, September 09"
-               },
-               {
-                  SpecificationType: 'Status',
-                  typeDetail: "Available. Released 2025, September 19"
-               },
+               }
             ],
          },
          {
             SpecificationHeading: 'Body',
             Details: [
                {
-                  SpecificationType: 'Dimensions',
-                  typeDetail: "2025, September 09"
-               },
-               {
                   SpecificationType: 'Weight',
                   typeDetail: "233g (8.22 oz)"
+               },
+               {
+                  SpecificationType: 'Dimensions',
+                  typeDetail: "163.4 x 78 x 8.8 mm"
                },
                {
                   SpecificationType: 'Build',
@@ -86,12 +82,12 @@ export const AllApplePhonesList = [
             SpecificationHeading: 'Display',
             Details: [
                {
-                  SpecificationType: 'Type',
-                  typeDetail: "LTPO Super Retina XDR OLED, 120Hz"
-               },
-               {
                   SpecificationType: 'Size',
                   typeDetail: "6.9 inches, 115.6 cm2"
+               },
+               {
+                  SpecificationType: 'Type',
+                  typeDetail: "LTPO Super Retina XDR OLED, 120Hz"
                },
                {
                   SpecificationType: 'Resolution',
@@ -107,33 +103,29 @@ export const AllApplePhonesList = [
             SpecificationHeading: 'Platform',
             Details: [
                {
-                  SpecificationType: 'OS',
-                  typeDetail: "iOS 26"
-               },
-               {
                   SpecificationType: 'Chipset',
                   typeDetail: "Apple A19 Pro"
                },
                {
-                  SpecificationType: 'CPU',
-                  typeDetail: "Hexa-core"
+                  SpecificationType: 'OS',
+                  typeDetail: "iOS 26"
                },
                {
-                  SpecificationType: 'GPU',
-                  typeDetail: "Apple GPU (6-core graphics)"
-               },
+                  SpecificationType: 'CPU',
+                  typeDetail: "Hexa-core"
+               }
             ],
          },
          {
             SpecificationHeading: 'Memory',
             Details: [
                {
-                  SpecificationType: 'Card slot',
-                  typeDetail: "No"
-               },
-               {
                   SpecificationType: 'Internal',
                   typeDetail: "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM, 2TB 12GB RAM"
+               },
+               {
+                  SpecificationType: 'Card slot',
+                  typeDetail: "No"
                },
             ],
          },
@@ -142,7 +134,7 @@ export const AllApplePhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "48 MP, f/1.8, 24mm (wide) + 48 MP, f/2.8, 100mm (periscope telephoto) + 48 MP, f/2.2, 13mm, 120˚ (ultrawide)"
+                  typeDetail: "48 MP + 48 MP + 48 MP, f/2.2, 13mm"
                },
                {
                   SpecificationType: 'Features',
@@ -156,15 +148,7 @@ export const AllApplePhonesList = [
                {
                   SpecificationType: 'Single',
                   typeDetail: "18 MP multi-aspect, f/1.9, 20mm (ultrawide)"
-               },
-               {
-                  SpecificationType: 'Features',
-                  typeDetail: "1HDR, Dolby Vision HDR, 3D (spatial) audio"
-               },
-               {
-                  SpecificationType: 'Video',
-                  typeDetail: "4K@24/25/30/60fps, 1080p@25/30/60/120fps"
-               },
+               }
             ],
          },
          {
@@ -173,11 +157,7 @@ export const AllApplePhonesList = [
                {
                   SpecificationType: 'Loudspeaker',
                   typeDetail: "Yes, with stereo speakers"
-               },
-               {
-                  SpecificationType: '3.5mm jack',
-                  typeDetail: "No"
-               },
+               }
             ],
          },
          {

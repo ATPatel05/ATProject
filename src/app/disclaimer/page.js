@@ -1,40 +1,29 @@
 import React from 'react';
 import styles from './page.module.css';
+import PhoneBrands from '@/components/PhoneBrands';
+import SectionHeader from '@/components/SectionHeader';
 
 export default function page() {
    return (
       <main className={styles.container}>
-         <article>
-            <h1 className={styles.title}>Website Disclaimer</h1>
-
-            <section className="mb-6">
-               <p className={styles.description_paragraph}>
-                  The content provided on this website is intended for general informational purposes only.
+         <PhoneBrands />
+         <div className={styles.mobile_blog}>
+            <section className={styles.disclaimer_section}>
+               <SectionHeader>Disclaimer</SectionHeader>
+               <p className={styles.Text}>
+                  At SkillUpLines.com, we make every effort to ensure that the information provided on our website is accurate, reliable, and up to date. Our platform is dedicated to offering detailed specifications, comparisons, and insights on Mobiles, Gadgets, Beauty Products, and Luxury Items to help users make more informed decisions.
+               </p>
+               <p className={styles.Text}>
+                  We gather product details from official brand sources, trusted retailers, and verified online listings. Wherever possible, we cross-check and review this information to maintain accuracy. However, despite our best efforts, we cannot guarantee that all details, prices, or specifications are 100% correct or current at all times.
+               </p>
+               <p className={styles.Text}>
+                  All content published on SkillUpLines.com is provided for informational and educational purposes only. We do not sell any products directly and are not responsible for purchase decisions made by users. If any specification or feature is crucial to you, we strongly recommend confirming it through the official brand website or authorized retailer before making any buying decision.
+               </p>
+               <p className={styles.Text}>
+                  SkillUpLines.com is not responsible for any errors, omissions, or outcomes resulting from the use of this information. All data, images, and links are provided “as is” without any warranties, express or implied, regarding completeness, accuracy, reliability, or suitability.
                </p>
             </section>
-            <section className="mb-6">
-               <p className={styles.description_paragraph}>
-                  The information provided by BusinessUpLines is for general purposes only. While we strive to keep the content accurate and up to date, we make no guarantees or warranties—express or implied—about the completeness, accuracy, reliability, suitability, or availability of the website or the information contained on it for any purpose. Any reliance you place on such information is strictly at your own risk.
-               </p>
-            </section>
-            <section className="mb-6">
-               <p className={styles.description_paragraph}>
-                  Under no circumstances shall we be held liable for any loss or damage, including but not limited to indirect or consequential loss or damage, or any loss or damage whatsoever arising from the loss of data or profits, arising out of or in connection with the use of this website.
-               </p>
-            </section>
-            <section className="mb-6">
-               <p className={styles.description_paragraph}>
-                  Through this website, you may be able to access links to other websites that are not controlled by BusinessUpLines. We have no authority over the nature, content, or availability of those external sites. The presence of any links does not necessarily imply our endorsement or recommendation of the views expressed within them.
-               </p>
-            </section>
-            <section className="mb-6">
-               <p className={styles.description_paragraph}>
-                  We strive to ensure that the website remains operational at all times. However, BusinessUpLines is not responsible and will not be liable if the website is temporarily unavailable due to technical problems beyond our control.
-               </p>
-            </section>
-
-            <p className={styles.description_paragraph}>– Team SkillUpLines</p>
-         </article>
+         </div>
       </main>
    );
 }

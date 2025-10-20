@@ -6,9 +6,9 @@ import { AllSonyGadgetsList } from '@/GadgetData/AllSonyGadgetsList';
 
 export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/SonyGadgets`;
-  const title = "Sony Accessories & gadgets with Specification. Buy at best price in india, USA, Canada | SkillUpLines"
-  const description = "Sony Accessories with Full Specifications Online at Best Prices. Buy best Headphones, bluetooth Speakers, wirless headphones & Accessories of Sony Brand in India, USA, Canada, Germany & UK.";
+  const fullUrl = `${siteUrl}/AllGadgets/SonyGadgets`;
+  const title = "Sony Accessories & gadgets with Specification available in india, USA, Canada | SkillUpLines"
+  const description = "Sony Accessories with Full Specifications Online at Best Prices. best Headphones, bluetooth Speakers, wirless headphones & Accessories of Sony Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "Sony accessories",
     "Sony gadgets",
