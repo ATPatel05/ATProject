@@ -2,6 +2,7 @@
    margin-top: 13px;
    width: 143px;
    cursor: pointer;
+   /* margin-right: 10px; */
 }
 
 .phone_post:hover .phone_name {

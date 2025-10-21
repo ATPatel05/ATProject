@@ -1,28 +1,34 @@
 export const AllSamsungPhonesList = [
    {
-      slug: "iphone-17-amazon-price",
-      title: "Apple Iphone 17 pro max full detailed specification",
-      description: 'Apple Iphone 17 pro max full detailed specification',
-      image: "/Phone/Samsung/galaxy.jpg",
+      slug: "Samsung-Galaxy-M17-Specification",
+      title: "Samsung Galaxy M17 5G full detailed specification",
+      description: 'Samsung Galaxy M17 5G full detailed specification',
+      image: "/Phone/Samsung/Samsung_galaxy_M17_5G.jpg",
       keywords: [
-         "Apple",
-         "Apple Iphone 17 pro max",
-         "Apple Iphone 17 pro max Latest",
-         "Apple Iphone 17 pro max 2025",
+         "Samsung",
+         "Samsung Galaxy M17 5G",
+         "Samsung Galaxy M17 Latest",
+         "Samsung Galaxy M17 features",
+         "Samsung Galaxy M17 specs",
+         "Samsung Galaxy M17 price",
+         "Samsung Galaxy M17 2025",
+         "Samsung 2025 model",
+         "Samsung flagship phone",
       ],
+      category: 'Samsung Galaxy M17 full Specifications',
       folderPath: 'AllPhoneBrands/SamsungPhone',
-      postName: 'Iphone 17',
-      phoneHeading: 'Apple Iphone 17 Pro Max',
+      postName: 'Galaxy M17',
+      phoneHeading: 'Samsung Galaxy M17 5G',
       ManufacturerLink: '/AllPhoneBrands/SamsungPhones',
       Manufacturer: 'Samsung',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'Portronics Muffs M2 Bluetooth Headphones Over Ear with Upto 40 Hrs Playtime, 40mm Dynamic Drivers, AUX 3.5mm, Powerful Bass, Laptop & PC Support,Type C Charging Port, Foldable Design(White)',
+      Announced: 'Released Exp. release 2025, October 13',
+      Body: '192g, 7.5mm thickness',
+      Display: '6.7 inches, Super AMOLED',
+      Platform: 'Android 15, up to 6 major upgrades, One UI 7',
+      Ram: '4-8 GB RAM',
+      Memory: '128GB storage , microSDXC',
+      Battery: '5000 mAh',
+      PhoneDescription: 'The Samsung Galaxy M17 combines premium design with next-generation performance, offering a 6.7-inch Super AMOLED display, Android 15, 4-8GB RAM, and up to 128GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -47,87 +53,132 @@ export const AllSamsungPhonesList = [
       ],
       Specifications: [
          {
-            SpecificationHeading: 'Display1',
+            SpecificationHeading: 'Launch',
             Details: [
                {
-                  SpecificationType: 'Features',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+                  SpecificationType: 'Announced',
+                  typeDetail: "2025, October 10"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Body',
+            Details: [
+               {
+                  SpecificationType: 'Weight',
+                  typeDetail: "192 g"
                },
                {
-                  SpecificationType: 'Display',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+                  SpecificationType: 'Dimensions',
+                  typeDetail: "164.4 x 77.9 x 7.5 mm"
                },
                {
-                  SpecificationType: 'Capacity',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+                  SpecificationType: 'Build',
+                  typeDetail: "Glass front (Gorilla Glass Victus) + plastic back"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Display',
+            Details: [
+               {
+                  SpecificationType: 'Size',
+                  typeDetail: "6.7 inches"
+               },
+               {
+                  SpecificationType: 'Type',
+                  typeDetail: "Super AMOLED, 90Hz"
+               },
+               {
+                  SpecificationType: 'Resolution',
+                  typeDetail: "1080 x 2340 pixels"
+               },
+               {
+                  SpecificationType: 'Protection',
+                  typeDetail: "Corning Gorilla Glass Victus"
                },
             ],
          },
          {
-            SpecificationHeading: 'Display2',
+            SpecificationHeading: 'Platform',
             Details: [
                {
-                  SpecificationType: 'Features',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+                  SpecificationType: 'Chipset',
+                  typeDetail: "Exynos 1330"
                },
                {
-                  SpecificationType: 'Display',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+                  SpecificationType: 'OS',
+                  typeDetail: "Android 15"
                },
                {
-                  SpecificationType: 'Capacity',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+                  SpecificationType: 'CPU',
+                  typeDetail: "Octa-core"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Memory',
+            Details: [
+               {
+                  SpecificationType: 'Internal',
+                  typeDetail: "128GB 4GB RAM, 128GB 6GB RAM, 128GB 8GB RAM"
+               },
+               {
+                  SpecificationType: 'Card slot',
+                  typeDetail: "microSDXC"
                },
             ],
          },
          {
-            SpecificationHeading: 'Display3',
+            SpecificationHeading: 'Main Cameras',
             Details: [
                {
+                  SpecificationType: 'Triple',
+                  typeDetail: "50 MP + 5 MP + 2 MP"
+               },
+               {
                   SpecificationType: 'Features',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-               {
-                  SpecificationType: 'Display',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-               {
-                  SpecificationType: 'Capacity',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
          {
-            SpecificationHeading: 'Display4',
+            SpecificationHeading: 'Selfie camera',
             Details: [
                {
-                  SpecificationType: 'Features',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
+                  SpecificationType: 'Single',
+                  typeDetail: "13 MP"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Sound',
+            Details: [
                {
-                  SpecificationType: 'Display',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
+                  SpecificationType: 'Loudspeaker',
+                  typeDetail: "Yes"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Features',
+            Details: [
                {
-                  SpecificationType: 'Capacity',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+                  SpecificationType: 'Sensors',
+                  typeDetail: "Fingerprint, gyro, proximity, compass, accelerometer"
                },
             ],
          },
          {
-            SpecificationHeading: 'Display5',
+            SpecificationHeading: 'Battery',
             Details: [
                {
-                  SpecificationType: 'Features',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+                  SpecificationType: 'Type',
+                  typeDetail: "5000 mAh"
                },
                {
-                  SpecificationType: 'Display',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
-               },
-               {
-                  SpecificationType: 'Capacity',
-                  typeDetail: "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (peak)"
+                  SpecificationType: 'Charging',
+                  typeDetail: "5000 mAh"
                },
             ],
          },
