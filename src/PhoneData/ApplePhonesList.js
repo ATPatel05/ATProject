@@ -739,4 +739,189 @@ export const AllApplePhonesList = [
          },
       ]
    },
+   {
+      slug: "Apple-iphone-16-Pro-Max-Specifications",
+      title: "Apple iPhone 17 full specifications",
+      description: 'Discover the Apple iPhone 17 Pro Max featuring a 6.9-inch Ceramic Shield 2 display, iOS 26, 12GB RAM, and a powerful 4823mAh battery for seamless performance.',
+      image: "/Phone/Apple/Apple-Iphone-16-Pro-Max.jpg",
+      keywords: [
+         "Apple",
+         "Apple Iphone 17",
+         "Apple Iphone 17 Latest",
+         "iPhone 17 features",
+         "iPhone 17 specs",
+         "iPhone 17 price",
+         "Apple Iphone 17 2025",
+         "iPhone 2025 model",
+         "Apple flagship phone",
+      ],
+      category: 'Apple Iphone 17 full Specifications',
+      folderPath: 'AllPhoneBrands/ApplePhone',
+      postName: 'Iphone 16 Pro Max',
+      phoneHeading: 'Apple iPhone 17',
+      ManufacturerLink: '/AllPhoneBrands/ApplePhones',
+      Manufacturer: 'Apple',
+      Announced: 'Released 2025, September 19',
+      Body: '177g, 8mm thickness',
+      Display: '6.3 inches, Super Retina XDR',
+      Platform: 'iOS 26',
+      Ram: '12GB RAM',
+      Memory: '256GB/512GB storage',
+      Battery: '3692 mAh',
+      PhoneDescription: 'The Apple iPhone 17 combines premium design with next-generation performance, offering a 6.3-inch Super Retina XDR OLED + Ceramic Shield 2 protection display, iOS 26, 12GB RAM, and up to 512GB storage for ultimate speed and clarity.',
+      AmazonPrice: [
+         {
+            RamRom: '128GB 8GB Ram',
+            price: [
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+            ]
+         }
+      ],
+      Specifications: [
+         {
+            SpecificationHeading: 'Launch',
+            Details: [
+               {
+                  SpecificationType: 'Announced',
+                  typeDetail: "2025, September 09"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Body',
+            Details: [
+               {
+                  SpecificationType: 'Weight',
+                  typeDetail: "177 g"
+               },
+               {
+                  SpecificationType: 'Dimensions',
+                  typeDetail: "149.6 x 71.5 x 8 mm "
+               },
+               {
+                  SpecificationType: 'Build',
+                  typeDetail: "Glass front (Ceramic Shield 2), aluminum frame, glass back"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Display',
+            Details: [
+               {
+                  SpecificationType: 'Size',
+                  typeDetail: "6.3 inches"
+               },
+               {
+                  SpecificationType: 'Type',
+                  typeDetail: "LTPO Super Retina XDR OLED, 120Hz"
+               },
+               {
+                  SpecificationType: 'Resolution',
+                  typeDetail: "1206 x 2622 pixels"
+               },
+               {
+                  SpecificationType: 'Protection',
+                  typeDetail: "Ceramic Shield 2"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Platform',
+            Details: [
+               {
+                  SpecificationType: 'Chipset',
+                  typeDetail: "Apple A19"
+               },
+               {
+                  SpecificationType: 'OS',
+                  typeDetail: "iOS 26"
+               },
+               {
+                  SpecificationType: 'CPU',
+                  typeDetail: "Hexa-core"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Memory',
+            Details: [
+               {
+                  SpecificationType: 'Internal',
+                  typeDetail: "256GB 12GB RAM, 512GB 12GB RAM"
+               },
+               {
+                  SpecificationType: 'Card slot',
+                  typeDetail: "No"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Main Cameras',
+            Details: [
+               {
+                  SpecificationType: 'Dual',
+                  typeDetail: "48 MP + 48 MP"
+               },
+               {
+                  SpecificationType: 'Features',
+                  typeDetail: "Dual-LED dual-tone flash, HDR (photo)"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Selfie camera',
+            Details: [
+               {
+                  SpecificationType: 'Single',
+                  typeDetail: "18 MP multi-aspect"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Sound',
+            Details: [
+               {
+                  SpecificationType: 'Loudspeaker',
+                  typeDetail: "Yes, with stereo speakers"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Features',
+            Details: [
+               {
+                  SpecificationType: 'Sensors',
+                  typeDetail: "Face ID, barometer, accelerometer, gyro, proximity, compass, Ultra Wideband, support (gen2 chip)"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Battery',
+            Details: [
+               {
+                  SpecificationType: 'Type',
+                  typeDetail: "Li-Ion 3692 mAh"
+               },
+               {
+                  SpecificationType: 'Charging',
+                  typeDetail: "Wired & 25W wireless"
+               },
+            ],
+         },
+      ]
+   },
 ]

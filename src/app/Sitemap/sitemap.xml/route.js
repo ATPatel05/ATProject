@@ -1,6 +1,7 @@
 const baseUrl = "https://www.skilluplines.com";
 
 import { AllApplePhonesList } from '@/PhoneData/ApplePhonesList';
+import { AllSamsungPhonesList } from '@/PhoneData/SamsungPhonesList';
 
 const staticPages = [
    { path: "/", changefreq: "daily", priority: 1.0 },
@@ -49,6 +50,7 @@ const staticPages = [
 
 const blogUrls = [
    ...AllApplePhonesList,
+   ...AllSamsungPhonesList,
 ];
 
 export async function GET() {
