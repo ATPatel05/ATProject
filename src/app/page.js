@@ -10,14 +10,24 @@ import { AllXiaoMIPhonesList } from '@/PhoneData/XiaoMIPhonesList';
 import { AllVivoPhonesList } from '@/PhoneData/VivoPhonesList';
 import { AllRealmePhonesList } from '@/PhoneData/RealMePhones';
 import { AllPocoPhonesList } from '@/PhoneData/PocoPhonesLists';
-import { AllLatestPhoneList } from '@/PhoneData/LatestPhonesList';
 import { AllPopulerPhoneList } from '@/PhoneData/PopulerPhonesList';
 import { AllHeadphonesList } from '@/GadgetData/HeadphoneList';
 import { AllAirdropsList } from '@/GadgetData/AirdropsList';
 import { AllNackbandsList } from '@/GadgetData/Nackband';
 import { AllWatchList } from '@/LuxuryItemsData/WatchList';
 import { AllPerfumeList } from '@/LuxuryItemsData/PerfumesList';
+import { AllGooglePhonesList } from '@/PhoneData/GooglePhonesList';
 
+const AllLatestPhoneList = [
+   ...AllSamsungPhonesList.slice(0, 2),
+   ...AllApplePhonesList.slice(0, 2),
+   ...AllOnePlusPhonesList.slice(0, 2),
+   ...AllOppoPhonesList.slice(0, 2),
+   ...AllVivoPhonesList.slice(0, 2),
+   ...AllRealmePhonesList.slice(0, 2),
+   ...AllXiaoMIPhonesList.slice(0, 2),
+
+]
 export default function HomePage() {
   return (
     <>
@@ -26,15 +36,15 @@ export default function HomePage() {
         <div className={styles.mobile_blog}>
           <section className={styles.phone_review_section}>
             <SectionHeader>Populer Mobile Phones</SectionHeader>
-              {AllPopulerPhoneList.map((phone, index) => (
-                <PhonePost key={index} phone={phone} />
-              ))}
+            {AllPopulerPhoneList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
           </section>
           <section className={styles.phone_review_section}>
             <SectionHeader>Latest Mobile Phones</SectionHeader>
-              {AllLatestPhoneList.map((phone, index) => (
-                <PhonePost key={index} phone={phone} />
-              ))}
+            {AllLatestPhoneList.map((phone, index) => (
+              <PhonePost key={index} phone={phone} />
+            ))}
           </section>
           <section className={styles.phone_review_section}>
             <SectionHeader>Samsung</SectionHeader>
@@ -44,7 +54,6 @@ export default function HomePage() {
               ))}
             </section>
           </section>
-
           <section className={styles.phone_review_section}>
             <SectionHeader>Apple</SectionHeader>
             <section className={styles.all_phones}>
@@ -53,8 +62,16 @@ export default function HomePage() {
               ))}
             </section>
           </section>
+          <section className={styles.phone_review_section}>
+            <SectionHeader>Google</SectionHeader>
+            <section className={styles.all_phones}>
+              {AllGooglePhonesList.map((phone, index) => (
+                <PhonePost key={index} phone={phone} />
+              ))}
+            </section>
+          </section>
 
-          {/* <section className={styles.phone_review_section}>
+          <section className={styles.phone_review_section}>
             <SectionHeader>OnePlus Phones</SectionHeader>
             <section className={styles.all_phones}>
               {AllOnePlusPhonesList.map((phone, index) => (
@@ -141,7 +158,7 @@ export default function HomePage() {
                 <PhonePost key={index} phone={phone} />
               ))}
             </section>
-          </section> */}
+          </section>
         </div>
       </main>
     </>

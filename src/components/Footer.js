@@ -16,7 +16,7 @@ export default function Footer() {
                 />
               </Link>
               <p className={styles.web_content}>
-                You have a skill to purchase best product online at best price product with ultimate guides of skilluplines.
+                You have a skill to get information about product with ultimate guides of skilluplines.
               </p>
             </div>
           </div>
