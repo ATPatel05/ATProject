@@ -24,7 +24,7 @@ export function generateMetadata() {
   const siteUrl = "https://www.skilluplines.com";
   const fullUrl = `${siteUrl}/Gadgets`;
   const title = "Phone Accessories & gadget products with Specification available in in india, USA, Canada | SkillUpLines"
-  const description = "All Brand gadgets with Full Specifications Online at Best Prices. Best Headphones, bluetooth Speakers, wirless headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.";
+  const description = "All Brand gadgets with Full Specifications. Best Headphones, bluetooth Speakers, wirless headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.";
 
   const keywords = [
     "Boat",
@@ -73,7 +73,7 @@ export function generateMetadata() {
     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
     creator: "SkillUpLines Team",
     publisher: "SkillUpLines",
-    category: "Latest headphones, amazon price, mobile phone Accessories & Parts Full Specification, earphones Details, speaker Price, phone Accessories Full Details, headphones detailed Description",
+    category: "Latest headphones, mobile phone Accessories & Parts Full Specification, earphones Details, phone Accessories Full Details, headphones detailed Description",
     robots: {
       index: true,
       follow: true,

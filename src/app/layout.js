@@ -18,7 +18,7 @@ export const metadata = {
     default: "Latest Mobile phones with specifications available in India, USA, Canada | SkillUpLines",
     template: "%s | SkillUpLines",
   },
-  description: "All Brand Mobile Phones with Full Specifications Online at Best Prices. Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
+  description: "All Brand Mobile Phones with Full Specifications. Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
   keywords: [
     "mobile",
     "phone",
@@ -36,6 +36,7 @@ export const metadata = {
     "Motarola",
     "Lava",
     "Poco",
+    "Latest 2025 Phone",
     "Samsung latest Phone",
     "Apple latest Phone",
     "Google Pixel latest Phone",
@@ -64,10 +65,6 @@ export const metadata = {
     "Latest Smart Phones",
     "Phone Full Specifications",
     "Phone Details",
-    "phone Price",
-    "phone Prices",
-    "low price phones",
-    "low price phone",
     "Best Phone",
     "Best Phones",
   ],
@@ -91,8 +88,8 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    title: "Latest Mobile phones online at Best Price in India, USA, Canada | SkillUpLines",
-    description: "Buy All Brand Mobile Phones with Full Specifications Online at Best Prices. Buy Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
+    title: "Latest Mobile phones with specifications available in India, USA, Canada | SkillUpLines",
+    description: "All Brand Mobile Phones with Full Specifications. Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
     url: "https://www.skilluplines.com",
     siteName: "SkillUpLines",
     // images: [
@@ -106,8 +103,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Latest Mobile phones online at Best Price in India, USA, Canada | SkillUpLines",
-    description: "Buy All Brand Mobile Phones with Full Specifications Online at Best Prices. Buy Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
+    title: "Latest Mobile phones with specifications available in India, USA, Canada | SkillUpLines",
+    description: "All Brand Mobile Phones with Full Specifications. Top Mobiles, Headphones, Cameras, Smart Watches & Accessories in India, USA, Canada, Germany & UK.",
     // images: ["https://www.skilluplines.com/og-image.jpg"],
   },
   icons: {
@@ -115,7 +112,7 @@ export const metadata = {
     shortcut: "/favicon.ico",
     // apple: "/apple-touch-icon.png",
   },
-  category: "Latest Mobile Phones, amazon price, Phone Full Specification, Phone Details, Phone Price, Phone Full Details, detailed Description",
+  category: "Latest Mobile Phones, Phone Full Specification, Phone Details, Phone Full Details, detailed Description",
   applicationName: "SkillUpLines",
 };
 
