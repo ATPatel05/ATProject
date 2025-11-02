@@ -4614,7 +4614,7 @@ export const AllApplePhonesList = [
       Body: '141g, 7.7mm thickness',
       Display: '6.3 inches, Super Retina XDR',
       Platform: 'iOS 26',
-      Ram: '12GB RAM',
+      Ram: '4GB RAM',
       Memory: '256GB/512GB storage',
       Battery: '3692 mAh',
       PhoneDescription: 'The Apple iPhone 13 mini combines premium design with next-generation performance, offering a 5.4-inch Super Retina XDR + Ceramic Shield glass protection display, iOS 26, 4GB RAM, and up to 512GB storage for ultimate speed and clarity.',
