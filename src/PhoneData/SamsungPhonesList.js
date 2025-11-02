@@ -2,7 +2,7 @@ export const AllSamsungPhonesList = [
    {
       slug: "Samsung-Galaxy-M17-Specification",
       title: "Samsung Galaxy M17 5G full detailed specification",
-      description: 'The Samsung Galaxy M17 combines premium design with next-generation performance, offering a 6.7-inch Super AMOLED display, Android 15, 4-8GB RAM, and up to 128GB storage for ultimate speed and clarity',
+      description: 'The Samsung Galaxy M17 combines premium design with next-generation performance, offering a 6.7-inch Super AMOLED display, Android 15, 4-8GB RAM, and up to 128GB storage for ultimate speed and clarity.',
       image: "/Phone/Samsung/Samsung_galaxy_M17_5G.jpg",
       keywords: [
          "Samsung Galaxy M17",
