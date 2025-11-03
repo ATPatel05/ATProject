@@ -2296,7 +2296,7 @@ export const AllApplePhonesList = [
       slug: "Apple-iphone-15-pro-Specifications",
       title: "Apple iPhone 15 pro full specifications",
       description: 'The Apple iPhone 15 Pro combines premium design with next-generation performance, offering a 6.1-inch Super Retina XDR OLED + Ceramic Shield glass protection display, iOS 26, 8GB RAM, and up to 1TB storage for ultimate speed and clarity.',
-      image: "/Phone/Apple/Apple-iphone-15Pro.jpg",
+      image: "/Phone/Apple/Apple-Iphone-15-Pro.jpg",
       keywords: [
          "apple",
          "apple iPhone 15 pro",
