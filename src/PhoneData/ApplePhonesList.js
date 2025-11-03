@@ -3437,7 +3437,7 @@ export const AllApplePhonesList = [
       slug: "Apple-iphone-14-Plus-Specifications",
       title: "Apple iPhone 14 Plus full specifications",
       description: 'The Apple iPhone 14 Plus combines premium design with next-generation performance, offering a 6.7-inch LTPO Super Retina XDR + Ceramic Shield glass protection display, iOS 26, 6GB RAM, and up to 512GB storage for ultimate speed and clarity.',
-      image: "/Phone/Apple/Apple-iphone-14-Plus.jpg",
+      image: "/Phone/Apple/Apple-iphone-14-plus.jpg",
       keywords: [
          "apple",
          "apple iphone 14 plus",
