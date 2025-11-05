@@ -40,12 +40,12 @@ export default function HomePage() {
               <PhonePost key={index} phone={phone} />
             ))}
           </section>
-          <section className={styles.phone_review_section}>
+          {/* <section className={styles.phone_review_section}>
             <SectionHeader>Latest Mobile Phones</SectionHeader>
             {AllLatestPhoneList.map((phone, index) => (
               <PhonePost key={index} phone={phone} />
             ))}
-          </section>
+          </section> */}
           <section className={styles.phone_review_section}>
             <SectionHeader>Samsung</SectionHeader>
             <section className={styles.all_phones}>
