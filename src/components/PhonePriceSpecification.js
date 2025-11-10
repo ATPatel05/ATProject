@@ -33,6 +33,10 @@ const PhonePriceSpecification = ({ phoneDetails }) => {
               <span className={styles.details_span}>{phoneDetails.Body}</span>
             </div>
             <div className={styles.detail} >
+              <label className={styles.details_label}>Camera</label>
+              <span className={styles.details_span}>{phoneDetails.camera}</span>
+            </div>
+            <div className={styles.detail} >
               <label className={styles.details_label}>Display</label>
               <span className={styles.details_span}>{phoneDetails.Display}</span>
             </div>

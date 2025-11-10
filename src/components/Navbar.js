@@ -101,7 +101,7 @@ export default function Navbar() {
               <a href='/AllPhoneBrands/PocoPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Poco
               </a>
-              <a href='/AllPhoneBrands/XiaoMIPhone' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/XiaoMIPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 XiaoMI
               </a>
               <a href='/AllPhoneBrands/MotarolaPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
