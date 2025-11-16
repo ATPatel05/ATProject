@@ -1,15 +1,15 @@
 import styles from './page.module.css';
 import PhoneBrands from '@/components/PhoneBrands';
-import SectionHeader from '@/components/SectionHeader';
 import PhonePost from '@/components/PhonePost';
-import { AllDooGeePhonesList } from '@/PhoneData/DooGeePhonesList';
+import SectionHeader from '@/components/SectionHeader';
+import { AllDooGeePhonesList } from '@/PhoneData/AllDooGeePhonesList';
 
 export function generateMetadata() {
 
- const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/DooGeePhones`;
+  const siteUrl = "https://www.skilluplines.com";
+  const fullUrl = `${siteUrl}/AllPhoneBrands/GooglePhones`;
   const title = "All DooGee Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
-  const description = "All DooGee Phones with full Specifications Online at Best Prices. Buy Best Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of DooGee Brand in India, USA, Canada, Germany & UK.";
+  const description = "All DooGee Phones with full Specifications Online at Best Prices on Amazon. Buy Best Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of DooGee Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
     "DooGee",
     "DooGee Phones",
@@ -31,7 +31,7 @@ export function generateMetadata() {
     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
     creator: "SkillUpLines Team",
     publisher: "SkillUpLines",
-    category: "DooGee Phones, Gadgets & Accessories with specifications",
+    category: "Google Phones, Gadgets & Accessories with specifications",
     robots: {
       index: true,
       follow: true,
@@ -84,6 +84,7 @@ export default function Page() {
           ))}
 
         </section>
+
       </div>
     </main>
   );
