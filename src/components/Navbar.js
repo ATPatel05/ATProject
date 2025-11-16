@@ -93,7 +93,7 @@ export default function Navbar() {
               <a href='/AllPhoneBrands/RealmePhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Realme
               </a>
-              <a href='/AllPhoneBrands/DooGeePhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+              <a href='/AllPhoneBrands/DoogeePhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Googee
               </a>
             </div>

@@ -45,7 +45,7 @@ const PhoneBrandList = () => {
             </a>
          </li>
          <li className={styles.phone_brand}>
-            <a href='/AllPhoneBrands/DooGeePhones' className={styles.phone_brand_link}>
+            <a href='/AllPhoneBrands/DoogeePhones' className={styles.phone_brand_link}>
                Doogee
             </a>
          </li>
@@ -55,7 +55,7 @@ const PhoneBrandList = () => {
             </a>
          </li>
          <li className={styles.phone_brand}>
-            <a href='/AllPhoneBrands/BlackviewPhones' className={styles.phone_brand_link}>
+            <a href='/AllPhoneBrands/BlackViewPhones' className={styles.phone_brand_link}>
                Blackview
             </a>
          </li>
