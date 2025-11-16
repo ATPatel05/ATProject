@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from './PhoneBrands.module.css';
 import PhoneBrandList from './PhoneBrandList';
-import GadgetsBrandsList from './GadgetsBrandsList';
-import LuxuryProductsList from './LuxuryProductsList';
 
 const PhoneBrands = () => {
    return (

@@ -77,14 +77,13 @@ export default function Page() {
     <main className={styles.container}>
       <PhoneBrands />
       <div className={styles.mobile_blog}>
-        <SectionHeader>Apple</SectionHeader>
+        <SectionHeader>DooGee</SectionHeader>
         <section className={styles.phone_review_section}>
           {AllDooGeePhonesList.map((phone, index) => (
             <PhonePost key={index} phone={phone} />
           ))}
 
         </section>
-
       </div>
     </main>
   );

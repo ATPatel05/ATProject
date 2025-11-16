@@ -133,6 +133,4 @@ export const AllDooGeePhonesList = [
          },
       ]
    },
-
-
 ]
