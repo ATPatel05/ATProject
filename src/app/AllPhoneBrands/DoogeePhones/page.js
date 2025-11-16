@@ -2,7 +2,7 @@ import styles from './page.module.css';
 import PhoneBrands from '@/components/PhoneBrands';
 import PhonePost from '@/components/PhonePost';
 import SectionHeader from '@/components/SectionHeader';
-import { AllDooGeePhonesList } from '@/PhoneData/AllDooGeePhonesList';
+import { AllDooGeePhonesList } from '@/PhoneData/DooGeePhonesList';
 
 export function generateMetadata() {
 
