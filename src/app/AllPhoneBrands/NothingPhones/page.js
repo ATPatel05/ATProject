@@ -2,22 +2,22 @@ import styles from './page.module.css';
 import PhoneBrands from '@/components/PhoneBrands';
 import PhonePost from '@/components/PhonePost';
 import SectionHeader from '@/components/SectionHeader';
-import { AllDooGeePhonesList } from '@/PhoneData/DooGeePhonesList';
+import { AllNothingPhonesList } from '@/PhoneData/NothingPhonesList';
 
 export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/GooglePhones`;
-  const title = "All DooGee Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
-  const description = "All DooGee Phones with full Specifications Online at Best Prices on Amazon. Buy Best Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of DooGee Brand in India, USA, Canada, Germany & UK.";
+  const fullUrl = `${siteUrl}/AllPhoneBrands/HonorPhones`;
+  const title = "All Honor Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
+  const description = "All Google Phones with full Specifications Online at Best Prices on Amazon. Buy Best Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of Google Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
-    "DooGee",
-    "DooGee Phones",
-    "Latest DooGee Phones 2025",
-    "All DooGee Models",
-    "DooGee Devices",
-    "DooGee Mobile Specifications",
-    "Latest DooGee Gadgets"
+    "Honor",
+    "Honor Phones",
+    "Latest Honor Phones 2025",
+    "All Honor Models",
+    "Honor Devices",
+    "Honor Mobile Specifications",
+    "Latest Honor Gadgets"
   ];
 
   return {
@@ -31,7 +31,7 @@ export function generateMetadata() {
     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
     creator: "SkillUpLines Team",
     publisher: "SkillUpLines",
-    category: "Google Phones, Gadgets & Accessories with specifications",
+    category: "Honor Phones, Gadgets & Accessories with specifications",
     robots: {
       index: true,
       follow: true,
@@ -77,14 +77,12 @@ export default function Page() {
     <main className={styles.container}>
       <PhoneBrands />
       <div className={styles.mobile_blog}>
-        <SectionHeader>DooGee</SectionHeader>
+        <SectionHeader>Honor</SectionHeader>
         <section className={styles.phone_review_section}>
-          {AllDooGeePhonesList.map((phone, index) => (
+          {AllNothingPhonesList.map((phone, index) => (
             <PhonePost key={index} phone={phone} />
           ))}
-
         </section>
-
       </div>
     </main>
   );

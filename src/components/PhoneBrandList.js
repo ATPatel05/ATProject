@@ -45,8 +45,8 @@ const PhoneBrandList = () => {
             </a>
          </li>
          <li className={styles.phone_brand}>
-            <a href='/AllPhoneBrands/DoogeePhones' className={styles.phone_brand_link}>
-               Doogee
+            <a href='/AllPhoneBrands/HuaweiPhones' className={styles.phone_brand_link}>
+               Huawei
             </a>
          </li>
          <li className={styles.phone_brand}>
@@ -55,8 +55,8 @@ const PhoneBrandList = () => {
             </a>
          </li>
          <li className={styles.phone_brand}>
-            <a href='/AllPhoneBrands/BlackViewPhones' className={styles.phone_brand_link}>
-               Blackview
+            <a href='/AllPhoneBrands/HonorPhones' className={styles.phone_brand_link}>
+               Honor
             </a>
          </li>
          <li className={styles.phone_brand}>
@@ -70,8 +70,8 @@ const PhoneBrandList = () => {
             </a>
          </li>
          <li className={styles.phone_brand}>
-            <a href='/AllPhoneBrands/LavaPhones' className={styles.phone_brand_link}>
-               Lava
+            <a href='/AllPhoneBrands/NothingPhones' className={styles.phone_brand_link}>
+               Nothing
             </a>
          </li>
          <li className={styles.last_phone_brand}>

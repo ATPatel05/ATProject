@@ -1,13 +1,12 @@
-
 import styles from './page.module.css';
 import PhoneBrands from '@/components/PhoneBrands';
 import PhonePriceSpecification from '@/components/PhonePriceSpecification';
-import { AllBlackViewPhonesList } from '@/PhoneData/BlackviewPhonesLists';
+import { AllHonorPhonesList } from '@/PhoneData/HonorPhonesList';
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
-  const PhoneSEO = AllBlackViewPhonesList.find(item => item.slug === slug);
+  const PhoneSEO = AllHonorPhonesList.find(item => item.slug === slug);
 
   if (!PhoneSEO) {
     return {
@@ -82,7 +81,7 @@ export default async function Page({ params }) {
 
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
-  const phoneDetails = AllBlackViewPhonesList.find(item => item.slug === slug);
+  const phoneDetails = AllHonorPhonesList.find(item => item.slug === slug);
 
   return (
     <main className={styles.container}>

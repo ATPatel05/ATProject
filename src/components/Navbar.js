@@ -93,8 +93,8 @@ export default function Navbar() {
               <a href='/AllPhoneBrands/RealmePhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Realme
               </a>
-              <a href='/AllPhoneBrands/DoogeePhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
-                Googee
+              <a href='/AllPhoneBrands/HuaweiPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+                Huawei
               </a>
             </div>
             <div className={styles.nav_link_row}>
@@ -109,14 +109,14 @@ export default function Navbar() {
               </a>
             </div>
             <div className={styles.nav_link_row}>
-              <a href='/AllPhoneBrands/BlackViewPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
-                BlackView
+              <a href='/AllPhoneBrands/HonorPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+                Honor
               </a>
               <a href='/AllPhoneBrands/SonyPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
                 Sony
               </a>
-              <a href='/AllPhoneBrands/LavaPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
-                Lava
+              <a href='/AllPhoneBrands/NothingPhones' onClick={() => setPhoneBrandsOpen(false)} className={styles.phone_brand_link}>
+                Nothing
               </a>
             </div>
           </li>
