@@ -473,10 +473,10 @@ export const AllIQOOPhonesList = [
       camera: '50MP',
       Display: '6.77 inches, AMOLED',
       Platform: 'Android 15, Funtouch 15',
-      Ram: '8-12GB RAM',
+      Ram: '8/12GB RAM',
       Memory: '128GB/256GB storage',
       Battery: '5700 mAh',
-      PhoneDescription: 'The IQOO Z10R combines premium design with next-generation performance, offering a 6.77-inch AMOLED display, Funtouch 15, 8-12GB RAM, 5700 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
+      PhoneDescription: 'The IQOO Z10R combines premium design with next-generation performance, offering a 6.77-inch AMOLED display, Funtouch 15, 8/12GB RAM, 5700 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
