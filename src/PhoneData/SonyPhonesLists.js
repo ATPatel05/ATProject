@@ -2,7 +2,7 @@ export const AllSonyPhonesList = [
    {
       slug: "Sony-Xperia-10-VII-specification",
       title: "Sony peria 10 VII full detailed specification",
-      description: "Sony peria 10 VII combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Sony peria 10 VII combines premium design with next-generation performance, offering a 6.1-inch OLED display, Android 15, 8GB RAM, 5000 mAh battery, 50MP Camera and up to 128GB storage for ultimate speed and clarity.",
       image: "/Phone/Sony/Sony-Xperia-10-VII.jpg",
       keywords: [
          "Sony peria 10 VII",
@@ -34,15 +34,15 @@ export const AllSonyPhonesList = [
       phoneHeading: 'Sony peria 10 VII',
       ManufacturerLink: '/AllPhoneBrands/SonyPhones',
       Manufacturer: 'Sony',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, September 19',
+      Body: '168g, 8.3mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
+      Display: '6.1 inches, OLED',
+      Platform: 'Android 15',
       Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Memory: '128GB storage, microSDXC',
+      Battery: '5000 mAh',
+      PhoneDescription: 'Sony peria 10 VII combines premium design with next-generation performance, offering a 6.1-inch OLED display, Android 15, 8GB RAM, 5000 mAh battery, 50MP Camera and up to 128GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -71,7 +71,7 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, September 12"
                }
             ],
          },
@@ -80,19 +80,19 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "168 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.3mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "153 x 72 x 8.3 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Gorilla Glass Victus 2), plastic frame, plastic back"
                }
             ],
          },
@@ -101,19 +101,19 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.1 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "OLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2340 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Corning Gorilla Glass Victus 2"
                },
             ],
          },
@@ -122,11 +122,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM6475-AB Snapdragon 6 Gen 3"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15"
                },
                {
                   SpecificationType: 'CPU',
@@ -139,11 +139,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 8GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC"
                },
             ],
          },
@@ -152,11 +152,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 13 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
@@ -174,11 +174,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "Wired"
                },
             ],
          },
@@ -196,7 +196,7 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
                },
             ],
          },
@@ -205,7 +205,7 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e"
                },
                {
                   SpecificationType: 'Bluetooth',
@@ -213,7 +213,7 @@ export const AllSonyPhonesList = [
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -221,7 +221,7 @@ export const AllSonyPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -230,7 +230,7 @@ export const AllSonyPhonesList = [
    {
       slug: "Sony-Xperia-1-VII-specification",
       title: "Sony Xperia 1 VII full detailed specification",
-      description: "Sony Xperia 1 VII combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Sony Xperia 1 VII combines premium design with next-generation performance, offering a 6.5-inch LTPO OLED display, Android 15, 12GB RAM, 5000 mAh battery, 48MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Sony/Sony-Xperia-1-VII.jpg",
       keywords: [
          "Sony Xperia 1 VII",
@@ -262,15 +262,15 @@ export const AllSonyPhonesList = [
       phoneHeading: 'Sony Xperia 1 VII',
       ManufacturerLink: '/AllPhoneBrands/SonyPhones',
       Manufacturer: 'Sony',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Announced: '2025, June 04',
+      Body: '197g, 8.2mm thickness',
+      camera: '48MP',
+      Display: '6.5 inches, LTPO OLED',
+      Platform: 'Android 15',
+      Ram: '12GB RAM',
+      Memory: '256GB/512GB storage, microSDXC',
+      Battery: '5000 mAh',
+      PhoneDescription: 'Sony Xperia 1 VII combines premium design with next-generation performance, offering a 6.5-inch LTPO OLED display, Android 15, 12GB RAM, 5000 mAh battery, 48MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -299,7 +299,7 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, May 13"
                }
             ],
          },
@@ -308,19 +308,19 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "197 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.2mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "162 x 74 x 8.2 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus), aluminum frame"
                }
             ],
          },
@@ -329,7 +329,7 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.5 inches"
                },
                {
                   SpecificationType: 'Type',
@@ -337,11 +337,11 @@ export const AllSonyPhonesList = [
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2340 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "	Corning Gorilla Glass Victus 2"
                },
             ],
          },
@@ -350,11 +350,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM8750-AB Snapdragon 8 Elite"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15"
                },
                {
                   SpecificationType: 'CPU',
@@ -367,11 +367,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 12GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC"
                },
             ],
          },
@@ -380,11 +380,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 12 MP + 48 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "color spectrum sensor, LED flash, panorama, HDR, eye tracking"
                },
             ],
          },
@@ -393,7 +393,7 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "12 MP"
                }
             ],
          },
@@ -402,11 +402,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "30W wired, 15W wireless"
                },
             ],
          },
@@ -424,7 +424,7 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, gyro, proximity, barometer, compass"
                },
             ],
          },
@@ -437,11 +437,11 @@ export const AllSonyPhonesList = [
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "6.0, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -458,7 +458,7 @@ export const AllSonyPhonesList = [
    {
       slug: "Sony-Xperia-1-VI-specification",
       title: "Sony Xperia 1 VI full detailed specification",
-      description: "Sony Xperia 1 VI combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Sony Xperia 1 VI combines premium design with next-generation performance, offering a 6.5-inch LTPO OLED display, Android 14, 12GB RAM, 5000 mAh battery, 48MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Sony/Sony-Xperia-1-VI.jpg",
       keywords: [
          "Sony Xperia 1 VI",
@@ -490,15 +490,15 @@ export const AllSonyPhonesList = [
       phoneHeading: 'Sony Xperia 1 VI',
       ManufacturerLink: '/AllPhoneBrands/SonyPhones',
       Manufacturer: 'Sony',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Announced: '2024, June 03',
+      Body: '192g, 8.2mm thickness',
+      camera: '48MP',
+      Display: '6.5 inches, LTPO OLED',
+      Platform: 'Android 14',
+      Ram: '12GB RAM',
+      Memory: '256GB/512GB storage, microSDXC',
+      Battery: '5000 mAh',
+      PhoneDescription: 'Sony Xperia 1 VI combines premium design with next-generation performance, offering a 6.5-inch LTPO OLED display, Android 14, 12GB RAM, 5000 mAh battery, 48MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -527,7 +527,7 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2024, May 15"
                }
             ],
          },
@@ -536,19 +536,19 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "192 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.2mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "162 x 74 x 8.2 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus), aluminum frame"
                }
             ],
          },
@@ -557,19 +557,19 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.5 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "LTPO OLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2340 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Corning Gorilla Glass Victus 2"
                },
             ],
          },
@@ -578,11 +578,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM8650-AB Snapdragon 8 Gen 3"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 14"
                },
                {
                   SpecificationType: 'CPU',
@@ -595,11 +595,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 12GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC"
                },
             ],
          },
@@ -608,11 +608,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "48 MP + 12 MP + 12 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "color spectrum sensor, LED flash, panorama, HDR, eye tracking"
                },
             ],
          },
@@ -621,7 +621,7 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "12 MP"
                }
             ],
          },
@@ -630,11 +630,11 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "30W wired, 15W wireless"
                },
             ],
          },
@@ -652,7 +652,7 @@ export const AllSonyPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, gyro, proximity, barometer, compass"
                },
             ],
          },
@@ -669,7 +669,7 @@ export const AllSonyPhonesList = [
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
