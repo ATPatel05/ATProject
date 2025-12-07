@@ -7,17 +7,17 @@ import { AllHuaweiPhonesList } from '@/PhoneData/HuaweiPhonesList';
 export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/HonorPhones`;
-  const title = "All Honor Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
+  const fullUrl = `${siteUrl}/AllPhoneBrands/HuaweiPhones`;
+  const title = "All Huawei Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
   const description = "All Google Phones with full Specifications Online at Best Prices on Amazon. Buy Best Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of Google Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
-    "Honor",
-    "Honor Phones",
-    "Latest Honor Phones 2025",
-    "All Honor Models",
-    "Honor Devices",
-    "Honor Mobile Specifications",
-    "Latest Honor Gadgets"
+    "Huawei",
+    "Huawei Phones",
+    "Latest Huawei Phones 2025",
+    "All Huawei Models",
+    "Huawei Devices",
+    "Huawei Mobile Specifications",
+    "Latest Huawei Gadgets"
   ];
 
   return {
@@ -31,7 +31,7 @@ export function generateMetadata() {
     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
     creator: "SkillUpLines Team",
     publisher: "SkillUpLines",
-    category: "Honor Phones, Gadgets & Accessories with specifications",
+    category: "Huawei Phones, Gadgets & Accessories with specifications",
     robots: {
       index: true,
       follow: true,

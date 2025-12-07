@@ -7,17 +7,17 @@ import { AllNothingPhonesList } from '@/PhoneData/NothingPhonesList';
 export function generateMetadata() {
 
   const siteUrl = "https://www.skilluplines.com";
-  const fullUrl = `${siteUrl}/AllPhoneBrands/HonorPhones`;
-  const title = "All Honor Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
+  const fullUrl = `${siteUrl}/AllPhoneBrands/NothingPhones`;
+  const title = "All Nothing Phones with full Specifications | Buy Online at Best price in India, USA & Canada - SkillUpLines"
   const description = "All Google Phones with full Specifications Online at Best Prices on Amazon. Buy Best Headphones, bluetooth Speakers, wirless headphones, Smart Watches & Accessories of Google Brand in India, USA, Canada, Germany & UK.";
   const keywords = [
-    "Honor",
-    "Honor Phones",
-    "Latest Honor Phones 2025",
-    "All Honor Models",
-    "Honor Devices",
-    "Honor Mobile Specifications",
-    "Latest Honor Gadgets"
+    "Nothing",
+    "Nothing Phones",
+    "Latest Nothing Phones 2025",
+    "All Nothing Models",
+    "Nothing Devices",
+    "Nothing Mobile Specifications",
+    "Latest Nothing Gadgets"
   ];
 
   return {
@@ -31,7 +31,7 @@ export function generateMetadata() {
     authors: [{ name: "SkillUpLines Team", url: `${siteUrl}/about` }],
     creator: "SkillUpLines Team",
     publisher: "SkillUpLines",
-    category: "Honor Phones, Gadgets & Accessories with specifications",
+    category: "Nothing Phones, Gadgets & Accessories with specifications",
     robots: {
       index: true,
       follow: true,
@@ -77,7 +77,7 @@ export default function Page() {
     <main className={styles.container}>
       <PhoneBrands />
       <div className={styles.mobile_blog}>
-        <SectionHeader>Honor</SectionHeader>
+        <SectionHeader>Nothing</SectionHeader>
         <section className={styles.phone_review_section}>
           {AllNothingPhonesList.map((phone, index) => (
             <PhonePost key={index} phone={phone} />
