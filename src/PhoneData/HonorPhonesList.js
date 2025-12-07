@@ -2,7 +2,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-magic8-Pro-specification",
       title: "Honor magic 8 Pro full detailed specification",
-      description: "Honor magic 8 Pro combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor magic 8 Pro combines premium design with next-generation performance, offering a 6.71-inch LTPO AMOLED display, MagicOS 10, 12/16GB RAM, 7100 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-magic8-Pro.jpg",
       keywords: [
          "Honor magic 8 Pro",
@@ -34,15 +34,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor magic 8 Pro',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Announced: '2025, October 23',
+      Body: '219g, 8.3mm thickness',
+      camera: '200MP',
+      Display: '6.71 inches, LTPO OLED',
+      Platform: 'Android 16, MagicOS 10',
+      Ram: '12/16GB RAM',
+      Memory: '256GB/512GB/1TB storage',
+      Battery: '7100 mAh',
+      PhoneDescription: 'Honor magic 8 Pro combines premium design with next-generation performance, offering a 6.71-inch LTPO AMOLED display, MagicOS 10, 12/16GB RAM, 7100 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -71,7 +71,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, October 15"
                }
             ],
          },
@@ -84,15 +84,15 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.3mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "161.2 x 75 x 8.3 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass, fiber-reinforced plastic back"
                }
             ],
          },
@@ -101,19 +101,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.71 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "LTPO OLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1256 x 2808 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "NanoCrystal Shield"
                },
             ],
          },
@@ -126,7 +126,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 16, MagicOS 10"
                },
                {
                   SpecificationType: 'CPU',
@@ -139,7 +139,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -152,11 +152,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 200 MP + 50 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "Laser AF, color spectrum sensor, LED flash, HDR, panorama"
                },
             ],
          },
@@ -174,11 +174,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 7100 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "100W wired, 120W wireless"
                },
             ],
          },
@@ -187,7 +187,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes, with large amplitude stereo speakers"
                }
             ],
          },
@@ -196,7 +196,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), Face ID, accelerometer, gyro, proximity, compass"
                },
             ],
          },
@@ -205,15 +205,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6/7"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "6.0, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -230,7 +230,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-Magic8-specification",
       title: "Honor Magic 8 full detailed specification",
-      description: "Honor Magic 8 combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor Magic 8 combines premium design with next-generation performance, offering a 6.58-inch LTPO OLED display, MagicOS 10, 12/16GB RAM, 7000 mAh battery, 64MP Camera and up to 1TB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-Magic8.jpg",
       keywords: [
          "Honor Magic 8",
@@ -262,15 +262,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor Magic 8',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Announced: '2025, October 23',
+      Body: '205g, 8mm thickness',
+      camera: '64MP',
+      Display: '6.58 inches, LTPO OLED',
+      Platform: '	Android 16, MagicOS 10',
+      Ram: '12/16GB RAM',
+      Memory: '256GB/512GB/1TB storage',
+      Battery: '7000 mAh',
+      PhoneDescription: 'Honor Magic 8 combines premium design with next-generation performance, offering a 6.58-inch LTPO OLED display, MagicOS 10, 12/16GB RAM, 7000 mAh battery, 64MP Camera and up to 1TB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -299,7 +299,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, October 15"
                }
             ],
          },
@@ -308,7 +308,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "205 g"
                },
                {
                   SpecificationType: 'Thickness',
@@ -316,11 +316,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "157.1 x 74 x 8 mm"
                }
             ],
          },
@@ -329,19 +325,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.58 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "LTPO OLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1256 x 2760 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Giant Rhino Glass"
                },
             ],
          },
@@ -354,7 +350,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 16, MagicOS 10"
                },
                {
                   SpecificationType: 'CPU',
@@ -367,7 +363,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -380,11 +376,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 64 MP + 50 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "Color spectrum sensor, LED flash, HDR, panorama"
                },
             ],
          },
@@ -402,11 +398,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 7000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "90W wired, 80W wireless"
                },
             ],
          },
@@ -415,7 +411,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes, with large amplitude stereo speakers"
                }
             ],
          },
@@ -424,7 +420,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, proximity, compass"
                },
             ],
          },
@@ -433,11 +429,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6/7"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "6.0, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
@@ -449,7 +445,227 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
+               },
+            ],
+         },
+      ]
+   },
+   {
+      slug: "Honor-Play10A-specification",
+      title: "Honor Play10A full detailed specification",
+      description: "Honor Play10A combines premium design with next-generation performance, offering a 6.74-inch TFT LCD display, MagicOS 9, 4GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      image: "/Phone/Honor/Honor-X5C.jpg",
+      keywords: [
+         "Honor Play10A",
+         "Honor Play10A Specifications",
+         "Honor Play10A Features",
+         "Honor Play10A Review",
+         "Honor Play10A Specs",
+         "Honor Play10A Launch Date",
+         "Honor Play10A 5G",
+         "Honor Play10A Camera",
+         "Honor Play10A Battery",
+         "Honor Play10A Display",
+         "Honor Play10A Performance",
+         "Honor Play10A Processor",
+         "Honor Play10A Storage",
+         "Honor Play10A RAM",
+         "Honor Play10A Online",
+         "Honor Play10A Buy",
+         "Honor Play10A Full Details",
+         "Honor Play10A Mobile Phone",
+         "Honor Play10A India Price",
+         "Honor Play10A USA Price",
+         "Honor Play10A Unboxing",
+         "Honor Play10A Pros and Cons",
+         "Best Honor Play10A Alternatives"
+      ],
+      folderPath: 'AllPhoneBrands/HonorPhone',
+      postName: 'Play10A',
+      phoneHeading: 'Honor Play10A',
+      ManufacturerLink: '/AllPhoneBrands/HonorPhones',
+      Manufacturer: 'Honor',
+      Announced: '2025, October 23',
+      Body: '186g, 7.9mm thickness',
+      camera: '50MP',
+      Display: '6.74 inches, TFT LCD',
+      Platform: 'Android 15, MagicOS 9',
+      Ram: '4GB RAM',
+      Memory: '128GB storage, microSDXC',
+      Battery: '5260 mAh',
+      PhoneDescription: 'Honor Play10A combines premium design with next-generation performance, offering a 6.74-inch TFT LCD display, MagicOS 9, 4GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      AmazonPrice: [
+         {
+            RamRom: '128GB 8GB Ram',
+            price: [
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+            ]
+         }
+      ],
+      Specifications: [
+         {
+            SpecificationHeading: 'Launch',
+            Details: [
+               {
+                  SpecificationType: 'Announced',
+                  typeDetail: "2025, October 23"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Body',
+            Details: [
+               {
+                  SpecificationType: 'Weight',
+                  typeDetail: "186 g"
+               },
+               {
+                  SpecificationType: 'Thickness',
+                  typeDetail: "7.9mm thickness"
+               },
+               {
+                  SpecificationType: 'Dimensions',
+                  typeDetail: "167 x 77 x 7.9 mm"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Display',
+            Details: [
+               {
+                  SpecificationType: 'Size',
+                  typeDetail: "6.74 inches"
+               },
+               {
+                  SpecificationType: 'Type',
+                  typeDetail: "TFT LCD"
+               },
+               {
+                  SpecificationType: 'Resolution',
+                  typeDetail: "720 x 1600 pixels"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Platform',
+            Details: [
+               {
+                  SpecificationType: 'Chipset',
+                  typeDetail: "Mediatek Helio G81"
+               },
+               {
+                  SpecificationType: 'OS',
+                  typeDetail: "Android 15, MagicOS 9"
+               },
+               {
+                  SpecificationType: 'CPU',
+                  typeDetail: "Octa-core"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Memory',
+            Details: [
+               {
+                  SpecificationType: 'Internal',
+                  typeDetail: "128GB 4GB RAM"
+               },
+               {
+                  SpecificationType: 'Card slot',
+                  typeDetail: "microSDXC"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Main Cameras',
+            Details: [
+               {
+                  SpecificationType: 'Single',
+                  typeDetail: "50 MP + Auxiliary lens"
+               },
+               {
+                  SpecificationType: 'Features',
+                  typeDetail: "LED flash, HDR, panorama"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Selfie camera',
+            Details: [
+               {
+                  SpecificationType: 'Single',
+                  typeDetail: "5 MP"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Battery',
+            Details: [
+               {
+                  SpecificationType: 'Type',
+                  typeDetail: "Li-Po 5260 mAh"
+               },
+               {
+                  SpecificationType: 'Charging',
+                  typeDetail: "15W wired"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Sound',
+            Details: [
+               {
+                  SpecificationType: 'Loudspeaker',
+                  typeDetail: "Yes"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Features',
+            Details: [
+               {
+                  SpecificationType: 'Sensors',
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, proximity"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Comms',
+            Details: [
+               {
+                  SpecificationType: 'WLAN',
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
+               },
+               {
+                  SpecificationType: 'Bluetooth',
+                  typeDetail: "5.1, A2DP"
+               },
+               {
+                  SpecificationType: 'Positioning',
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
+               },
+               {
+                  SpecificationType: 'Radio',
+                  typeDetail: "FM radio"
+               },
+               {
+                  SpecificationType: 'USB',
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -458,7 +674,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-X5C-specification",
       title: "Honor X5C full detailed specification",
-      description: "Honor X5C combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor X5C combines premium design with next-generation performance, offering a 6.74-inch LTPO AMOLED display, MagicOS 9, 4GB RAM, 5260 mAh battery, 50MP Camera and up to 128GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-X5C.jpg",
       keywords: [
          "Honor X5C",
@@ -490,15 +706,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor X5C',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, October 05',
+      Body: '186g, 7.9mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.74 inches, TFT LCD',
+      Platform: 'Android 15, MagicOS 9',
+      Ram: '4GB RAM',
+      Memory: '64GB/128GB storage, microSDXC',
+      Battery: '5260 mAh',
+      PhoneDescription: 'Honor X5C combines premium design with next-generation performance, offering a 6.74-inch LTPO AMOLED display, MagicOS 9, 4GB RAM, 5260 mAh battery, 50MP Camera and up to 128GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -527,7 +743,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, October 05"
                }
             ],
          },
@@ -536,19 +752,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "186 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "7.9mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "167 x 77 x 7.9 mm"
                }
             ],
          },
@@ -557,20 +769,16 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.74 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "TFT LCD"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
-               },
-               {
-                  SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
-               },
+                  typeDetail: "720 x 1600 pixels"
+               }
             ],
          },
          {
@@ -578,11 +786,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Mediatek Helio G81"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, MagicOS 9"
                },
                {
                   SpecificationType: 'CPU',
@@ -595,11 +803,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "64GB 4GB RAM, 128GB 4GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC"
                },
             ],
          },
@@ -607,12 +815,12 @@ export const AllHonorPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Single',
+                  typeDetail: "50 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
@@ -621,7 +829,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "5 MP"
                }
             ],
          },
@@ -630,11 +838,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Li-Po 5260 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "15W wired"
                },
             ],
          },
@@ -643,7 +851,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes"
                }
             ],
          },
@@ -652,7 +860,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), proximity, accelerometer"
                },
             ],
          },
@@ -661,23 +869,23 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.1, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
-                  typeDetail: "No"
+                  typeDetail: "FM radio"
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -686,7 +894,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-X5C-Plus-specification",
       title: "Honor X5C Plus full detailed specification",
-      description: "Honor X5C Plus combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor X5C Plus combines premium design with next-generation performance, offering a 6.74-inch TFT LCD display, HyperOS 3, 4/6GB RAM, 5260 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-X5C.jpg",
       keywords: [
          "Honor X5C Plus",
@@ -718,15 +926,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor X5C Plus',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, September 24',
+      Body: '186g, 7.9mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
+      Display: '6.74 inches, TFT LCD',
       Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Ram: '4/6GB RAM',
+      Memory: '64GB/128GB/256GB storage, microSDXC',
+      Battery: '5260 mAh',
+      PhoneDescription: 'Honor X5C Plus combines premium design with next-generation performance, offering a 6.74-inch TFT LCD display, HyperOS 3, 4/6GB RAM, 5260 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -755,7 +963,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, September 24"
                }
             ],
          },
@@ -764,19 +972,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "186 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "7.9mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "167 x 77 x 7.9 mm"
                }
             ],
          },
@@ -785,20 +989,16 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.74 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "TFT LCD"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
-               },
-               {
-                  SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
-               },
+                  typeDetail: "720 x 1600 pixels"
+               }
             ],
          },
          {
@@ -806,11 +1006,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Mediatek Helio G81"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, MagicOS 9"
                },
                {
                   SpecificationType: 'CPU',
@@ -823,11 +1023,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "64GB 4GB RAM, 128GB 4GB RAM, 256GB 4GB RAM, 256GB 6GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC"
                },
             ],
          },
@@ -835,12 +1035,12 @@ export const AllHonorPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Single',
+                  typeDetail: "50 MP + Auxiliary lens"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
@@ -849,7 +1049,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "5 MP"
                }
             ],
          },
@@ -858,11 +1058,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Li-Po 5260 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "15W wired"
                },
             ],
          },
@@ -871,7 +1071,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes"
                }
             ],
          },
@@ -880,7 +1080,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, proximity"
                },
             ],
          },
@@ -889,23 +1089,23 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.1, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
-                  typeDetail: "No"
+                  typeDetail: "FM radio"
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -914,7 +1114,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-X9d-specification",
       title: "Honor X9d full detailed specification",
-      description: "Honor X9d combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor X9d combines premium design with next-generation performance, offering a 6.79-inch AMOLED display, Magic OS 9, 8/12GB RAM, 8300 mAh battery, 108MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-X70.jpg",
       keywords: [
          "Honor X9d",
@@ -946,15 +1146,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor X9d',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Announced: '2025, October 09',
+      Body: '193g, 7.8mm thickness',
+      camera: '108MP',
+      Display: '6.79 inches, AMOLED',
+      Platform: 'Android 15, Magic OS 9',
+      Ram: '8/12GB RAM',
+      Memory: '256GB/512GB storage',
+      Battery: '8300 mAh',
+      PhoneDescription: 'Honor X9d combines premium design with next-generation performance, offering a 6.79-inch AMOLED display, Magic OS 9, 8/12GB RAM, 8300 mAh battery, 108MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -983,7 +1183,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, October 09"
                }
             ],
          },
@@ -992,19 +1192,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "193 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "7.8mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "161.9 x 76.1 x 7.8 mm"
                }
             ],
          },
@@ -1013,19 +1209,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.79 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1200 x 2640 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Aluminosilicate glass"
                },
             ],
          },
@@ -1034,11 +1230,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm Snapdragon 6 Gen 4"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, Magic OS 9"
                },
                {
                   SpecificationType: 'CPU',
@@ -1051,7 +1247,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -1063,12 +1259,12 @@ export const AllHonorPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "108 MP + 2 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, panorama, HDR"
                },
             ],
          },
@@ -1086,11 +1282,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 8300 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "66W wired"
                },
             ],
          },
@@ -1108,7 +1304,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, compass, gyro, proximity"
                },
             ],
          },
@@ -1117,15 +1313,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.2, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
@@ -1133,7 +1329,231 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
+               },
+            ],
+         },
+      ]
+   },
+   {
+      slug: "Honor-X7d-specification",
+      title: "Honor X7d full detailed specification",
+      description: "Honor X7d combines premium design with next-generation performance, offering a 6.77-inch TFT LCD display, Magic OS 9, 6/8GB RAM, 6500 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
+      image: "/Phone/Honor/Honor-400-Smart.jpg",
+      keywords: [
+         "Honor X7d",
+         "Honor X7d Specifications",
+         "Honor X7d Features",
+         "Honor X7d Review",
+         "Honor X7d Specs",
+         "Honor X7d Launch Date",
+         "Honor X7d 5G",
+         "Honor X7d Camera",
+         "Honor X7d Battery",
+         "Honor X7d Display",
+         "Honor X7d Performance",
+         "Honor X7d Processor",
+         "Honor X7d Storage",
+         "Honor X7d RAM",
+         "Honor X7d Online",
+         "Honor X7d Buy",
+         "Honor X7d Full Details",
+         "Honor X7d Mobile Phone",
+         "Honor X7d India Price",
+         "Honor X7d USA Price",
+         "Honor X7d Unboxing",
+         "Honor X7d Pros and Cons",
+         "Best Honor X7d Alternatives"
+      ],
+      folderPath: 'AllPhoneBrands/HonorPhone',
+      postName: 'X7d',
+      phoneHeading: 'Honor X7d',
+      ManufacturerLink: '/AllPhoneBrands/HonorPhones',
+      Manufacturer: 'Honor',
+      Announced: '2025, September 24',
+      Body: '206g, 8.2mm thickness',
+      camera: '50MP',
+      Display: '6.7 inches, Corning Gorilla Glass Victus+',
+      Platform: 'Android 15, Magic OS 9',
+      Ram: '6/8GB RAM',
+      Memory: '128GB/256GB storage',
+      Battery: '6500 mAh',
+      PhoneDescription: 'Honor X7d combines premium design with next-generation performance, offering a 6.77-inch TFT LCD display, Magic OS 9, 6/8GB RAM, 6500 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
+      AmazonPrice: [
+         {
+            RamRom: '128GB 8GB Ram',
+            price: [
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+            ]
+         }
+      ],
+      Specifications: [
+         {
+            SpecificationHeading: 'Launch',
+            Details: [
+               {
+                  SpecificationType: 'Announced',
+                  typeDetail: "2025, September 24"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Body',
+            Details: [
+               {
+                  SpecificationType: 'Weight',
+                  typeDetail: "206 g"
+               },
+               {
+                  SpecificationType: 'Thickness',
+                  typeDetail: "8.2mm thickness"
+               },
+               {
+                  SpecificationType: 'Dimensions',
+                  typeDetail: "166.9 x 76.8 x 8.2 mm"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Display',
+            Details: [
+               {
+                  SpecificationType: 'Size',
+                  typeDetail: "6.77 inches"
+               },
+               {
+                  SpecificationType: 'Type',
+                  typeDetail: "TFT LCD"
+               },
+               {
+                  SpecificationType: 'Resolution',
+                  typeDetail: "720 x 1610 pixels"
+               },
+               {
+                  SpecificationType: 'Protection',
+                  typeDetail: "Scratch-resistant glass"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Platform',
+            Details: [
+               {
+                  SpecificationType: 'Chipset',
+                  typeDetail: "Qualcomm SM6375 Snapdragon 6s Gen 3 "
+               },
+               {
+                  SpecificationType: 'OS',
+                  typeDetail: "Android 15, Magic OS 9"
+               },
+               {
+                  SpecificationType: 'CPU',
+                  typeDetail: "Octa-core"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Memory',
+            Details: [
+               {
+                  SpecificationType: 'Internal',
+                  typeDetail: "128GB 6GB RAM, 256GB 6GB RAM, 256GB 8GB RAM"
+               },
+               {
+                  SpecificationType: 'Card slot',
+                  typeDetail: "No"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Main Cameras',
+            Details: [
+               {
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + Auxiliary lens"
+               },
+               {
+                  SpecificationType: 'Features',
+                  typeDetail: "LED flash, HDR, panorama"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Selfie camera',
+            Details: [
+               {
+                  SpecificationType: 'Single',
+                  typeDetail: "5 MP"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Battery',
+            Details: [
+               {
+                  SpecificationType: 'Type',
+                  typeDetail: "Li-Po 6500 mAh"
+               },
+               {
+                  SpecificationType: 'Charging',
+                  typeDetail: "35W wired"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Sound',
+            Details: [
+               {
+                  SpecificationType: 'Loudspeaker',
+                  typeDetail: "Yes, with stereo speakers"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Features',
+            Details: [
+               {
+                  SpecificationType: 'Sensors',
+                  typeDetail: "Fingerprint (side-mounted), compass, accelerometer, proximity"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Comms',
+            Details: [
+               {
+                  SpecificationType: 'WLAN',
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
+               },
+               {
+                  SpecificationType: 'Bluetooth',
+                  typeDetail: "5.1, A2DP"
+               },
+               {
+                  SpecificationType: 'Positioning',
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
+               },
+               {
+                  SpecificationType: 'Radio',
+                  typeDetail: "No"
+               },
+               {
+                  SpecificationType: 'USB',
+                  typeDetail: "	USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -1142,7 +1562,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-X7c-specification",
       title: "Honor X7c full detailed specification",
-      description: "Honor X7c combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor X7c combines premium design with next-generation performance, offering a 6.8-inch TFT LCD display, MagicOS 8, 8GB RAM, 5200 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-X7c.jpg",
       keywords: [
          "Honor X7c",
@@ -1174,15 +1594,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor X7c',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, August 20',
+      Body: '193g, 8.2mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
+      Display: '6.8 inches, TFT LCD',
+      Platform: 'Android 14, MagicOS 8',
       Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Memory: '256GB storage',
+      Battery: '5200 mAh',
+      PhoneDescription: 'Honor X7c combines premium design with next-generation performance, offering a 6.8-inch TFT LCD display, MagicOS 8, 8GB RAM, 5200 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -1211,7 +1631,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, August 18"
                }
             ],
          },
@@ -1220,19 +1640,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "193 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.2mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "166.9 x 76.8 x 8.2 mm"
                }
             ],
          },
@@ -1241,19 +1657,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.8 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "TFT LCD"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2412 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Aluminosilicate glass"
                },
             ],
          },
@@ -1262,11 +1678,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM4450 Snapdragon 4 Gen 2"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 14, MagicOS 8"
                },
                {
                   SpecificationType: 'CPU',
@@ -1279,7 +1695,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 8GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -1291,12 +1707,12 @@ export const AllHonorPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + Auxiliary lens"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR"
                },
             ],
          },
@@ -1305,7 +1721,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "5 MP"
                }
             ],
          },
@@ -1314,11 +1730,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Li-Po 5200 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "35W wired"
                },
             ],
          },
@@ -1327,7 +1743,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes"
                }
             ],
          },
@@ -1336,7 +1752,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, proximity, compass"
                },
             ],
          },
@@ -1345,15 +1761,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.0, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
@@ -1361,7 +1777,227 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
+               },
+            ],
+         },
+      ]
+   },
+   {
+      slug: "Honor-Play-10-specification",
+      title: "Honor Play 10 full detailed specification",
+      description: "Honor Play 10 combines premium design with next-generation performance, offering a 6.74-inch TFT LCD display, Android 15, 4GB RAM, 5000 mAh battery, 13MP Camera and up to 128GB storage for ultimate speed and clarity.",
+      image: "/Phone/Honor/Honor-Play-10.jpg",
+      keywords: [
+         "Honor Play 10",
+         "Honor Play 10 Specifications",
+         "Honor Play 10 Features",
+         "Honor Play 10 Review",
+         "Honor Play 10 Specs",
+         "Honor Play 10 Launch Date",
+         "Honor Play 10 5G",
+         "Honor Play 10 Camera",
+         "Honor Play 10 Battery",
+         "Honor Play 10 Display",
+         "Honor Play 10 Performance",
+         "Honor Play 10 Processor",
+         "Honor Play 10 Storage",
+         "Honor Play 10 RAM",
+         "Honor Play 10 Online",
+         "Honor Play 10 Buy",
+         "Honor Play 10 Full Details",
+         "Honor Play 10 Mobile Phone",
+         "Honor Play 10 India Price",
+         "Honor Play 10 USA Price",
+         "Honor Play 10 Unboxing",
+         "Honor Play 10 Pros and Cons",
+         "Best Honor Play 10 Alternatives"
+      ],
+      folderPath: 'AllPhoneBrands/HonorPhone',
+      postName: 'Play 10',
+      phoneHeading: 'Honor Play 10',
+      ManufacturerLink: '/AllPhoneBrands/HonorPhones',
+      Manufacturer: 'Honor',
+      Announced: '2025, September',
+      Body: '189g, 8.6mm thickness',
+      camera: '13MP',
+      Display: '6.74 inches, TFT LCD',
+      Platform: 'Android 15',
+      Ram: '3/4GB RAM',
+      Memory: '64GB/128GB storage, microSDXC',
+      Battery: '5000 mAh',
+      PhoneDescription: 'Honor Play 10 combines premium design with next-generation performance, offering a 6.74-inch TFT LCD display, Android 15, 4GB RAM, 5000 mAh battery, 13MP Camera and up to 128GB storage for ultimate speed and clarity.',
+      AmazonPrice: [
+         {
+            RamRom: '128GB 8GB Ram',
+            price: [
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+               {
+                  affLink: '/',
+                  image: '/AmazonCom.jpg',
+                  price: '$38,999'
+               },
+            ]
+         }
+      ],
+      Specifications: [
+         {
+            SpecificationHeading: 'Launch',
+            Details: [
+               {
+                  SpecificationType: 'Announced',
+                  typeDetail: "2025, September 08"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Body',
+            Details: [
+               {
+                  SpecificationType: 'Weight',
+                  typeDetail: "189 g"
+               },
+               {
+                  SpecificationType: 'Thickness',
+                  typeDetail: "8mm thickness"
+               },
+               {
+                  SpecificationType: 'Dimensions',
+                  typeDetail: "167.7 x 77.7 x 8.6 mm "
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Display',
+            Details: [
+               {
+                  SpecificationType: 'Size',
+                  typeDetail: "6.74 inches"
+               },
+               {
+                  SpecificationType: 'Type',
+                  typeDetail: "TFT LCD"
+               },
+               {
+                  SpecificationType: 'Resolution',
+                  typeDetail: "720 x 1600 pixels"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Platform',
+            Details: [
+               {
+                  SpecificationType: 'Chipset',
+                  typeDetail: "Mediatek Helio G81"
+               },
+               {
+                  SpecificationType: 'OS',
+                  typeDetail: "Android 15"
+               },
+               {
+                  SpecificationType: 'CPU',
+                  typeDetail: "Octa-core"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Memory',
+            Details: [
+               {
+                  SpecificationType: 'Internal',
+                  typeDetail: "64GB 3GB RAM, 128GB 4GB RAM"
+               },
+               {
+                  SpecificationType: 'Card slot',
+                  typeDetail: "microSDXC"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Main Cameras',
+            Details: [
+               {
+                  SpecificationType: 'Single',
+                  typeDetail: "13 MP"
+               },
+               {
+                  SpecificationType: 'Features',
+                  typeDetail: "LED flash"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Selfie camera',
+            Details: [
+               {
+                  SpecificationType: 'Single',
+                  typeDetail: "5 MP"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Battery',
+            Details: [
+               {
+                  SpecificationType: 'Type',
+                  typeDetail: "Li-Po 5000 mAh"
+               },
+               {
+                  SpecificationType: 'Charging',
+                  typeDetail: "10W wired"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Sound',
+            Details: [
+               {
+                  SpecificationType: 'Loudspeaker',
+                  typeDetail: "Yes"
+               }
+            ],
+         },
+         {
+            SpecificationHeading: 'Features',
+            Details: [
+               {
+                  SpecificationType: 'Sensors',
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, proximity"
+               },
+            ],
+         },
+         {
+            SpecificationHeading: 'Comms',
+            Details: [
+               {
+                  SpecificationType: 'WLAN',
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
+               },
+               {
+                  SpecificationType: 'Bluetooth',
+                  typeDetail: "5.1, A2DP"
+               },
+               {
+                  SpecificationType: 'Positioning',
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
+               },
+               {
+                  SpecificationType: 'Radio',
+                  typeDetail: "FM radio"
+               },
+               {
+                  SpecificationType: 'USB',
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -1370,7 +2006,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-400-Smart-specification",
       title: "Honor 400 Smart full detailed specification",
-      description: "Honor 400 Smart combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor 400 Smart combines premium design with next-generation performance, offering a 6.77-inch TFT LCD display, Magic OS 9, 4/8GB RAM, 6500 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-400-Smart.jpg",
       keywords: [
          "Honor 400 Smart",
@@ -1402,15 +2038,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor 400 Smart',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, August 09',
+      Body: '189g, 8.4mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.77 inches, TFT LCD',
+      Platform: 'Android 15, Magic OS 9',
+      Ram: '4/8GB RAM',
+      Memory: '128GB/256GB storage',
+      Battery: '6500 mAh',
+      PhoneDescription: 'Honor 400 Smart combines premium design with next-generation performance, offering a 6.77-inch TFT LCD display, Magic OS 9, 4/8GB RAM, 6500 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -1439,7 +2075,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, August 07"
                }
             ],
          },
@@ -1448,19 +2084,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "189 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.4mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "166.9 x 76.8 x 8.4 mm"
                }
             ],
          },
@@ -1469,19 +2101,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.77 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "TFT LCD"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "720 x 1610 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Scratch-resistant glass"
                },
             ],
          },
@@ -1490,11 +2122,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM6375 Snapdragon 6s Gen 3"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, Magic OS 9"
                },
                {
                   SpecificationType: 'CPU',
@@ -1507,7 +2139,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 4GB RAM, 256GB 4GB RAM, 256GB 8GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -1519,12 +2151,12 @@ export const AllHonorPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + Auxiliary lens"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR"
                },
             ],
          },
@@ -1533,7 +2165,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "5 MP"
                }
             ],
          },
@@ -1542,11 +2174,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Li-Po 6500 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "35W wired"
                },
             ],
          },
@@ -1564,7 +2196,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, proximity, compass"
                },
             ],
          },
@@ -1573,15 +2205,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "	Wi-Fi 802.11 a/b/g/n/ac"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.1, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
@@ -1589,7 +2221,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -1598,7 +2230,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-X70-specification",
       title: "Honor X70 full detailed specification",
-      description: "Honor X70 combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor X70 combines premium design with next-generation performance, offering a 6.79-inch AMOLED display, Magic OS 9, 8/12GB RAM, 8300 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-X70.jpg",
       keywords: [
          "Honor X70",
@@ -1630,15 +2262,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor X70',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, July 18',
+      Body: '199g, 7.8mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.79 inches, AMOLED',
+      Platform: 'Android 15, Magic OS 9',
+      Ram: '8/12GB RAM',
+      Memory: '256GB/512GB storage',
+      Battery: '8300 mAh',
+      PhoneDescription: 'Honor X70 combines premium design with next-generation performance, offering a 6.79-inch AMOLED display, Magic OS 9, 8/12GB RAM, 8300 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -1667,7 +2299,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, July 15"
                }
             ],
          },
@@ -1676,19 +2308,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "199 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "7.8mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "161.9 x 76.1 x 7.8 mm"
                }
             ],
          },
@@ -1697,19 +2325,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.79 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1200 x 2640 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Aluminosilicate glass"
                },
             ],
          },
@@ -1718,11 +2346,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm Snapdragon 6 Gen 4"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, Magic OS 9"
                },
                {
                   SpecificationType: 'CPU',
@@ -1735,7 +2363,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -1747,12 +2375,12 @@ export const AllHonorPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Single',
+                  typeDetail: "50 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, panorama, HDR"
                },
             ],
          },
@@ -1761,7 +2389,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "8 MP"
                }
             ],
          },
@@ -1770,11 +2398,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 8300 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "80W wired, 80W wireless"
                },
             ],
          },
@@ -1792,7 +2420,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, compass, gyro, proximity"
                },
             ],
          },
@@ -1801,11 +2429,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.2, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
@@ -1817,7 +2445,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -1826,7 +2454,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-Magic-V5-specification",
       title: "Honor Magic V5 full detailed specification",
-      description: "Honor Magic V5 combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor Magic V5 combines premium design with next-generation performance, offering a 7.95-inch Foldable LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 5820 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-Magic-V5.jpg",
       keywords: [
          "Honor Magic V5",
@@ -1858,15 +2486,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor Magic V5',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, July 02',
+      Body: '222g, 4.1mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '7.95 inches, Foldable LTPO AMOLED',
+      Platform: 'Android 15, MagicOS 10',
+      Ram: '12/16GB RAM',
+      Memory: '256GB/512GB/1TB storage',
+      Battery: '5820 mAh',
+      PhoneDescription: 'Honor Magic V5 combines premium design with next-generation performance, offering a 7.95-inch Foldable LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 5820 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -1895,7 +2523,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, July 02"
                }
             ],
          },
@@ -1904,19 +2532,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "222 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "4.1mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Unfolded: 156.8 x 145.9 x 4.1 mm"
                }
             ],
          },
@@ -1925,19 +2549,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "7.95 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "Foldable LTPO AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "2172 x 2352 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Honor Super Armored Inner Screen"
                },
             ],
          },
@@ -1946,11 +2570,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM8750-AB Snapdragon 8 Elite"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "MagicOS 10"
                },
                {
                   SpecificationType: 'CPU',
@@ -1963,7 +2587,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -1976,11 +2600,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 64 MP + 50 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "Laser AF, LED flash, HDR, panorama"
                },
             ],
          },
@@ -1989,7 +2613,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "20 MP"
                }
             ],
          },
@@ -1998,11 +2622,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 5820 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "66W wired, 50W wireless"
                },
             ],
          },
@@ -2020,7 +2644,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, barometer, gyro, proximity, compass"
                },
             ],
          },
@@ -2033,11 +2657,11 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "6.0, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
@@ -2045,7 +2669,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 3.1, OTG"
                },
             ],
          },
@@ -2054,7 +2678,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-X6c-specification",
       title: "Honor X6c full detailed specification",
-      description: "Honor X6c combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor X6c combines premium design with next-generation performance, offering a 6.61-inch TFT LCD display, Magic OS 9, 6/8GB RAM, 5300 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-X6c.jpg",
       keywords: [
          "Honor X6c",
@@ -2086,15 +2710,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor X6c',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, June 06',
+      Body: '199g, 8.4mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
+      Display: '6.61 inches, TFT LCD',
       Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Ram: '6/8GB RAM',
+      Memory: '128GB/256GB storage, microSDXC',
+      Battery: '5300 mAh',
+      PhoneDescription: 'Honor X6c combines premium design with next-generation performance, offering a 6.61-inch TFT LCD display, Magic OS 9, 6/8GB RAM, 5300 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -2123,7 +2747,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, June 06"
                }
             ],
          },
@@ -2132,19 +2756,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "199 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.4mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "164 x 75.6 x 8.4 mm"
                }
             ],
          },
@@ -2153,20 +2773,16 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.61 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "TFT LCD"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
-               },
-               {
-                  SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
-               },
+                  typeDetail: "720 x 1604 pixels"
+               }
             ],
          },
          {
@@ -2174,11 +2790,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Mediatek Helio G81 Ultra"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, Magic OS 9"
                },
                {
                   SpecificationType: 'CPU',
@@ -2191,11 +2807,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 6GB RAM, 256GB 6GB RAM, 256GB 8GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC"
                },
             ],
          },
@@ -2203,12 +2819,12 @@ export const AllHonorPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + Auxiliary lens"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
@@ -2217,7 +2833,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "5 MP"
                }
             ],
          },
@@ -2226,11 +2842,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Li-Po 5300 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "35W wired"
                },
             ],
          },
@@ -2239,7 +2855,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes"
                }
             ],
          },
@@ -2248,7 +2864,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, proximity"
                },
             ],
          },
@@ -2257,23 +2873,23 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.1, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
-                  typeDetail: "No"
+                  typeDetail: "FM radio"
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -2282,7 +2898,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-400-Pro-specification",
       title: "Honor 400 Pro full detailed specification",
-      description: "Honor 400 Pro combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor 400 Pro combines premium design with next-generation performance, offering a 6.7-inch AMOLED display, MagicOS 9, 12GB RAM, 5300 mAh battery, 200MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-400-Pro.jpg",
       keywords: [
          "Honor 400 Pro",
@@ -2314,15 +2930,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor 400 Pro',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Announced: '2025, May 23',
+      Body: '205g, 8.1mm thickness',
+      camera: '200MP',
+      Display: '6.7 inches, AMOLED',
+      Platform: 'Android 15, MagicOS 9',
+      Ram: '12GB RAM',
+      Memory: '256GB/512GB storage',
+      Battery: '5300 mAh',
+      PhoneDescription: 'Honor 400 Pro combines premium design with next-generation performance, offering a 6.7-inch AMOLED display, MagicOS 9, 12GB RAM, 5300 mAh battery, 200MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -2351,7 +2967,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, May 22"
                }
             ],
          },
@@ -2360,19 +2976,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "205 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.1mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "160.8 x 76.1 x 8.1 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass, glass back, plastic frame"
                }
             ],
          },
@@ -2381,19 +2997,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.7 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1280 x 2800 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Mohs level 4"
                },
             ],
          },
@@ -2402,11 +3018,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM8650-AB Snapdragon 8 Gen 3"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, MagicOS 9"
                },
                {
                   SpecificationType: 'CPU',
@@ -2419,7 +3035,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 12GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -2432,11 +3048,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "200 MP + 50 MP + 12 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
@@ -2444,8 +3060,8 @@ export const AllHonorPhonesList = [
             SpecificationHeading: 'Selfie camera',
             Details: [
                {
-                  SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + 2 MP"
                }
             ],
          },
@@ -2454,7 +3070,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 5300 mAh"
                },
                {
                   SpecificationType: 'Charging',
@@ -2476,7 +3092,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display, optical), accelerometer, compass, proximity"
                },
             ],
          },
@@ -2493,7 +3109,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -2501,7 +3117,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -2510,7 +3126,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-400-specification",
       title: "Honor 400 full detailed specification",
-      description: "Honor 400 combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor 400 combines premium design with next-generation performance, offering a 6.55-inch AMOLED display, MagicOS 9, 8/12GB RAM, 5300 mAh battery, 200MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-400.jpg",
       keywords: [
          "Honor 400",
@@ -2542,15 +3158,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor 400',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
+      Announced: '2025, May 23',
+      Body: '184g, 7.3mm thickness',
+      camera: '200MP',
+      Display: '6.55 inches, Corning Gorilla Glass Victus+',
       Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Ram: '8/12GB RAM',
+      Memory: '256GB/512GB storage',
+      Battery: '5300 mAh',
+      PhoneDescription: 'Honor 400 combines premium design with next-generation performance, offering a 6.55-inch AMOLED display, MagicOS 9, 8/12GB RAM, 5300 mAh battery, 200MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -2579,7 +3195,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, May 22"
                }
             ],
          },
@@ -2588,19 +3204,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "184 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "7.3mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "156.5 x 74.6 x 7.3 mm"
                }
             ],
          },
@@ -2609,19 +3221,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.55 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1264 x 2736 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Mohs level 4"
                },
             ],
          },
@@ -2630,11 +3242,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM7550-AB Snapdragon 7 Gen 3"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, MagicOS 9"
                },
                {
                   SpecificationType: 'CPU',
@@ -2647,7 +3259,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 8GB RAM, 256GB 12GB RAM, 512GB 8GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -2659,12 +3271,12 @@ export const AllHonorPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "200 MP + 12 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
@@ -2682,11 +3294,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 5300 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "66W wired"
                },
             ],
          },
@@ -2704,7 +3316,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, compass, proximity"
                },
             ],
          },
@@ -2713,7 +3325,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
@@ -2721,7 +3333,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -2729,7 +3341,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -2738,7 +3350,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-Power-specification",
       title: "Honor Power full detailed specification",
-      description: "Honor Power combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor Power combines premium design with next-generation performance, offering a 6.78-inch AMOLED display, MagicOS 9, 8/12GB RAM, 8000 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-Power.jpg",
       keywords: [
          "Honor Power",
@@ -2770,15 +3382,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor Power',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, April 18',
+      Body: '209g, 8mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.78 inches, AMOLED',
+      Platform: 'Android 15, MagicOS 9',
+      Ram: '8/12GB RAM',
+      Memory: '256GB/512GB storage',
+      Battery: '8000 mAh',
+      PhoneDescription: 'Honor Power combines premium design with next-generation performance, offering a 6.78-inch AMOLED display, MagicOS 9, 8/12GB RAM, 8000 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -2807,7 +3419,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, April 15"
                }
             ],
          },
@@ -2816,7 +3428,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "209 g"
                },
                {
                   SpecificationType: 'Thickness',
@@ -2824,11 +3436,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "163.7 x 76.7 x 8 mm"
                }
             ],
          },
@@ -2837,19 +3445,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.78 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1224 x 2700 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Scratch/drop-resistant glass"
                },
             ],
          },
@@ -2858,11 +3466,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM7550-AB Snapdragon 7 Gen 3"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, MagicOS 9"
                },
                {
                   SpecificationType: 'CPU',
@@ -2875,7 +3483,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -2887,12 +3495,12 @@ export const AllHonorPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + 5 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
@@ -2901,7 +3509,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "16 MP"
                }
             ],
          },
@@ -2910,11 +3518,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 8000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "66W wired"
                },
             ],
          },
@@ -2932,7 +3540,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, compass, proximity"
                },
             ],
          },
@@ -2941,11 +3549,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.3, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
@@ -2957,7 +3565,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -2966,7 +3574,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-400-Lite-specification",
       title: "Honor 400 Lite full detailed specification",
-      description: "Honor 400 Lite combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor 400 Lite combines premium design with next-generation performance, offering a 6.7-inch LTPO AMOLED display, MagicOS 9, 8/12GB RAM, 5230 mAh battery, 108MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-400-Lite.jpg",
       keywords: [
          "Honor 400 Lite",
@@ -2998,15 +3606,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor 400 Lite',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
+      Announced: '2025, April 08',
+      Body: '171g, 7.3mm thickness',
+      camera: '108MP',
+      Display: '6.7 inches, AMOLED',
+      Platform: 'Android 15, MagicOS 9',
       Ram: '8GB RAM',
       Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Battery: '5230 mAh',
+      PhoneDescription: 'Honor 400 Lite combines premium design with next-generation performance, offering a 6.7-inch LTPO AMOLED display, MagicOS 9, 8/12GB RAM, 5230 mAh battery, 108MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -3035,7 +3643,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, April 03"
                }
             ],
          },
@@ -3044,19 +3652,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "171 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "7.3mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "161 x 74.6 x 7.3 mm"
                }
             ],
          },
@@ -3065,19 +3669,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.7 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2412 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Mohs level 4"
                },
             ],
          },
@@ -3086,11 +3690,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Mediatek Dimensity 7025 Ultra"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, MagicOS 9"
                },
                {
                   SpecificationType: 'CPU',
@@ -3103,7 +3707,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 8GB RAM, 256GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -3116,11 +3720,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "108 MP + 5 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
@@ -3129,7 +3733,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "16 MP"
                }
             ],
          },
@@ -3138,11 +3742,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Li-Po 5230 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "35W wired"
                },
             ],
          },
@@ -3151,7 +3755,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes"
                }
             ],
          },
@@ -3160,7 +3764,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, compass, proximity"
                },
             ],
          },
@@ -3169,15 +3773,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.3, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
@@ -3185,7 +3789,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -3194,7 +3798,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-magic-7-Lite-specification",
       title: "Honor magic 7 Lite full detailed specification",
-      description: "Honor magic 7 Lite combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor magic 7 Lite combines premium design with next-generation performance, offering a 6.78-inch AMOLED display, MagicOS 8, 6/12GB RAM, 6600 mAh battery, 108MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-magic-7-Lite.jpg",
       keywords: [
          "Honor magic 7 Lite",
@@ -3226,15 +3830,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor magic 7 Lite',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Announced: '2025, January 02',
+      Body: '189g, 8mm thickness',
+      camera: '108MP',
+      Display: '6.78 inches, AMOLED',
+      Platform: 'Android 14, MagicOS 8',
+      Ram: '6/12GB RAM',
+      Memory: '256GB/512GB storage',
+      Battery: '6600 mAh',
+      PhoneDescription: 'Honor magic 7 Lite combines premium design with next-generation performance, offering a 6.78-inch AMOLED display, MagicOS 8, 6/12GB RAM, 6600 mAh battery, 108MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -3263,7 +3867,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, January 02"
                }
             ],
          },
@@ -3272,7 +3876,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "189 g"
                },
                {
                   SpecificationType: 'Thickness',
@@ -3280,11 +3884,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "162.8 x 75.5 x 8 mm"
                }
             ],
          },
@@ -3293,19 +3893,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.78 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1224 x 2700 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Mohs level 4"
                },
             ],
          },
@@ -3314,11 +3914,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM6450 Snapdragon 6 Gen 1"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 14, MagicOS 8"
                },
                {
                   SpecificationType: 'CPU',
@@ -3331,7 +3931,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 8GB RAM, 256GB 12GB RAM, 512GB 6GB RAM, 512GB 8GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -3344,11 +3944,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "108 MP + 5 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, panorama, HDR"
                },
             ],
          },
@@ -3357,7 +3957,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "16 MP"
                }
             ],
          },
@@ -3366,11 +3966,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "	Si/C Li-Ion 6600 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "66W wired"
                },
             ],
          },
@@ -3388,7 +3988,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, compass, proximity"
                },
             ],
          },
@@ -3397,15 +3997,15 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.1, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
@@ -3413,7 +4013,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -3422,7 +4022,7 @@ export const AllHonorPhonesList = [
    {
       slug: "Honor-Magic-7-RSR-Porsche-Design-specification",
       title: "Honor Magic7 RSR Porsche Design full detailed specification",
-      description: "Honor Magic7 RSR Porsche Design combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Honor Magic7 RSR Porsche Design combines premium design with next-generation performance, offering a 6.8-inch LTPO AMOLED display, MagicOS 9, 16/24GB RAM, 5850 mAh battery, 200MP Camera and up to 1TB storage for ultimate speed and clarity.",
       image: "/Phone/Honor/Honor-Magic-7-RSR-Porsche-Design.jpg",
       keywords: [
          "Honor Magic7 RSR Porsche Design",
@@ -3454,15 +4054,15 @@ export const AllHonorPhonesList = [
       phoneHeading: 'Honor Magic7 RSR Porsche Design',
       ManufacturerLink: '/AllPhoneBrands/HonorPhones',
       Manufacturer: 'Honor',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Announced: '2024, December 24',
+      Body: '228g, 8.8mm thickness',
+      camera: '200MP',
+      Display: '6.8 inches, LTPO OLED',
+      Platform: 'Android 15, MagicOS 9',
+      Ram: '16/24GB RAM',
+      Memory: '512GB/1TB storage',
+      Battery: '5850 mAh',
+      PhoneDescription: 'Honor Magic7 RSR Porsche Design combines premium design with next-generation performance, offering a 6.8-inch LTPO AMOLED display, MagicOS 9, 16/24GB RAM, 5850 mAh battery, 200MP Camera and up to 1TB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -3491,7 +4091,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2024, December 23"
                }
             ],
          },
@@ -3500,19 +4100,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "228 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.8mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "162.7 x 77.1 x 8.8 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (NanoCrystal Shield), glass back, aluminum frame"
                }
             ],
          },
@@ -3521,19 +4121,19 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.8 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "LTPO OLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1280 x 2800 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "NanoCrystal Shield"
                },
             ],
          },
@@ -3542,11 +4142,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM8750-AB Snapdragon 8 Elite"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, MagicOS 9"
                },
                {
                   SpecificationType: 'CPU',
@@ -3559,7 +4159,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "512GB 16GB RAM, 1TB 24GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -3572,11 +4172,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 200 MP + 50 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LiDAR AF, color spectrum sensor, LED flash, HDR, panorama"
                },
             ],
          },
@@ -3594,11 +4194,11 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 5850 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "100W wired, 80W wireless"
                },
             ],
          },
@@ -3616,7 +4216,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, Face ID, compass"
                },
             ],
          },
@@ -3625,7 +4225,7 @@ export const AllHonorPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6/7"
                },
                {
                   SpecificationType: 'Bluetooth',
@@ -3633,7 +4233,7 @@ export const AllHonorPhonesList = [
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
