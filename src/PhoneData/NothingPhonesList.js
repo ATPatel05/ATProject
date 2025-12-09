@@ -2,7 +2,7 @@ export const AllNothingPhonesList = [
    {
       slug: "Nothing-Phone-3a-Lite-specification",
       title: "Nothing Phone 3a Lite full detailed specification",
-      description: "Nothing Phone 3a Lite combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Nothing Phone 3a Lite combines premium design with next-generation performance, offering a 6.77-inch AMOLED display, Nothing OS 3.5, 8GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Nothing/Nothing-Phone-3a-Lite.jpg",
       keywords: [
          "Nothing Phone 3a Lite",
@@ -34,15 +34,15 @@ export const AllNothingPhonesList = [
       phoneHeading: 'Nothing Phone 3a Lite',
       ManufacturerLink: '/AllPhoneBrands/NothingPhones',
       Manufacturer: 'Nothing',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, October 29',
+      Body: '199g, 8.3mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
+      Display: '6.77 inches, AMOLED',
+      Platform: 'Android 15, Nothing OS 3.5',
       Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Memory: '128GB/256GB storage, microSDXC',
+      Battery: '5000 mAh',
+      PhoneDescription: 'Nothing Phone 3a Lite combines premium design with next-generation performance, offering a 6.77-inch AMOLED display, Nothing OS 3.5, 8GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -71,7 +71,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, October 29"
                }
             ],
          },
@@ -80,19 +80,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "199 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.3mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "164 x 78 x 8.3 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Panda Glass), plastic frame, glass back (Panda Glass)"
                }
             ],
          },
@@ -101,19 +101,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.77 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2392 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Panda Glass"
                },
             ],
          },
@@ -122,11 +122,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Mediatek Dimensity 7300 Pro"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "	Android 15, Nothing OS 3.5"
                },
                {
                   SpecificationType: 'CPU',
@@ -139,11 +139,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 8GB RAM, 256GB 8GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC"
                },
             ],
          },
@@ -152,11 +152,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 8 MP + 2 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, panorama, HDR"
                },
             ],
          },
@@ -165,7 +165,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "16 MP"
                }
             ],
          },
@@ -174,11 +174,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "33W wired"
                },
             ],
          },
@@ -187,7 +187,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes"
                }
             ],
          },
@@ -196,7 +196,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, proximity, compass"
                },
             ],
          },
@@ -205,15 +205,15 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.3, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -221,7 +221,7 @@ export const AllNothingPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -230,7 +230,7 @@ export const AllNothingPhonesList = [
    {
       slug: "Nothing-Phone-3-specification",
       title: "Nothing Phone 3 full detailed specification",
-      description: "Nothing Phone 3 combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Nothing Phone 3 combines premium design with next-generation performance, offering a 6.67-inch LTPO AMOLED display, Nothing OS 4.0, 12/16GB RAM, 5150 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Nothing/Nothing-Phone-3.jpg",
       keywords: [
          "Nothing Phone 3",
@@ -262,15 +262,15 @@ export const AllNothingPhonesList = [
       phoneHeading: 'Nothing Phone 3',
       ManufacturerLink: '/AllPhoneBrands/NothingPhones',
       Manufacturer: 'Nothing',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, July 15',
+      Body: '218g, 9mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.67 inches, OLED',
+      Platform: 'Android 15, Nothing OS 4.0',
+      Ram: '12/16GB RAM',
+      Memory: '256GB/512GB storage',
+      Battery: '5150 mAh',
+      PhoneDescription: 'Nothing Phone 3 combines premium design with next-generation performance, offering a 6.67-inch LTPO AMOLED display, Nothing OS 4.0, 12/16GB RAM, 5150 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -299,7 +299,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, July 02"
                }
             ],
          },
@@ -308,19 +308,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "218 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "9mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "160.6 x 75.6 x 9 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Gorilla Glass 7i), aluminum frame, glass back (Gorilla Glass Victus)"
                }
             ],
          },
@@ -329,19 +329,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.67 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "OLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1260 x 2800 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Corning Gorilla Glass 7i"
                },
             ],
          },
@@ -350,11 +350,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM8735 Snapdragon 8s Gen 4"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, Nothing OS 4.0,"
                },
                {
                   SpecificationType: 'CPU',
@@ -367,7 +367,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 12GB RAM, 512GB 16GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -384,7 +384,7 @@ export const AllNothingPhonesList = [
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, panorama, HDR"
                },
             ],
          },
@@ -402,11 +402,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C 5150 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "65W wired, 15W wireless"
                },
             ],
          },
@@ -424,7 +424,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, proximity, gyro, compass"
                },
             ],
          },
@@ -433,15 +433,15 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6/7"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "6.0, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, SBAS, QZSS, NavIC"
                },
                {
                   SpecificationType: 'Radio',
@@ -449,7 +449,7 @@ export const AllNothingPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -458,7 +458,7 @@ export const AllNothingPhonesList = [
    {
       slug: "Nothing-CMF-Phone-2-Pro-specification",
       title: "Nothing CMF Phone 2 Pro full detailed specification",
-      description: "Nothing CMF Phone 2 Pro combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Nothing CMF Phone 2 Pro combines premium design with next-generation performance, offering a 6.77-inch AMOLED display, Nothing OS 3.2, 8GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Nothing/Nothing-CMF-Phone-2-Pro.jpg",
       keywords: [
          "Nothing CMF Phone 2 Pro",
@@ -490,15 +490,15 @@ export const AllNothingPhonesList = [
       phoneHeading: 'Nothing CMF Phone 2 Pro',
       ManufacturerLink: '/AllPhoneBrands/NothingPhones',
       Manufacturer: 'Nothing',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, May 05',
+      Body: '185g, 7.8mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
+      Display: '6.77 inches, AMOLED',
+      Platform: 'Android 15, Nothing OS 3.2',
       Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Memory: '128GB/256GB storage, microSDXC',
+      Battery: '5000 mAh',
+      PhoneDescription: 'Nothing CMF Phone 2 Pro combines premium design with next-generation performance, offering a 6.77-inch AMOLED display, Nothing OS 3.2, 8GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -527,7 +527,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, April 28"
                }
             ],
          },
@@ -536,19 +536,15 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "185 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "7.8mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "164 x 78 x 7.8 mm"
                }
             ],
          },
@@ -557,19 +553,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.77 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2392 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Panda Glass"
                },
             ],
          },
@@ -578,11 +574,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Mediatek Dimensity 7300 Pro"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, Nothing OS 3.2"
                },
                {
                   SpecificationType: 'CPU',
@@ -595,11 +591,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 8GB RAM, 256GB 8GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC"
                },
             ],
          },
@@ -608,11 +604,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 50 MP + 8 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, panorama, HDR"
                },
             ],
          },
@@ -621,7 +617,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "16 MP"
                }
             ],
          },
@@ -630,11 +626,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "33W wired"
                },
             ],
          },
@@ -643,7 +639,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes"
                }
             ],
          },
@@ -652,7 +648,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, proximity, compass"
                },
             ],
          },
@@ -661,15 +657,15 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.3, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -677,7 +673,7 @@ export const AllNothingPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C"
                },
             ],
          },
@@ -686,7 +682,7 @@ export const AllNothingPhonesList = [
    {
       slug: "Nothing-Phone-3a-Pro-specification",
       title: "Nothing Phone 3a Pro full detailed specification",
-      description: "Nothing Phone 3a Pro combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Nothing Phone 3a Pro combines premium design with next-generation performance, offering a 6.77-inch AMOLED display, Nothing OS 4.0, 8/12GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Nothing/Nothing-Phone-3a-Pro.jpg",
       keywords: [
          "Nothing Phone 3a Pro",
@@ -718,15 +714,15 @@ export const AllNothingPhonesList = [
       phoneHeading: 'Nothing Phone 3a Pro',
       ManufacturerLink: '/AllPhoneBrands/NothingPhones',
       Manufacturer: 'Nothing',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, March 25',
+      Body: '211g, 8.4mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.77 inches, AMOLED',
+      Platform: 'Android 15, Nothing OS 4.0',
+      Ram: '8/12GB RAM',
+      Memory: '128GB/256GB storage',
+      Battery: '5000 mAh',
+      PhoneDescription: 'Nothing Phone 3a Pro combines premium design with next-generation performance, offering a 6.77-inch AMOLED display, Nothing OS 4.0, 8/12GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -755,7 +751,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, March 04"
                }
             ],
          },
@@ -764,19 +760,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "211 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.4mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "163.5 x 77.5 x 8.4 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Panda Glass), plastic frame, glass back"
                }
             ],
          },
@@ -785,19 +781,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.77 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2392 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Panda Glass"
                },
             ],
          },
@@ -806,11 +802,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM7635 Snapdragon 7s Gen 3"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, Nothing OS 4.0"
                },
                {
                   SpecificationType: 'CPU',
@@ -823,7 +819,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -836,11 +832,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 50 MP + 8 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, panorama, HDR"
                },
             ],
          },
@@ -858,11 +854,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "50W wired"
                },
             ],
          },
@@ -880,7 +876,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, proximity, compass"
                },
             ],
          },
@@ -889,7 +885,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
@@ -897,7 +893,7 @@ export const AllNothingPhonesList = [
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -905,7 +901,7 @@ export const AllNothingPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -914,7 +910,7 @@ export const AllNothingPhonesList = [
    {
       slug: "Nothing-Phone-3a-specification",
       title: "Nothing Phone 3a full detailed specification",
-      description: "Nothing Phone 3a combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Nothing Phone 3a combines premium design with next-generation performance, offering a 6.77-inch AMOLED display, Nothing OS 4.0, 8/12GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Nothing/Nothing-Phone-3a.jpg",
       keywords: [
          "Nothing Phone 3a",
@@ -954,7 +950,7 @@ export const AllNothingPhonesList = [
       Ram: '8GB RAM',
       Memory: '128GB/256GB/512GB storage , no card slot',
       Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      PhoneDescription: 'Nothing Phone 3a combines premium design with next-generation performance, offering a 6.77-inch AMOLED display, Nothing OS 4.0, 8/12GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -983,7 +979,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, March 04"
                }
             ],
          },
@@ -992,19 +988,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "201 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.4mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "163.5 x 77.5 x 8.4 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Panda Glass), plastic frame, glass back"
                }
             ],
          },
@@ -1013,19 +1009,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.77 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2392 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Panda Glass"
                },
             ],
          },
@@ -1034,11 +1030,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM7635 Snapdragon 7s Gen 3"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, Nothing OS 4.0"
                },
                {
                   SpecificationType: 'CPU',
@@ -1051,7 +1047,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -1068,7 +1064,7 @@ export const AllNothingPhonesList = [
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, panorama, HDR"
                },
             ],
          },
@@ -1086,11 +1082,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "50W wired"
                },
             ],
          },
@@ -1108,7 +1104,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, proximity, compass"
                },
             ],
          },
@@ -1117,7 +1113,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
@@ -1125,7 +1121,7 @@ export const AllNothingPhonesList = [
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -1133,7 +1129,7 @@ export const AllNothingPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -1142,7 +1138,7 @@ export const AllNothingPhonesList = [
    {
       slug: "Nothing-2a-Plus-specification",
       title: "Nothing 2a Plus full detailed specification",
-      description: "Nothing 2a Plus combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Nothing 2a Plus combines premium design with next-generation performance, offering a 6.7 AMOLED display, Nothing OS 3.0, 8/12GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Nothing/Nothing-2a-Plus.jpg",
       keywords: [
          "Nothing 2a Plus",
@@ -1174,15 +1170,15 @@ export const AllNothingPhonesList = [
       phoneHeading: 'Nothing 2a Plus',
       ManufacturerLink: '/AllPhoneBrands/NothingPhones',
       Manufacturer: 'Nothing',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2024, August 03',
+      Body: '190g, 8.5mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
+      Display: '6.7 inches, AMOLED',
+      Platform: 'Android 15, Nothing OS 3.0',
+      Ram: '8/12GB RAM',
       Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Battery: '5000 mAh',
+      PhoneDescription: 'Nothing 2a Plus combines premium design with next-generation performance, offering a 6.7 AMOLED display, Nothing OS 3.0, 8/12GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -1211,7 +1207,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2024, July 31"
                }
             ],
          },
@@ -1220,19 +1216,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "190 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.5mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "161.7 x 76.3 x 8.5 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Gorilla Glass 5), plastic frame, plastic back"
                }
             ],
          },
@@ -1241,19 +1237,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.7 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2412 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Corning Gorilla Glass 5"
                },
             ],
          },
@@ -1262,11 +1258,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Mediatek Dimensity 7350 Pro"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 14, Nothing OS 3.0"
                },
                {
                   SpecificationType: 'CPU',
@@ -1279,7 +1275,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 8GB RAM, 256GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -1291,12 +1287,12 @@ export const AllNothingPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + 50 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, panorama, HDR"
                },
             ],
          },
@@ -1314,11 +1310,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "50W wired"
                },
             ],
          },
@@ -1336,7 +1332,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, proximity, compass"
                },
             ],
          },
@@ -1345,15 +1341,15 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.3, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -1361,7 +1357,7 @@ export const AllNothingPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -1370,7 +1366,7 @@ export const AllNothingPhonesList = [
    {
       slug: "Nothing-CMF-phone-1-specification",
       title: "Nothing CMF phone 1 full detailed specification",
-      description: "Nothing CMF phone 1 combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Nothing CMF phone 1 combines premium design with next-generation performance, offering a 6.67-inch AMOLED display, Nothing OS 3.0, 6/8GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Nothing/Nothing-CMF-phone-1.jpg",
       keywords: [
          "Nothing CMF phone 1",
@@ -1402,15 +1398,15 @@ export const AllNothingPhonesList = [
       phoneHeading: 'Nothing CMF phone 1',
       ManufacturerLink: '/AllPhoneBrands/NothingPhones',
       Manufacturer: 'Nothing',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2024, July 09',
+      Body: '202g, 8.2mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.67 inches, AMOLED',
+      Platform: 'Android 14, Nothing OS 3.0',
+      Ram: '6/8GB RAM',
+      Memory: '128GB/256GB storage, microSDXC',
+      Battery: '5000 mAh',
+      PhoneDescription: 'Nothing CMF phone 1 combines premium design with next-generation performance, offering a 6.67-inch AMOLED display, Nothing OS 3.0, 6/8GB RAM, 5000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -1439,7 +1435,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2024, July 08"
                }
             ],
          },
@@ -1448,19 +1444,19 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "202 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.2mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "164 x 77 x 8.2 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass, plastic back or silicone polymer back "
                }
             ],
          },
@@ -1469,20 +1465,16 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.67 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
-               },
-               {
-                  SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
-               },
+                  typeDetail: "1080 x 2400 pixels"
+               }
             ],
          },
          {
@@ -1490,11 +1482,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Mediatek Dimensity 7300"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Nothing OS 3.0"
                },
                {
                   SpecificationType: 'CPU',
@@ -1507,11 +1499,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC"
                },
             ],
          },
@@ -1519,12 +1511,12 @@ export const AllNothingPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + Auxiliary lens"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, panorama, HDR"
                },
             ],
          },
@@ -1542,11 +1534,11 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "33W wired"
                },
             ],
          },
@@ -1555,7 +1547,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes"
                }
             ],
          },
@@ -1564,7 +1556,7 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, proximity, compass"
                },
             ],
          },
@@ -1573,15 +1565,15 @@ export const AllNothingPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.3, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -1589,7 +1581,7 @@ export const AllNothingPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C"
                },
             ],
          },

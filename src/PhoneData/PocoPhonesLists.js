@@ -2,7 +2,7 @@ export const AllPocoPhonesList = [
    {
       slug: "Poco-C85-specification",
       title: "Poco C85 full detailed specification",
-      description: "Poco C85 combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Poco C85 combines premium design with next-generation performance, offering a 6.9-inch IPS LCD display, HyperOS 2, 6/8GB RAM, 6000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Poco/Poco-C85.jpg",
       keywords: [
          "Poco C85",
@@ -34,15 +34,15 @@ export const AllPocoPhonesList = [
       phoneHeading: 'Poco C85',
       ManufacturerLink: '/AllPhoneBrands/PocoPhones',
       Manufacturer: 'Poco',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, September 01',
+      Body: '205g, 8mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.9 inches, IPS LCD',
+      Platform: 'Android 15, HyperOS 2',
+      Ram: '6/8GB RAM',
+      Memory: '128GB/256GB storage, microSDXC',
+      Battery: '6000 mAh',
+      PhoneDescription: 'Poco C85 combines premium design with next-generation performance, offering a 6.9-inch IPS LCD display, HyperOS 2, 6/8GB RAM, 6000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -71,7 +71,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, September 01"
                }
             ],
          },
@@ -80,7 +80,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "205 g"
                },
                {
                   SpecificationType: 'Thickness',
@@ -88,11 +88,11 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "171.6 x 79.5 x 8 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass, plastic frame"
                }
             ],
          },
@@ -105,15 +105,15 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "IPS LCD"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "720 x 1600 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Mohs level 6"
                },
             ],
          },
@@ -122,11 +122,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Mediatek Helio G81 Ultra"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, HyperOS 2"
                },
                {
                   SpecificationType: 'CPU',
@@ -139,11 +139,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 6GB RAM, 256GB 8GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC (dedicated slot)"
                },
             ],
          },
@@ -151,12 +151,12 @@ export const AllPocoPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + Auxiliary lens"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR"
                },
             ],
          },
@@ -165,7 +165,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "8 MP"
                }
             ],
          },
@@ -174,11 +174,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "6000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "33W wired"
                },
             ],
          },
@@ -196,7 +196,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, compass Virtual proximity sensing"
                },
             ],
          },
@@ -205,7 +205,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
                },
                {
                   SpecificationType: 'Bluetooth',
@@ -213,15 +213,15 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
-                  typeDetail: "No"
+                  typeDetail: "FM radio"
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -230,7 +230,7 @@ export const AllPocoPhonesList = [
    {
       slug: "Poco-M7-4G-specification",
       title: "Poco M7 4G full detailed specification",
-      description: "Poco M7 4G combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Poco M7 4G combines premium design with next-generation performance, offering a 6.9-inch IPS LCD display, HyperOS 2, 6/8GB RAM, 7000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.",
       image: "/Phone/Poco/Poco-M7-4G.jpg",
       keywords: [
          "Poco M7 4G",
@@ -262,15 +262,15 @@ export const AllPocoPhonesList = [
       phoneHeading: 'Poco M7 4G',
       ManufacturerLink: '/AllPhoneBrands/PocoPhones',
       Manufacturer: 'Poco',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, August 13',
+      Body: '224g, 8.6mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.9 inches, IPS LCD',
+      Platform: 'Android 15, HyperOS 2',
+      Ram: '6/8GB RAM',
+      Memory: '128GB/256GB storage, microSDXC',
+      Battery: '7000 mAh',
+      PhoneDescription: 'Poco M7 4G combines premium design with next-generation performance, offering a 6.9-inch IPS LCD display, HyperOS 2, 6/8GB RAM, 7000 mAh battery, 50MP Camera and up to 256GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -299,7 +299,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, August 13"
                }
             ],
          },
@@ -308,19 +308,15 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "224 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.6mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "171.1 x 80.5 x 8.6 mm"
                }
             ],
          },
@@ -333,15 +329,15 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "IPS LCD"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2340 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Mohs level 6"
                },
             ],
          },
@@ -350,11 +346,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM6225 Snapdragon 685"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, HyperOS 2"
                },
                {
                   SpecificationType: 'CPU',
@@ -367,11 +363,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC"
                },
             ],
          },
@@ -379,12 +375,12 @@ export const AllPocoPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + Auxiliary lens"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR"
                },
             ],
          },
@@ -393,7 +389,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "8 MP"
                }
             ],
          },
@@ -402,11 +398,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 7000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "33W wired"
                },
             ],
          },
@@ -415,7 +411,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes"
                }
             ],
          },
@@ -424,7 +420,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, compass, Virtual proximity sensing "
                },
             ],
          },
@@ -433,15 +429,15 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.0, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
@@ -449,7 +445,7 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0"
                },
             ],
          },
@@ -458,7 +454,7 @@ export const AllPocoPhonesList = [
    {
       slug: "Poco-M7-Plus-specification",
       title: "Poco M7 Plus full detailed specification",
-      description: "Poco M7 Plus combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Poco M7 Plus combines premium design with next-generation performance, offering a 6.9-inch IPS LCD display, HyperOS 2, 4/8GB RAM, 7000 mAh battery, 50MP Camera and up to 128GB storage for ultimate speed and clarity.",
       image: "/Phone/Poco/Poco-M7-Plus.jpg",
       keywords: [
          "Poco M7 Plus",
@@ -490,15 +486,15 @@ export const AllPocoPhonesList = [
       phoneHeading: 'Poco M7 Plus',
       ManufacturerLink: '/AllPhoneBrands/PocoPhones',
       Manufacturer: 'Poco',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, August 19',
+      Body: '217g, 8.4mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.9 inches, IPS LCD',
+      Platform: 'Android 15, HyperOS 2',
+      Ram: '4/8GB RAM',
+      Memory: '128GB storage, microSDXC',
+      Battery: '7000 mAh',
+      PhoneDescription: 'Poco M7 Plus combines premium design with next-generation performance, offering a 6.9-inch IPS LCD display, HyperOS 2, 4/8GB RAM, 7000 mAh battery, 50MP Camera and up to 128GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -527,7 +523,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, August 13"
                }
             ],
          },
@@ -536,19 +532,15 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "217 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.4mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "168.5 x 80.5 x 8.4 mm"
                }
             ],
          },
@@ -561,15 +553,15 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "IPS LCD"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1080 x 2340 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Corning Gorilla Glass 3"
                },
             ],
          },
@@ -578,11 +570,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM6375 Snapdragon 6s Gen 3"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 16, HyperOS 2"
                },
                {
                   SpecificationType: 'CPU',
@@ -595,11 +587,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 4GB RAM, 128GB 6GB RAM, 128GB 8GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC (uses shared SIM slot)"
                },
             ],
          },
@@ -608,11 +600,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + Auxiliary lens"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR"
                },
             ],
          },
@@ -621,7 +613,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "8 MP"
                }
             ],
          },
@@ -630,11 +622,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 7000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "33W wired"
                },
             ],
          },
@@ -643,7 +635,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes"
                }
             ],
          },
@@ -652,7 +644,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), Virtual proximity sensing,  accelerometer, compass"
                },
             ],
          },
@@ -661,15 +653,15 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "	Wi-Fi 802.11 a/b/g/n/ac"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.1, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS"
                },
                {
                   SpecificationType: 'Radio',
@@ -677,7 +669,7 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0"
                },
             ],
          },
@@ -686,7 +678,7 @@ export const AllPocoPhonesList = [
    {
       slug: "Poco-F7-5G-specification",
       title: "Poco F7 5G full detailed specification",
-      description: "Poco F7 5G combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Poco F7 5G combines premium design with next-generation performance, offering a 6.83-inch AMOLED display, HyperOS 2, 12GB RAM, 6500 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Poco/Poco-F7-5G.jpg",
       keywords: [
          "Poco F7 5G",
@@ -718,15 +710,15 @@ export const AllPocoPhonesList = [
       phoneHeading: 'Poco F7 5G',
       ManufacturerLink: '/AllPhoneBrands/PocoPhones',
       Manufacturer: 'Poco',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, June 24',
+      Body: '215.7g, 8.2mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.7 inches, AMOLED',
+      Platform: 'Android 15, HyperOS 2',
+      Ram: '12GB RAM',
+      Memory: '256GB/512GB storage',
+      Battery: '6500 mAh',
+      PhoneDescription: 'Poco F7 5G combines premium design with next-generation performance, offering a 6.83-inch AMOLED display, HyperOS 2, 12GB RAM, 6500 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -755,7 +747,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, June 24"
                }
             ],
          },
@@ -764,19 +756,19 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "215.7 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.2mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "163.1 x 77.9 x 8.2 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Gorilla Glass 7i), aluminum frame, glass back"
                }
             ],
          },
@@ -785,19 +777,19 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.83 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1280 x 2772 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Corning Gorilla Glass 7i"
                },
             ],
          },
@@ -806,11 +798,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM8735 Snapdragon 8s Gen 4"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, HyperOS 2"
                },
                {
                   SpecificationType: 'CPU',
@@ -823,7 +815,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 12GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -835,12 +827,12 @@ export const AllPocoPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + 8 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
@@ -849,7 +841,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "20 MP"
                }
             ],
          },
@@ -858,11 +850,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "6500 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "90W wired"
                },
             ],
          },
@@ -880,7 +872,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, proximity, compass"
                },
             ],
          },
@@ -889,15 +881,15 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6/7"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "6.0, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -905,7 +897,7 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -914,7 +906,7 @@ export const AllPocoPhonesList = [
    {
       slug: "Poco-C71-specification",
       title: "Poco C71 full detailed specification",
-      description: "Poco C71 combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Poco C71 combines premium design with next-generation performance, offering a 6.88-inch LTPO AMOLED display, Android 15 (Go edition), 3/6GB RAM, 5200 mAh battery, 32MP Camera and up to 128GB storage for ultimate speed and clarity.",
       image: "/Phone/Poco/Poco-C71.jpg",
       keywords: [
          "Poco C71",
@@ -946,15 +938,15 @@ export const AllPocoPhonesList = [
       phoneHeading: 'Poco C71',
       ManufacturerLink: '/AllPhoneBrands/PocoPhones',
       Manufacturer: 'Poco',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
-      camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Announced: '2025, April 08',
+      Body: '193g, 8.3mm thickness',
+      camera: '32MP',
+      Display: '6.88 inches, IPS LCD',
+      Platform: 'Android 15 (Go edition)',
+      Ram: '3/6GB RAM',
+      Memory: '64GB/128GB storage, microSDXC',
+      Battery: '5200 mAh',
+      PhoneDescription: 'Poco C71 combines premium design with next-generation performance, offering a 6.88-inch LTPO AMOLED display, Android 15 (Go edition), 3/6GB RAM, 5200 mAh battery, 32MP Camera and up to 128GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -983,7 +975,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, April 04"
                }
             ],
          },
@@ -992,19 +984,15 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "193 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.3mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
-               },
-               {
-                  SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "171.8 x 77.8 x 8.3 mm"
                }
             ],
          },
@@ -1013,20 +1001,16 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.88 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "	IPS LCD"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
-               },
-               {
-                  SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
-               },
+                  typeDetail: "720 x 1640 pixels"
+               }
             ],
          },
          {
@@ -1034,11 +1018,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Unisoc T7250"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15 (Go edition)"
                },
                {
                   SpecificationType: 'CPU',
@@ -1051,11 +1035,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "64GB 3GB RAM, 64GB 4GB RAM, 128GB 4GB RAM, 128GB 6GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
-                  typeDetail: "No"
+                  typeDetail: "microSDXC (dedicated slot)"
                },
             ],
          },
@@ -1063,12 +1047,12 @@ export const AllPocoPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Single',
+                  typeDetail: "32 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR"
                },
             ],
          },
@@ -1077,7 +1061,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "8 MP"
                }
             ],
          },
@@ -1086,11 +1070,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5200 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "15W wired"
                },
             ],
          },
@@ -1099,7 +1083,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Loudspeaker',
-                  typeDetail: "Yes, with stereo speakers"
+                  typeDetail: "Yes"
                }
             ],
          },
@@ -1108,7 +1092,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (side-mounted), accelerometer, compass, Virtual proximity sensing"
                },
             ],
          },
@@ -1117,23 +1101,23 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac"
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "5.2, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS"
                },
                {
                   SpecificationType: 'Radio',
-                  typeDetail: "No"
+                  typeDetail: "FM radio, recording"
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0"
                },
             ],
          },
@@ -1142,7 +1126,7 @@ export const AllPocoPhonesList = [
    {
       slug: "Poco-F7-Ultra-specification",
       title: "Poco F7 Ultra full detailed specification",
-      description: "Poco F7 Ultra combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Poco F7 Ultra combines premium design with next-generation performance, offering a 6.67-inch AMOLED display, HyperOS 3, 12/16GB RAM, 5300 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Poco/Poco-F7-Ultra.jpg",
       keywords: [
          "Poco F7 Ultra",
@@ -1174,15 +1158,15 @@ export const AllPocoPhonesList = [
       phoneHeading: 'Poco F7 Ultra',
       ManufacturerLink: '/AllPhoneBrands/PocoPhones',
       Manufacturer: 'Poco',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, March 27',
+      Body: '212g, 8.4mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
+      Display: '6.67 inches, AMOLED',
+      Platform: 'Android 15, HyperOS 3',
       Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Memory: '256GB/512GB storage',
+      Battery: '5300 mAh',
+      PhoneDescription: 'Poco F7 Ultra combines premium design with next-generation performance, offering a 6.67-inch AMOLED display, HyperOS 3, 12/16GB RAM, 5300 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -1211,7 +1195,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, March 27"
                }
             ],
          },
@@ -1220,19 +1204,19 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "212 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.4mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "160.3 x 75 x 8.4 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Shield Glass), glass back, aluminum frame"
                }
             ],
          },
@@ -1241,19 +1225,19 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.67 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1440 x 3200 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Poco Shield Glass"
                },
             ],
          },
@@ -1262,11 +1246,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM8750-AB Snapdragon 8 Elite"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, HyperOS 3"
                },
                {
                   SpecificationType: 'CPU',
@@ -1279,7 +1263,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 12GB RAM, 512GB 16GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -1292,11 +1276,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 50 MP + 32 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama, Color spectrum sensor"
                },
             ],
          },
@@ -1305,7 +1289,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "32 MP"
                }
             ],
          },
@@ -1314,11 +1298,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5300 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "120W wired"
                },
             ],
          },
@@ -1336,7 +1320,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, proximity, gyro, compass"
                },
             ],
          },
@@ -1349,7 +1333,7 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'Bluetooth',
-                  typeDetail: "5.4, A2DP"
+                  typeDetail: "6.0, A2DP"
                },
                {
                   SpecificationType: 'Positioning',
@@ -1361,7 +1345,7 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C, OTG"
                },
             ],
          },
@@ -1370,7 +1354,7 @@ export const AllPocoPhonesList = [
    {
       slug: "Poco-F7-Pro-specification",
       title: "Poco F7 Pro full detailed specification",
-      description: "Poco F7 Pro combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Poco F7 Pro combines premium design with next-generation performance, offering a 6.67-inch AMOLED display, HyperOS 2, 12GB RAM, 6000 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Poco/Poco-F7-Pro.jpg",
       keywords: [
          "Poco F7 Pro",
@@ -1402,15 +1386,15 @@ export const AllPocoPhonesList = [
       phoneHeading: 'Poco F7 Pro',
       ManufacturerLink: '/AllPhoneBrands/PocoPhones',
       Manufacturer: 'Poco',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, March 27',
+      Body: '206g, 8.1mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.7 inches, AMOLED',
+      Platform: 'Android 15, HyperOS 2',
+      Ram: '12GB RAM',
+      Memory: '256GB/512GB storage',
+      Battery: '6000 mAh',
+      PhoneDescription: 'Poco F7 Pro combines premium design with next-generation performance, offering a 6.67-inch AMOLED display, HyperOS 2, 12GB RAM, 6000 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -1439,7 +1423,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, March 27"
                }
             ],
          },
@@ -1448,19 +1432,19 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "206 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.1mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "160.3 x 75 x 8.1 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Gorilla Glass 7i), glass back, aluminum frame"
                }
             ],
          },
@@ -1469,19 +1453,19 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.67 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1440 x 3200 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Corning Gorilla Glass 7i"
                },
             ],
          },
@@ -1490,11 +1474,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Qualcomm SM8650-AB Snapdragon 8 Gen 3"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, HyperOS 2"
                },
                {
                   SpecificationType: 'CPU',
@@ -1507,7 +1491,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 12GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -1519,12 +1503,12 @@ export const AllPocoPhonesList = [
             SpecificationHeading: 'Main Cameras',
             Details: [
                {
-                  SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  SpecificationType: 'Dual',
+                  typeDetail: "50 MP + 8 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama, Color spectrum sensor"
                },
             ],
          },
@@ -1533,7 +1517,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "20 MP"
                }
             ],
          },
@@ -1542,11 +1526,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Li-Po 6000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "90W wired"
                },
             ],
          },
@@ -1564,7 +1548,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, proximity, gyro, compass"
                },
             ],
          },
@@ -1589,7 +1573,7 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C, OTG"
                },
             ],
          },
@@ -1598,7 +1582,7 @@ export const AllPocoPhonesList = [
    {
       slug: "Poco-X7-Pro-specification",
       title: "Poco X7 Pro full detailed specification",
-      description: "Poco X7 Pro combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Poco X7 Pro combines premium design with next-generation performance, offering a 6.67-inch LTPO AMOLED display, HyperOS 2, 8/12GB RAM, 6000 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Poco/Poco-X7-Pro.jpg",
       keywords: [
          "Poco X7 Pro",
@@ -1630,15 +1614,15 @@ export const AllPocoPhonesList = [
       phoneHeading: 'Poco X7 Pro',
       ManufacturerLink: '/AllPhoneBrands/PocoPhones',
       Manufacturer: 'Poco',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, January 09',
+      Body: '198g, 8.3mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.67 inches, AMOLED',
+      Platform: 'Android 15, HyperOS 2',
+      Ram: '8/12GB RAM',
+      Memory: '256GB/512GB storage',
+      Battery: '6000 mAh',
+      PhoneDescription: 'Poco X7 Pro combines premium design with next-generation performance, offering a 6.67-inch LTPO AMOLED display, HyperOS 2, 8/12GB RAM, 6000 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -1667,7 +1651,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, January 09"
                }
             ],
          },
@@ -1676,19 +1660,19 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "198 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.3mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "160.8 x 75.2 x 8.3 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Gorilla Glass 7i), plastic back, silicone polymer back"
                }
             ],
          },
@@ -1697,19 +1681,19 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.67 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1220 x 2712 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Corning Gorilla Glass 7i"
                },
             ],
          },
@@ -1718,11 +1702,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Mediatek Dimensity 8400 Ultra"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 15, HyperOS 2"
                },
                {
                   SpecificationType: 'CPU',
@@ -1735,7 +1719,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -1748,11 +1732,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 8 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
@@ -1761,7 +1745,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "20 MP"
                }
             ],
          },
@@ -1770,11 +1754,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "Si/C Li-Ion 6000 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "90W wired"
                },
             ],
          },
@@ -1792,7 +1776,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, proximity, compass"
                },
             ],
          },
@@ -1801,7 +1785,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
@@ -1809,7 +1793,7 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, QZSS, NavIC"
                },
                {
                   SpecificationType: 'Radio',
@@ -1817,7 +1801,7 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
@@ -1826,7 +1810,7 @@ export const AllPocoPhonesList = [
    {
       slug: "Poco-X7-specification",
       title: "Poco X7 full detailed specification",
-      description: "Poco X7 combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.",
+      description: "Poco X7 combines premium design with next-generation performance, offering a 6.67-inch AMOLED display, HyperOS, 8/12GB RAM, 5110 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.",
       image: "/Phone/Poco/Poco-X7.jpg",
       keywords: [
          "Poco X7",
@@ -1858,15 +1842,15 @@ export const AllPocoPhonesList = [
       phoneHeading: 'Poco X7',
       ManufacturerLink: '/AllPhoneBrands/PocoPhones',
       Manufacturer: 'Poco',
-      Announced: 'Released 2025, September 04',
-      Body: '190g, 7.4mm thickness',
+      Announced: '2025, January 09',
+      Body: '190g, 8.4mm thickness',
       camera: '50MP',
-      Display: '6.7 inches, Corning Gorilla Glass Victus+',
-      Platform: 'Android 16, up to 7 major upgrades, One UI 8',
-      Ram: '8GB RAM',
-      Memory: '128GB/256GB/512GB storage , no card slot',
-      Battery: '4900 mAh',
-      PhoneDescription: 'The Xiaomi 17 Pro max combines premium design with next-generation performance, offering a 6.9-inch LTPO AMOLED display, HyperOS 3, 12/16GB RAM, 7500 mAh battery, 50MP Camera and up to 1TB storage for ultimate speed and clarity.',
+      Display: '6.67 inches, AMOLED',
+      Platform: 'Android 14, HyperOS',
+      Ram: '8/12GB RAM',
+      Memory: '128GB/256GB/512GB storage',
+      Battery: '5110 mAh',
+      PhoneDescription: 'Poco X7 combines premium design with next-generation performance, offering a 6.67-inch AMOLED display, HyperOS, 8/12GB RAM, 5110 mAh battery, 50MP Camera and up to 512GB storage for ultimate speed and clarity.',
       AmazonPrice: [
          {
             RamRom: '128GB 8GB Ram',
@@ -1895,7 +1879,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Announced',
-                  typeDetail: "2025, September 25"
+                  typeDetail: "2025, January 09"
                }
             ],
          },
@@ -1904,19 +1888,19 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Weight',
-                  typeDetail: "219 g"
+                  typeDetail: "190 g"
                },
                {
                   SpecificationType: 'Thickness',
-                  typeDetail: "8mm thickness"
+                  typeDetail: "8.4mm thickness"
                },
                {
                   SpecificationType: 'Dimensions',
-                  typeDetail: "162.9 x 77.6 x 8 mm"
+                  typeDetail: "162.3 x 74.4 x 8.4 mm"
                },
                {
                   SpecificationType: 'Build',
-                  typeDetail: "Front glass (Dragon Crystal Glass 3),  aluminum frame"
+                  typeDetail: "Front glass (Gorilla Glass Victus 2), plastic back or silicone polymer back (eco leather)"
                }
             ],
          },
@@ -1925,19 +1909,19 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Size',
-                  typeDetail: "6.9 inches"
+                  typeDetail: "6.67 inches"
                },
                {
                   SpecificationType: 'Type',
-                  typeDetail: "LTPO AMOLED"
+                  typeDetail: "AMOLED"
                },
                {
                   SpecificationType: 'Resolution',
-                  typeDetail: "1200 x 2608 pixels"
+                  typeDetail: "1220 x 2712 pixels"
                },
                {
                   SpecificationType: 'Protection',
-                  typeDetail: "Xiaomi Dragon Crystal Glass 3"
+                  typeDetail: "Corning Gorilla Glass Victus 2"
                },
             ],
          },
@@ -1946,11 +1930,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Chipset',
-                  typeDetail: "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5"
+                  typeDetail: "Mediatek Dimensity 7300 Ultra"
                },
                {
                   SpecificationType: 'OS',
-                  typeDetail: "Android 16, HyperOS 3"
+                  typeDetail: "Android 14, HyperOS"
                },
                {
                   SpecificationType: 'CPU',
@@ -1963,7 +1947,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Internal',
-                  typeDetail: "512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+                  typeDetail: "128GB 8GB RAM, 256GB 8GB RAM, 512GB 12GB RAM"
                },
                {
                   SpecificationType: 'Card slot',
@@ -1976,11 +1960,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Triple',
-                  typeDetail: "50 MP + 50 MP + 50 MP"
+                  typeDetail: "50 MP + 8 MP + 2 MP"
                },
                {
                   SpecificationType: 'Features',
-                  typeDetail: "Dual-LED dual-tone flash, Laser AF, color spectrum sensor, HDR, paranoma, Leica lens"
+                  typeDetail: "LED flash, HDR, panorama"
                },
             ],
          },
@@ -1989,7 +1973,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Single',
-                  typeDetail: "50 MP"
+                  typeDetail: "20 MP"
                }
             ],
          },
@@ -1998,11 +1982,11 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Type',
-                  typeDetail: "Si/C Li-Ion 7500 mAh"
+                  typeDetail: "5110 mAh"
                },
                {
                   SpecificationType: 'Charging',
-                  typeDetail: "100W wired, 50W wireless"
+                  typeDetail: "45W wired"
                },
             ],
          },
@@ -2020,7 +2004,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'Sensors',
-                  typeDetail: "Fingerprint (under display), accelerometer, barometer, gyro, proximity, compass"
+                  typeDetail: "Fingerprint (under display), accelerometer, gyro, compass, proximity"
                },
             ],
          },
@@ -2029,7 +2013,7 @@ export const AllPocoPhonesList = [
             Details: [
                {
                   SpecificationType: 'WLAN',
-                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
+                  typeDetail: "Wi-Fi 802.11 a/b/g/n/ac/6"
                },
                {
                   SpecificationType: 'Bluetooth',
@@ -2037,7 +2021,7 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'Positioning',
-                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+                  typeDetail: "GPS, GLONASS, GALILEO, BDS, QZSS"
                },
                {
                   SpecificationType: 'Radio',
@@ -2045,7 +2029,7 @@ export const AllPocoPhonesList = [
                },
                {
                   SpecificationType: 'USB',
-                  typeDetail: "USB Type-C 3.2, OTG"
+                  typeDetail: "USB Type-C 2.0, OTG"
                },
             ],
          },
